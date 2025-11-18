@@ -1,18 +1,20 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
+nav_order: 2
 ---
+{% include proof_banner.html %}
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About the UC GIS Consultation Tool
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Project Status: Proof of Concept
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+This is an **experimental proof of concept** 
+
+## What is This Tool?
+
+The UC GIS Consultation Tool is an interactive decision tree that mirrors the consultation process UC GIS librarians use when working with researchers. Instead of navigating a traditional website structure, users follow a branching path of questions and resources tailored to their specific needs.
 
 
-[jekyll-organization]: https://github.com/jekyll
+*Last Updated: November 2025*  
+*Status: Proof of Concept - In Development*

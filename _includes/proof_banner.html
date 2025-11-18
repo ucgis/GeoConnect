@@ -1,0 +1,110 @@
+<div class="proof-banner" id="proof-banner">
+  <div class="proof-banner-content">
+    <div class="proof-banner-icon">
+      <i data-lucide="flask-conical"></i>
+    </div>
+    <div class="proof-banner-text">
+      <strong>Proof of Concept</strong> — This is an experimental tool in early development. Not all content paths are complete. <a href="{{ '/about' | relative_url }}">Learn more</a>
+    </div>
+    <button class="proof-banner-close" onclick="document.getElementById('proof-banner').style.display='none'" aria-label="Close banner">
+      <i data-lucide="x"></i>
+    </button>
+  </div>
+</div>
+
+<style>
+.proof-banner {
+  background: linear-gradient(135deg, #FFF4E6 0%, #FFE8CC 100%);
+  border-bottom: 2px solid #FFB511;
+  padding: 1rem 1.5rem;
+  position: relative;
+  z-index: 100;
+}
+
+.proof-banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.proof-banner-icon {
+  color: #cc9000;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.proof-banner-icon i {
+  width: 20px;
+  height: 20px;
+}
+
+.proof-banner-text {
+  flex: 1;
+  font-size: 0.9rem;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.proof-banner-text strong {
+  color: #cc9000;
+  font-weight: 700;
+}
+
+.proof-banner-text a {
+  color: #2774AE;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.proof-banner-text a:hover {
+  color: #1e5a8e;
+}
+
+.proof-banner-close {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+  flex-shrink: 0;
+}
+
+.proof-banner-close i {
+  width: 20px;
+  height: 20px;
+}
+
+.proof-banner-close:hover {
+  color: #1f2937;
+}
+
+@media (max-width: 768px) {
+  .proof-banner-content {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  
+  .proof-banner-text {
+    flex-basis: 100%;
+  }
+  
+  .proof-banner-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+}
+</style>
+
+<script>
+  // Initialize Lucide icons for the banner
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
+</script>
