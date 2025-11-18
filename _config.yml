@@ -1,8 +1,8 @@
 # Site settings
 title: UC GIS Consultation Tool
 description: Interactive decision tree for GIS research consultations
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/uc-gis" # the subpath of your site - this is your repository name
+url: "https://dmcwo.github.io" # the base hostname & protocol for your site
 
 # Theme
 theme: just-the-docs
