@@ -10,7 +10,7 @@ title: UC GIS Consultation Tool
   </div>
 
   <div class="home-content">
-    <p>This tool mirrors the consultation process our GIS librarians use to help researchers. Choose a starting point below, or begin with the most common question:</p>
+    <p>Choose a starting point below, or begin with the most common question:</p>
   </div>
 
   <div class="starting-points">

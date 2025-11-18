@@ -4,7 +4,7 @@ An interactive decision tree that mirrors the consultation process used by UC GI
 
 ## 🎯 Project Status
 
-**This is an experimental proof of concept (POC).** The tool demonstrates a branching scenario approach to online GIS consultations but is not yet production-ready.
+**This is an experimental proof of concept.** The tool demonstrates a branching scenario approach to online GIS consultations but is not yet production-ready.
 
 ## 📋 Overview
 
@@ -167,7 +167,7 @@ Custom styles are in `assets/css/custom.scss`. The file is organized by componen
 
 ## 🧪 Proof of Concept Scope
 
-This POC demonstrates:
+This Proof of Concept demonstrates:
 - ✅ Branching decision tree functionality
 - ✅ Question and resource content types
 - ✅ Non-linear navigation (graph structure)
@@ -176,9 +176,7 @@ This POC demonstrates:
 - ✅ UC brand integration
 
 **Not yet implemented:**
-- ❌ Search functionality
 - ❌ User analytics/tracking
-- ❌ Content management system
 - ❌ Multi-language support
 - ❌ User feedback mechanism
 - ❌ Complete content library
