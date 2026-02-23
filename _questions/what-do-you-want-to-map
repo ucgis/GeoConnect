@@ -1,0 +1,16 @@
+---
+title: "What kind of map do you want to create?"
+sub-title: ""
+next-steps:
+  - label: "Do you want to map locations"
+    type: resource
+    ref: map-locations
+  - label: "Do you want to create a shaded area (thematic) map"
+    type: question
+    ref: what-is-geo-id
+  - label: "I want to make something more complicated"
+    type: resource
+    ref: get-help
+---
+
+This is the starting point for most GIS research consultations. Whether you're working with existing data or need to find new sources, we'll help guide you through the process.
