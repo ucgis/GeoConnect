@@ -2,7 +2,7 @@
 title: UC GIS Consultation Tool
 description: Interactive decision tree for GIS research consultations
 baseurl: "/GeoConnect" # the subpath of your site - this is your repository name
-url: "https://dakane1.github.io" # the base hostname & protocol for your site
+url: "https://ucgis.github.io" # the base hostname & protocol for your site
 
 # Theme
 remote_theme: just-the-docs/just-the-docs
