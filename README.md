@@ -1,4 +1,4 @@
-# UC GIS Consultation Tool - Proof of Concept
+# UC GIS GeoConnect - Proof of Concept
 
 An interactive decision tree that mirrors the consultation process used by UC GIS Librarians to guide researchers through geospatial research needs.
 
