@@ -1,22 +1,23 @@
 ---
 title: "Geocoding"
-sub-title: "Tips for formatting; Info about geocoding"
+sub-title: "Tips for formatting; Info about geocoding."
 jobs_to_be_done:
-  - "Work with GIS Data"
+  - "Locate GIS datasets for research"
+  - "Access open geospatial data repositories"
+  - "Identify reliable data sources for your project"
 steps:
-  - "Look for file extensions (e.g., .geojson, .shp, .csv)."
-  - "Open the file in a simple text editor to review its structure."
-  - "Check documentation from the data provider."
+  - "Search university library GIS data repositories for curated collections."
+  - "Browse open data portals like data.gov and local government sites."
+  - "Check specialized repositories like USGS Earth Explorer for specific data types."
+  - "Ask your UC GIS librarian for recommendations tailored to your research needs."
 next-steps:
   - label: "I need to do some data cleanup first"
     type: resource
     ref: cleaning-messy-data
-
   - label: "Let's choose a platform for your map."
     type: resource
     ref: choose-a-platform
 ---
-
 Geocoding is the process of determining geographic coordinates for place names, street addresses, and codes (e.g., zip codes). Geocoding is typically preceded by the data cleaning step of preprocessing and standardizing the format of the data you will be geocoding. The resulting locations are output as geographic features with attributes, which can be used for mapping or spatial analysis. 
 
 Related tasks include:
