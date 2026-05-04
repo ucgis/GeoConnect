@@ -23,7 +23,7 @@ Sometimes we find data that’s available in one of the many acceptable GIS file
   - GeoTIFF (.tiff)<br>
   - Geodatabase (.gdb)<br> 
   - Geopackage (.gpkg)<br>
-  - ArcGIS Pro project package (.ppkx) ?
+  - ArcGIS Pro project package (.ppkx) ?<br>
 <p>There may be other times where you don’t have a tangible file. Your data might already be in an online GIS platform.</p> 
 </details>
 <details class="collapsible">
