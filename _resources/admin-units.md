@@ -11,7 +11,7 @@ next-steps:
   - label: "Let's choose a platform for your map."
     type: resource
     ref: choose-a-platform
-  - label: ""I need to do some data cleanup first"
+  - label: "I need to do some data cleanup first"
     type: resource
     ref: cleaning-messy-data
   - label: "I want to geocode my data"
