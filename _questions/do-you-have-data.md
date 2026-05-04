@@ -50,7 +50,7 @@ If you have a scanned image of a map, you can utilize it in a GIS platform.
 <details class="collapsible">
 <summary><strong>Other</strong></summary>
 
-Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this [knowing that in the future we can provide a section on this]
+Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this Note:knowing that in the future we can provide a section on this
 
 </details>
 
