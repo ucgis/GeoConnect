@@ -42,7 +42,7 @@ Sometimes we find data that’s available in one of the many acceptable GIS file
 - ArcGIS Pro project package (.ppkx)
 
 There may be other times where you don’t have a tangible file. Your data might already be in an online GIS platform.
-
+<br>
 </details>
 
 <details class="collapsible">
