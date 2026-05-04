@@ -36,12 +36,12 @@ title: UC GIS Consultation Tool
 
       <!-- Placeholder cards for future starting points -->
       <div class="card card-question">
-        <div class="card-link card-disabled">
+        <div class="<a href="/questions/do-you-have-data.md" class="card-link">
           <div class="card-icon">
             <i data-lucide="map"></i>
           </div>
           <div class="card-content">
-            <h3>I need to visualize my data</h3>
+            <h3>Do you have data?</h3>
             <p class="card-subtitle coming-soon">Coming soon!</p>
           </div>
         </div>
