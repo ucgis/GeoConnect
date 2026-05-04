@@ -57,4 +57,28 @@ Many times you may have data that is in a spreadsheet format. If your data is in
 </details>
 
 <details class="collapsible">
+<summary><strong>Image</strong></summary>
+If you have a scanned image of a map, you can utilize it in a GIS platform. 
+  
+</details>
+
+<details class="collapsible">
+<summary><strong>Other</strong></summary>
+Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this [knowing that in the future we can provide a section on this]
+
+</details>
+
+<details class="collapsible">
+
+<script>
+  function expandAll() {
+    document.querySelectorAll('details.collapsible')
+      .forEach(d => d.open = true);
+  }
+
+  function collapseAll() {
+    document.querySelectorAll('details.collapsible')
+      .forEach(d => d.open = false);
+  }
+</script>
 
