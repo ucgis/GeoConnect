@@ -22,8 +22,8 @@ To get started mapping, you’ll need data that’s tied to locations. Knowing w
 Additional questions to think about before and during your mapping adventures:  
 Does your data cover your area of interest? Does it represent what you need it to in the way you need it to? Does it contain personally identifiable information (PII)? Does it cover the time period you need it to?
 
-<!-- Expand / Collapse controls -->
-<div style="margin: 1.5rem 0;">
+<!-- Expand / Collapse Controls -->
+<div class="details-controls" style="margin: 1.5rem 0;">
   <button onclick="expandAll()">Expand all</button>
   <button onclick="collapseAll()">Collapse all</button>
 </div>
@@ -57,13 +57,4 @@ Many times you may have data that is in a spreadsheet format. If your data is in
 </details>
 
 <details class="collapsible">
-<summary><strong>Image</strong></summary>
-
-If you have a scanned image of a map, you can utilize it in a GIS platform.
-
-</details>
-
-<details class="collapsible">
-<summary><strong>Other</strong></summary>
-
 
