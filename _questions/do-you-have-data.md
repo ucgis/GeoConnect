@@ -23,7 +23,7 @@ Additional questions to think about before and during your mapping adventures:
 Does your data cover your area of interest? Does it represent what you need it to in the way you need it to? Does it contain personally identifiable information (PII)? Does it cover the time period you need it to?
 
 <!-- Expand / Collapse Controls -->
-<div class="details-controls" style="margin: 1.5rem 0;">
+<div style="margin: 1.5rem 0;">
   <button onclick="expandAll()">Expand all</button>
   <button onclick="collapseAll()">Collapse all</button>
 </div>
