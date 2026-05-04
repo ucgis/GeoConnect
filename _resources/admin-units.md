@@ -115,10 +115,3 @@ Why one might choose a spatial join over a table join is in a spatial join, you 
   * Tool-based documentation  
 * Join a table to a feature layer in ArcGIS Online:  [https://learn.arcgis.com/en/projects/join-a-table-to-a-feature-layer-in-arcgis-online/](https://learn.arcgis.com/en/projects/join-a-table-to-a-feature-layer-in-arcgis-online/)   
   * A 15 minute tutorial that has you join data from a CSV to an existing layer in ArcGIS Online 
-
-\----------
-
-### Felt
-
-* Table joins [https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/upload-census-to-felt/](https://mapping.share.library.harvard.edu/resources/workshops/workshop-4/upload-census-to-felt/)   
-  * Tutorial. Felt has already pre-uploaded vector geometry files of different census geometries. 
