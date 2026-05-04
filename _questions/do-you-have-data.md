@@ -42,7 +42,7 @@ Sometimes we find data that’s available in one of the many acceptable GIS file
 - ArcGIS Pro project package (.ppkx)
 
 There may be other times where you don’t have a tangible file. Your data might already be in an online GIS platform.
-<br>
+
 </details>
 
 <details class="collapsible">
@@ -58,17 +58,17 @@ Many times you may have data that is in a spreadsheet format. If your data is in
 
 <details class="collapsible">
 <summary><strong>Image</strong></summary>
-If you have a scanned image of a map, you can utilize it in a GIS platform. 
-  
+
+If you have a scanned image of a map, you can utilize it in a GIS platform.
+
 </details>
 
 <details class="collapsible">
 <summary><strong>Other</strong></summary>
-Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this [knowing that in the future we can provide a section on this]
+
+Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this.
 
 </details>
-
-</details class="collapsible">
 
 <script>
   function expandAll() {
@@ -76,6 +76,11 @@ Depending on the size of your data and where it’s coming from, the data may be
       .forEach(d => d.open = true);
   }
 
+  function collapseAll() {
+    document.querySelectorAll('details.collapsible')
+      .forEach(d => d.open = false);
+  }
+</script>
   function collapseAll() {
     document.querySelectorAll('details.collapsible')
       .forEach(d => d.open = false);
