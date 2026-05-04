@@ -29,7 +29,7 @@ Sometimes we find data that’s available in one of the many acceptable GIS file
 There may be other times where you don’t have a tangible file. Your data might already be in an online GIS platform. 
 
 </details>
-
+<br>
 <details class="collapsible">
 <summary><strong>Spreadsheets</strong></summary>
 Many times you may have data that is in a spreadsheet format. If your data is in a spreadsheet, you must have at least one field that contains location based information. This may include, Latitude/Longitude, an address, or some other type of geographic identifier (such as census tracts, administrative boundaries, school districts, or other).
@@ -38,13 +38,13 @@ Many times you may have data that is in a spreadsheet format. If your data is in
 * TXT 
 
 </details>
-
+<br>
 <details class="collapsible">
 <summary><strong>Image</strong></summary>
 
 If you have a scanned image of a map, you can utilize it in a GIS platform. 
 </details>
-
+<br>
 <details class="collapsible">
 <summary><strong>Other</strong></summary>
 
