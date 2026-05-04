@@ -68,7 +68,7 @@ Depending on the size of your data and where it’s coming from, the data may be
 
 </details>
 
-<details class="collapsible">
+
 
 <script>
   function expandAll() {
@@ -82,3 +82,4 @@ Depending on the size of your data and where it’s coming from, the data may be
   }
 </script>
 
+<details class="collapsible">
