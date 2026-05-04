@@ -36,7 +36,7 @@ title: UC GIS Consultation Tool
 
       <!-- Placeholder cards for future starting points -->
       <div class="card card-question">
-        <div class="<a href="/questions/do-you-have-data" class="card-link">
+        <div class="card-link card-disabled">
           <div class="card-icon">
             <i data-lucide="map"></i>
           </div>
