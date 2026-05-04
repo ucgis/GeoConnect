@@ -64,3 +64,14 @@ Depending on the size of your data and where it’s coming from, the data may be
 
 </details>
 
+<script>
+  function expandAll() {
+    document.querySelectorAll("details").forEach(d => d.open = true);
+  }
+
+  function collapseAll() {
+    document.querySelectorAll("details").forEach(d => d.open = false);
+  }
+</script>
+
+
