@@ -1,6 +1,7 @@
 ---
 title: "Do you have the data you need?"
 sub-title: "Here are some questions to think through about your data before you get started mapping. List of data assessment questions."
+parent: "getting started with data"
 permalink: /do-you-have-data/
 next-steps:
   - label: "Yes, it's a GIS file or online mapping platform"
