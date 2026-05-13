@@ -17,6 +17,18 @@ next-steps:
     ref: finding-gis-data
 ---
 
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% if page.parent %}
+    /
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% endif %}
+
+  /
+  <span>{{ page.title }}</span>
+</nav>
+
 To get started mapping, you’ll need data that’s tied to locations. Knowing what format your data is in will help you map it in the most efficient way. You may find that you have several different types of data. We recommend starting with one type and then revisiting this page to review your other types. 
 
 Additional questions to think about before and during your mapping adventures:  
