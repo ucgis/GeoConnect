@@ -1,6 +1,8 @@
 ---
 title: "Geocoding"
 sub-title: "Tips for formatting; Info about geocoding."
+parent: "getting started with data"
+permalink: /geocoding/
 jobs_to_be_done:
   - "Locate GIS datasets for research"
   - "Access open geospatial data repositories"
@@ -18,6 +20,17 @@ next-steps:
     type: resource
     ref: choose-a-platform
 ---
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% if page.parent %}
+    /
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% endif %}
+
+  /
+  <span>{{ page.title }}</span>
+</nav>
 Geocoding is the process of determining geographic coordinates for place names, street addresses, and codes (e.g., zip codes). Geocoding is typically preceded by the data cleaning step of preprocessing and standardizing the format of the data you will be geocoding. The resulting locations are output as geographic features with attributes, which can be used for mapping or spatial analysis. 
 
 Related tasks include:
@@ -27,24 +40,37 @@ Related tasks include:
 
 Geocoding is an iterative process. At times it requires mapping/geocoding your data, reviewing the results, and then doing data clean up to improve your results. As you review your results, double check to make sure the locations make sense based on what your expectations are. 
 
-## Esri / ArcGIS 
+<!-- Expand / Collapse Controls -->
+<div style="margin: 1.5rem 0;">
+  <button onclick="expandAll()">Expand all</button>
+  <button onclick="collapseAll()">Collapse all</button>
+</div>
+<details class="collapsible">
+  
+<summary><strong>Esri / ArcGIS</strong></summary>
 
 [ArcGIS Online World Geocoding Service](http://desktop.arcgis.com/en/arcmap/latest/manage-data/geocoding/working-with-arcgis-online-geocoding-service.htm)  
 The Esri World Geocoding Service provides high quality geocoding for place names, addresses and zip codes within the USA. It also works with locations outside of the USA, but in sometimes more limited ways. You can also access this through ArcGIS Pro, ArcMap, or the browser-based ArcGIS Online. Using this service requires an ArcGIS Online account and credits. 
-
-## QGIS
+</details>
+<details class="collapsible">
+  
+<summary><strong>QGIS</strong></summary>
 
 The [MMQGIS plugin](https://michaelminn.com/linux/mmqgis/) is a Python plugin for QGIS that contains geocoding tools, which can draw on the Google Geocoding API data, the OpenStreetMap Nominatim service, or a local street address layer, such as the [US Census Bureau's TIGER/Line data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html). To use it, download the plugin first. Then select the “Geocode CSV with Google / OpenStreetMap” feature found under MMQGIS--\>Geocode.
 
-## Other
+</details>
+<details class="collapsible">
+<summary><strong>Other</strong></summary>
 
-### Browser-based
+Browser-based:
 
 * [Batchgeo](https://www.batchgeo.com/) \-Free online tool to do basic geocoding. Once your information is geocoded, you can then use it for analysis or visualization in a GIS. The site also has a tool to calculate distances to multiple addresses from a single point.  
 * [Geocodio](https://www.geocod.io/) \-US and Mexico, browser based, 2,500 addresses per month, must create account. Once your information is geocoded, you can then use it for analysis or visualization in a GIS.  
 * [Texas A\&M Geoservices](http://geoservices.tamu.edu/Services/Geocode/) \- US only, browser based, 2,500 addresses, then must purchase plan, must create account.
 
-### Python: 
+</details>
+<details class="collapsible">
+<summary><strong>Python:</strong></summary> 
 
 * [Geopy](https://github.com/geopy/geopy) **\-** General purpose geocoding and reverse geocoding via various online services.  
 * [Geocodio Python Library](https://www.geocod.io/updates/2025-08-11-introducing-the-official-geocodio-python-library/) \- Bulk geocoding and data enrichment for US and Canadian addresses.  
@@ -52,7 +78,9 @@ The [MMQGIS plugin](https://michaelminn.com/linux/mmqgis/) is a Python plugin fo
 * [GeoPandas](https://geopandas.org/en/stable/) \- Data analysis pipelines and mapping, often used with Folium for visualization.  
 * [Python Geocoder](https://pypi.python.org/pypi/geocoder) \-  is another open-source library that leverages Python to retrieve latitude and longitude coordinates from Google Maps. One of its advantages is that it can be used completely separately from QGIS.
 
-### R
+</details>
+<details class="collapsible">
+<summary><strong>R</strong></summary>
 
 * [Tidygeocoder](https://jessecambon.github.io/tidygeocoder/) \- A unified high-level interface is provided for a selection of supported geocoding services and results are returned in tibble (dataframe) format.  
 * [Ggmap](https://www.rdocumentation.org/packages/ggmap/versions/4.0.1/topics/geocode) \- Geocodes (finds latitude and longitude of) a location using the Google Geocoding API. Note: To use Google's Geocoding API, you must first enable the API in the Google Cloud Platform Console.  
@@ -61,7 +89,9 @@ The [MMQGIS plugin](https://michaelminn.com/linux/mmqgis/) is a Python plugin fo
 
 API services? (Nominatum, Census geocoder, etc.)
 
-## Tips for Geocoding
+</details>
+<details class="collapsible">
+<summary><strong>Tips for Geocoding</strong></summary>
 
 Geocoding works well when you have done some data cleanup. Below are considerations you might want to consider before you geocode your data. 
 
@@ -76,5 +106,17 @@ Geocoding works well when you have done some data cleanup. Below are considerati
 * If you have a million addresses and half are duplicates, clean up the data.  
 * Always review your output to check for addresses that couldn't be matched. Anticipate needing to undergo one or more iterations of data clean up and geocoding attempts.   
 * To ensure data is accurately mapped, use common mapping programs such as Google Maps to verify problematic addresses.  
-* The above are just some examples, but your data may have other unique characteristics that need to be reviewed.. 
+* The above are just some examples, but your data may have other unique characteristics that need to be reviewed.
+</details>
 
+<script>
+function expandAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = true);
+}
+
+function collapseAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = false);
+}
+</script>
