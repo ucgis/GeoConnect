@@ -108,6 +108,15 @@ uc-gis/
 
 ## ✏️ Adding Content
 
+### Adding images
+
+1. Go to your repo
+2. Click Add file → Upload files
+3. Upload your image (e.g., map.png)
+save in /assets/images/
+Include this code:
+  <img src="/assets/images/map.png" alt="Map description" width="600"
+
 ### Creating a Question Page
 
 1. Create a new file in `_questions/` (e.g., `your-question.md`)
