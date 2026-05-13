@@ -113,7 +113,7 @@ uc-gis/
 1. Go to your repo
 2. Click Add file → Upload files
 3. Upload your image (e.g., map.png)
-save in /assets/images/
+save in /assets/images/<br></br>
 Include this code:
   <img src="/assets/images/map.png" alt="Map description" width="600"
 
