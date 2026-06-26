@@ -34,20 +34,23 @@ title: UC GIS Consultation Tool
       </div>
       {% endif %}
 <div class="cards-grid">
-{% assign start_question = site.questions | where: "slug", "graphic-representation" | second %}
+      {% assign start_question = site.questions | where: "slug", "graphic-representation" | first %}
       {% if start_question %}
       <div class="card card-featured card-question">
         <a href="{{ start_question.url | relative_url }}" class="card-link">
           <div class="card-icon">
-            <i data-lucide="map"></i>
+            <i data-lucide="git-branch"></i>
           </div>
           <div class="card-content">
-            <h3>Is the data coverage what you need?</h3>
-            <p class="card-subtitle coming-soon">Does it cover the area, scale, time frame, or is it not detailed enough?</p>
+            <h3>{{ start_question.title }}</h3>
+            {% if start_question.sub-title %}
+            <p class="card-subtitle">{{ start_question.sub-title }}</p>
+            {% endif %}
           </div>
-        </div>
+          <div class="card-arrow">→</div>
+        </a>
       </div>
-       {% endif %}
+      {% endif %}
       
 <!-- Placeholder cards for future starting points -->
       <div class="card card-question">
