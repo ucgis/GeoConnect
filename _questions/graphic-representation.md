@@ -4,10 +4,10 @@ sub-title: "Do you just want to map locations, or are you trying to map somethin
 parent: "ingest-data"
 permalink: "graphic-representation"
 next-steps:
-  - label: ""I'm just mapping locations.""
+  - label: "I'm just mapping locations."
     type: question
     ref: finalize-map
-  - label: ""I'd like to map something about the data.""
+  - label: "I'd like to map something about the data."
     type: resource
     ref: qual-quant
 ---
