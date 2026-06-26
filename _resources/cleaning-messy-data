@@ -1,0 +1,66 @@
+---
+title: "Cleaning Messy Data"
+sub-title: "Brief description"
+jobs_to_be_done:
+  - "Goal 1"
+  - "Goal 2"
+steps:
+  - "Step 1 instructions"
+  - "Step 2 instructions"
+Next-steps:
+  - label: "My data is clean"
+    type: resource
+    ref: ingest-data 
+  - label: "I want to join two or more datasets"
+    type: resource
+    ref: table-join
+  - label: "I don’t know, or it’s none of these."
+    type: resource
+    ref: get-help
+---
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% if page.parent %}
+    /
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% endif %}
+
+  /
+  <span>{{ page.title }}</span>
+</nav>
+
+Even if your data comes from a published source, it may contain gaps or other flaws that will result in an incomplete or misleading map. Cleaning messy data involves removing errors, duplicates, and inconsistencies to ensure accuracy. It can also involve reformatting your dataset(s) for compatibility with your chosen software. The more data you have, the longer it may take to standardize and clean. While cleaning messy data can be time consuming, overall it saves you time and stress later on.
+
+<summary><strong>General Key Data Cleaning Steps:</strong></summary>
+  * <summary><strong>Create a Backup: Always work on a copy of the original dataset!</strong></summary>
+  * Remove Duplicates & Irrelevant Data: Identify and remove redundant rows to ensure data integrity.
+  * Standardize Data Formats: Ensure consistent capitalization, date formats, and numeric types (e.g., remove leading/trailing spaces).
+  * Fix Structural Errors: Correct typos, mislabeled classes, and inconsistent naming conventions.
+
+<summary><strong>GIS Formatting Considerations:</strong></summary>
+To successfully use a CSV or Google Sheet in a GIS software to make a map: 
+  * Each column contains a different type of information: 
+    * For spatial data: latitude / longitude (in separate columns), place names, or addresses 
+  * Each column has a header in the first row of the table 
+    * First character in the column header must be a letter 
+    * Don’t use special characters (exception: underscore) or spaces in the header
+    * Make sure each header is unique 
+    * No subheaders
+  * Use consistent formatting in a given column 
+  * Each row represents a different feature 
+  * No blank rows (or subheaders)
+  * In a table join: ensure that that headers match
+
+Not this …
+<img src="/assets/images/graph1.png" alt="How not to set up Excel" width="600"
+
+This:
+<img src="/assets/images/graph2.png" alt="How to set up Excel" width="600"
+
+<summary><strong>Cleaning Messy Data:</strong></summary>
+  * OpenRefine: a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it.
+
+<summary><strong>General Resources:</strong></summary>
+  * Cleaning messy coordinate data: https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data
+  * Analyzing and visualizing data: https://guides.library.ucla.edu/c.php?g=1234052&p=9127691
