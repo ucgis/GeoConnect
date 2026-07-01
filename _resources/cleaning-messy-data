@@ -37,7 +37,6 @@ Even if your data comes from a published source, it may contain gaps or other fl
 The more data you have, the longer it may take to standardize and clean. While cleaning messy data can be time consuming, overall it saves you time and stress later on.
 
 
-<details>
 <strong>General Key Data Cleaning Steps</strong>
 
 <ul>
@@ -46,8 +45,6 @@ The more data you have, the longer it may take to standardize and clean. While c
   <li>Standardize Data Formats: Ensure consistent capitalization, date formats, and numeric types (e.g., remove leading/trailing spaces).</li>
   <li>Fix Structural Errors: Correct typos, mislabeled classes, and inconsistent naming conventions.</li>
 </ul>
-
-</details>
 
 ## GIS Formatting Considerations
 
