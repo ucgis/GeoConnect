@@ -28,22 +28,20 @@ next-steps:
   <span>{{ page.title }}</span>
 </nav>
 
-# Ingest Data
 Links to platform-specific documentation about how to get data into the platform to visualize it on a map; include a box about basemaps. There is more than one way to add data to your map. Below are just a few suggested approaches....
 
 ## Basemaps
 
 Regardless of what GIS platform you choose to use, a basemap will orient your data to the real world and provide context for maps at global or local scales. A basemap layer is typically the first layer added to a map. It allows you to easily see where geographic features are located. It typically includes features and labels for land, water, roads, buildings, cities, places, and administrative boundaries, but can also include satellite and aerial image data...
 
-<button onclick="expandAll()">Expand all</button>
-<button onclick="collapseAll()">Collapse all</button>
-
-<details class="collapsible">
-<summary>Adding Data</summary>
+## Adding Data
 
 There are a few different ways to add data to a map.
 
-### ArcGIS Online
+<button onclick="expandAll()">Expand all</button>
+<button onclick="collapseAll()">Collapse all</button>
+<details class="collapsible">
+<summary>### ArcGIS Online</summary>
 
 We recommend adding data first to the “My Content” section.
 
