@@ -38,7 +38,7 @@ The more data you have, the longer it may take to standardize and clean. While c
 
 
 <details>
-<summary><strong>General Key Data Cleaning Steps</strong></summary>
+<strong>General Key Data Cleaning Steps</strong>
 
 <ul>
   <li>Create a Backup: Always work on a copy of the original dataset.</li>
