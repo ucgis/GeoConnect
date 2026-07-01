@@ -16,32 +16,34 @@ next-steps:
     type: resource
     ref: get-help
 ---
+### Ingest-Data
+
 Links to platform-specific documentation about how to get data into the platform to visualize it on a map; include a box about basemaps. There is more than one way to add data to your map. Below are just a few suggested approaches. 
 
-<summary><strong>Basemaps</strong></summary>
+### Basemaps
 
 Regardless of what GIS platform you choose to use, a basemap will orient your data to the real world and provide context for maps at global or local scales. A basemap layer is typically the first layer added to a map. It allows you to easily see where geographic features are located. It typically includes features and labels for land, water, roads, buildings, cities, places, and administrative boundaries, but can also include satellite and aerial image data. 
-
-  <button onclick="expandAll()">Expand all</button>
+  
+<button onclick="expandAll()">Expand all</button>
   <button onclick="collapseAll()">Collapse all</button>
 </div>
 <details class="collapsible">
-<summary><strong>Adding Data:</strong></summary>
+<summary>### Adding Data:</summary>
 There are a few different ways to add data to a map. 
 
-ArcGIS Online
+### ArcGIS Online
 We recommend adding data first to the “My Content” section, then add the data to a map. 
 
 Resource: Add files as items (link: https://doc.arcgis.com/en/arcgis-online/manage-data/add-files-as-items.htm)
 Look for videos….
 
-ArcGIS Pro
+### ArcGIS Pro
 
 We recommend using the Menu and the Add Data button and select the data option (icon).  
 
 Resource: Add data to your project (link: https://doc.esri.com/en/arcgis-pro/latest/get-started/add-data-to-your-project.htm)l
 
-QGIS
+### QGIS
 
 Add data in QGIS using the Data Source Manager tool. Another way to add data is to drag and drop it from the Browser to the Layers list.  Open Data Source Manager 
 Resource: Basic map preparation (link:https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/preparation.html)
@@ -70,32 +72,36 @@ gdf = gpd.read_file("data/file.geojson")
 </details>
 <details class="collapsible">
 
-Did you know?
-* If you ingested your data using ArcGIS Pro or ArcGIS Online, you can add additional datasets using the ArcGIS Living Atlas. (LINK out to Finding Data Resources and the Living Atlas). 
-* In ArcGIS Online, you can also drag and drop your data file directly onto the map, which will add it to your content under My Content. 
-* In QGIS, you can add publicly hosted data on ArcGIS Online through the ArcGIS Rest Server (https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/opening_data.html)
+## Did you know?
+
+* If you ingested your data using ArcGIS Pro or ArcGIS Online, you can add additional datasets using the ArcGIS Living Atlas. (LINK out to Finding Data Resources and the Living Atlas).   
+* In ArcGIS Online, you can also drag and drop your data file directly onto the map, which will add it to your content under **My Content**.   
+* In QGIS, you can add publicly hosted data on ArcGIS Online through the ArcGIS Rest Server (https://docs.qgis.org/3.44/en/docs/user\_manual/managing\_data\_source/opening\_data.html)  
 * In the Contents pane (ArcGIS) or Layers List (QGIS), polygon layers toward the top will obscure layers listed beneath. You can drag and drop polygon layers to the bottom of the list so that they are not covering up your other data.
 
-<summary><strong>Troubleshooting</strong></summary>
-* Coordinate System and Projection Errors: 
-  * Missing or Wrong CRS: If you load tabular data (like a CSV with XY coordinates) and points do not plot in the correct location or fail to draw, your CRS is likely mismatched. Confirm the data's inherent coordinate system and ensure your map view uses the same system 
-* Corrupt Geometry: 
-  * Check Geometry: Some features may have corrupt, null, or looping geometries.
-  * The Fix:
-    * ArcGIS Online: There is no native tool to fix corrupt geometry. You must download the data and repair it manually or in ArcGIS Pro.
-    * ArcGIS Pro: Run the Check Geometry tool to identify errors, then run Repair Geometry to fix invalid features 
-    * QGIS: Run the Fix Geometries tool, found in Processing > Toolbox.
-* Attribute Table Errors ("Could Not Load Data"): 
-  * Failed to load rows: If the map draws the features but the attribute table fails to open or returns a "Could not load data" error, there may be schema mismatches or bad spatial indexes. 
-  * The Fix:
-    * ArcGIS Online: Download the data and review attribute table errors, check to see if you have null values or unsupported characters 
-    * ArcGIS Pro: Recalculate the spatial index for the feature class or export the features into a new File Geodatabase  
-    * QGIS: 
-      * To fix a “No Spatial Index” error, run the Create spatial index tool.
-      * For schema issues, install and run the Table Structure Compare plugin.
+## Troubleshooting
 
-<summary><strong>General Resources:</strong></summary>
-ESRI: https://developers.arcgis.com/documentation/mapping-and-location-services/mapping/basemaps/
-https://doc.arcgis.com/en/arcgis-online/manage-data/add-files-as-items.htm
-https://doc.esri.com/en/arcgis-pro/latest/get-started/add-data-to-your-project.html
-https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/preparation.html
+* **Coordinate System and Projection Errors**:   
+  * Missing or Wrong CRS: If you load tabular data (like a CSV with XY coordinates) and points do not plot in the correct location or fail to draw, your CRS is likely mismatched. Confirm the data's inherent coordinate system and ensure your map view uses the same system   
+* **Corrupt Geometry:**   
+  * Check Geometry: Some features may have corrupt, null, or looping geometries.  
+  * The Fix:  
+    * ArcGIS Online: There is no native tool to fix corrupt geometry. You must download the data and repair it manually or in ArcGIS Pro.  
+    * ArcGIS Pro: Run the **Check Geometry** tool to identify errors, then run Repair Geometry to fix invalid features   
+    * QGIS: Run the **Fix Geometries** tool, found in Processing \> Toolbox.  
+* **Attribute Table Errors ("Could Not Load Data"):**   
+  * Failed to load rows: If the map draws the features but the attribute table fails to open or returns a "Could not load data" error, there may be schema mismatches or bad spatial indexes.   
+  * The Fix:  
+    * ArcGIS Online: Download the data and review [attribute table errors](https://support.esri.com/en-us/knowledge-base/accessing-data-failed-000016280), check to see if you have null values or unsupported characters   
+    * ArcGIS Pro: Recalculate the spatial index for the feature class or export the features into a new File Geodatabase    
+    * QGIS:   
+      * To fix a “No Spatial Index” error, run the **Create spatial index** tool.  
+      * For schema issues, install and run the **Table Structure Compare** plugin.
+
+## General Resources:
+
+* ESRI: [https://developers.arcgis.com/documentation/mapping-and-location-services/mapping/basemaps/](https://developers.arcgis.com/documentation/mapping-and-location-services/mapping/basemaps/)  
+* [https://doc.arcgis.com/en/arcgis-online/manage-data/add-files-as-items.htm](https://doc.arcgis.com/en/arcgis-online/manage-data/add-files-as-items.htm)  
+* https://doc.esri.com/en/arcgis-pro/latest/get-started/add-data-to-your-project.html
+* https://docs.qgis.org/3.44/en/docs/training\_manual/basic\_map/preparation.html
+
