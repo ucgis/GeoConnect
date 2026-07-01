@@ -38,25 +38,42 @@ Regardless of what GIS platform you choose to use, a basemap will orient your da
 
 There are a few different ways to add data to a map.
 
-<button onclick="expandAll()">Expand all</button>
-<button onclick="collapseAll()">Collapse all</button>
+<!-- Expand / Collapse Controls -->
+<div style="margin: 1.5rem 0;">
+  <button onclick="expandAll()">Expand all</button>
+  <button onclick="collapseAll()">Collapse all</button>
+</div>
 <details class="collapsible">
 <summary>### ArcGIS Online</summary>
 
 We recommend adding data first to the “My Content” section.
-
-### ArcGIS Pro
-
-Use the Add Data button.
-
-### QGIS
-
-Use the Data Source Manager.
-
-### Python
+</details>
+<details class="collapsible">
+<summary>### ArcGIS Pro</summary>
+We recommend using the Menu and the Add Data button and select the data option (icon).  
+</details>
+<details class="collapsible">
+<summary### QGIS</summary>
+Add data in QGIS using the Data Source Manager tool. Another way to add data is to drag and drop it from the Browser to the Layers list 
+</details>
+<details class="collapsible">
+<summary>### Python</summary>
 
 ```python
 import geopandas as gpd
 
 gdf = gpd.read_file("data/shapefile.shp")
 print(gdf.head())
+
+<script>
+function expandAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = true);
+}
+
+function collapseAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = false);
+}
+</script>
+
