@@ -86,16 +86,3 @@ To successfully use a CSV or Google Sheet in GIS software:
 - [Cleaning messy coordinate data](https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data)
 - [Analyzing and visualizing data](https://guides.library.ucla.edu/c.php?g=1234052&p=9127691)
 
-## Next Steps
-
-{% if page.next_steps %}
-<ul>
-  {% for step in page.next_steps %}
-    <li>
-      <a href="{{ step.ref | relative_url }}">
-        {{ step.label }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-{% endif %}
