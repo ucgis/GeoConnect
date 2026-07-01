@@ -31,10 +31,9 @@ next_steps:
   <span>{{ page.title }}</span>
 </nav>
 
-Even if your data comes from a published source, it may contain gaps or other flaws that will result in an incomplete or misleading map. Cleaning messy data involves removing errors, duplicates, and inconsistencies to ensure accuracy. It can also involve reformatting your dataset(s) for compatibility with your chosen software.
+<p>Even if your data comes from a published source, it may contain gaps or other flaws that will result in an incomplete or misleading map. Cleaning messy data involves removing errors, duplicates, and inconsistencies to ensure accuracy. It can also involve reformatting your dataset(s) for compatibility with your chosen software.</p>
 <br>
-
-The more data you have, the longer it may take to standardize and clean. While cleaning messy data can be time consuming, overall it saves you time and stress later on.
+<p>The more data you have, the longer it may take to standardize and clean. While cleaning messy data can be time consuming, overall it saves you time and stress later on.</p>
 <br>
 <strong>General Key Data Cleaning Steps</strong>
 
