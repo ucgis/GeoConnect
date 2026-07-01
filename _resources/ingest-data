@@ -15,6 +15,17 @@ next-steps:
     type: resource
     ref: get-help
 ---
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% if page.parent %}
+    /
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% endif %}
+
+  /
+  <span>{{ page.title }}</span>
+</nav>
 # Ingest Data  
 Links to platform-specific documentation about how to get data into the platform to visualize it on a map; include a box about basemaps. There is more than one way to add data to your map. Below are just a few suggested approaches. 
 
