@@ -69,16 +69,17 @@ Add data in QGIS using the Data Source Manager tool. Another way to add data is 
 <details class="collapsible">
 <summary>Python</summary>
 
-```python
+<pre><code class="language-python">
 import geopandas as gpd
 
 gdf = gpd.read_file("data/shapefile.shp")
 print(gdf.head())
-```
+</code></pre>
 
 </details>
 
 <script>
+
 function expandAll() {
   document
     .querySelectorAll('details.collapsible')
@@ -91,6 +92,7 @@ function collapseAll() {
     .forEach(d => d.open = false);
 }
 </script>
+
 
 ## Did You Know?
 
