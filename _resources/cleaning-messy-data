@@ -45,27 +45,26 @@ next_steps:
 </ul>
 
 <strong>GIS Formatting Considerations</strong><br>
+
 To successfully use a CSV or Google Sheet in GIS software:<br>
 <ul>
   <li>Each column contains a different type of information.
-    <ul>
-      <li>For spatial data: latitude and longitude (in separate columns), place names, or addresses.</li>
-    </ul>
-  </li>
+    <ul><li>For spatial data: latitude and longitude (in separate columns), place names, or addresses.</li>
+    </ul></li>
   <li>Each column has a header in the first row of the table.
     <ul>    
       <li>First character in the column header must be a letter.</li>
       <li>Don't use special characters (except underscores) or spaces in headers.</li>
       <li>Ensure each header is unique.</li>
       <li>No subheaders.</li>
-    </ul>   
-  </li>
+    </ul></li>
   <li>Use consistent formatting within a column.</li>
   <li>Each row represents a different feature.</li>
   <li>No blank rows.</li>
   <li>For table joins, ensure matching field names and formats.</li>
 </ul>
 <br>
+
 <strong>Not This</strong>
 <br>
 <img src="{{ '/assets/images/graph1.png' | relative_url }}"
