@@ -70,21 +70,23 @@ To successfully use a CSV or Google Sheet in GIS software:<br>
 <br>
 <img src="{{ '/assets/images/graph1.png' | relative_url }}"
      alt="How not to set up Excel"
-     width="400">
+     width="400", height="400">
 <br>
+
 <strong>This</strong>
 <br>
+
 <img src="{{ '/assets/images/graph2.png' | relative_url }}"
      alt="How to set up Excel"
      width="600">
 <br>
 <strong>Cleaning Messy Data</strong>
 <ul>
-  <li>**OpenRefine** – A powerful free, open-source tool for cleaning, transforming, and enriching messy datasets.</li>
+  <li><strong>OpenRefine</strong> – A powerful free, open-source tool for cleaning, transforming, and enriching messy datasets.</li>
 </ul>
 
 <strong>General Resources</strong>
 <ul>
-  <li>[Cleaning messy coordinate data](https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data)</li>
-  <li>[Analyzing and visualizing data](https://guides.library.ucla.edu/c.php?g=1234052&p=9127691)</li>
+  <li><a href="https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data">Cleaning messy coordinate data</a></li>
+  <li><a href="https://guides.library.ucla.edu/c.php?g=1234052&p=9127691">Analyzing and visualizing data</a></li>
 </ul>
