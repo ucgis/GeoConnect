@@ -50,17 +50,6 @@ If you upload a scanned image of a map to a GIS, the platform doesn’t initiall
 4. The GIS software uses these matched control points to calculate the transformation and place the map in its correct geographic position.
 </details>
 
-<script>
-function expandAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = true);
-}
-
-function collapseAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = false);
-}
-</script>
 
 Some platforms, such as ArcGIS Online and Google Earth Pro, allow the user to match a scanned image to the basemap by dragging and rotating it, then pinning identifiable locations on the image to the same location on the basemap. (In ArcGIS Online, the relevant tool is called Add Media Layer.) This is sometimes referred to as rubber-sheeting. This approach may be useful when a high level of precision is not required.
 
@@ -102,3 +91,14 @@ Some platforms, such as ArcGIS Online and Google Earth Pro, allow the user to ma
 * Create points on a map (ArcGIS Pro): [https://doc.esri.com/en/arcgis-pro/latest/get-started/create-points-on-a-map.html](https://doc.esri.com/en/arcgis-pro/latest/get-started/create-points-on-a-map.html)  
 * Create features in QGIS: [https://docs.qgis.org/3.44/en/docs/training\_manual/create\_vector\_data/create\_new\_vector.html](https://docs.qgis.org/3.44/en/docs/training_manual/create_vector_data/create_new_vector.html) 
 
+<script>
+function expandAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = true);
+}
+
+function collapseAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = false);
+}
+</script>
