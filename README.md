@@ -115,7 +115,9 @@ uc-gis/
 3. Upload your image (e.g., map.png)
 save in /assets/images/<br></br>
 Include this code:
-  <img src="/assets/images/map.png" alt="Map description" width="600"
+<img src="{{ '/assets/images/graph2.png' | relative_url }}"
+     alt="Table showing county with ethnicity expanded out into types"
+     style="max-width:600px; width:100%; height:auto;"> 
 
 ### Creating a Question Page
 
