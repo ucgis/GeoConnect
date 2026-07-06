@@ -51,8 +51,8 @@ Sometimes we find data that’s available in one of the many acceptable GIS file
   * Geopackage (.gpkg)<br>
 * ArcGIS Pro project package (.ppkx) ?<br>
 <p>There may be other times where you don’t have a tangible file. Your data might already be in an online GIS platform.</p> 
-</details>
 <br>
+</details>
 <details class="collapsible">
 <summary><strong>Spreadsheets</strong></summary>
 Many times you may have data that is in a spreadsheet format. If your data is in a spreadsheet, you must have at least one field that contains location based information. This may include, Latitude/Longitude, an address, or some other type of geographic identifier (such as census tracts, administrative boundaries, school districts, or other).<br>
@@ -68,7 +68,7 @@ If you have a scanned image of a map, you can utilize it in a GIS platform.
 </details>
 <details class="collapsible">
 <summary><strong>Other</strong></summary>
-Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this Note:knowing that in the future we can provide a section on this
+Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this Note:knowing that in the future we can provide a section on this.
 </details>
 
 <script>
