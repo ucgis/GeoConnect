@@ -71,16 +71,29 @@ Some platforms, such as ArcGIS Online and Google Earth Pro, allow the user to ma
   <button onclick="collapseAll()">Collapse all</button>
 </div>
 <details class="collapsible">
-  <summary><strong>Is your image already georeferenced?</strong></summary>   
-  * When you open the data in a GIS program, does it have a coordinate system? One way to find out is if the data has a .prj or a world file (.tfw, .jfw). If your image has a (0,0) coordinate   
-  * Do you have an image downloaded from a public website (USGS, USDA, NASA)?   
-    * Such websites are more likely to provide georeferenced images.  
-  * Are these historic images or contemporary?  
-    * Contemporary images are more likely to have locational information in the file.   
-  * A file designated as a GeoTIFF is already georeferenced.  
-* Did you download the data from an authoritative source (David Rumsey), or did you scan the image yourself?  
-  * The quality of the scan may influence how easily the image can be georeferenced.
-  
+  <summary><strong>Is your image already georeferenced?</strong></summary> 
+	<ul>
+    <li>When you open the data in a GIS program, does it have a coordinate system? One way to find out is if the data has a .prj or a world file (.tfw, .jfw). If your image has a (0,0) coordinate</li>   
+  <li>Do you have an image downloaded from a public website (USGS, USDA, NASA)?</li>    
+    <li>Such websites are more likely to provide georeferenced images.</li>   
+  <li>Are these historic images or contemporary?</li>   
+    <li>Contemporary images are more likely to have locational information in the file.</li>    
+  <li>A file designated as a GeoTIFF is already georeferenced.</li>   
+<li>Did you download the data from an authoritative source (David Rumsey), or did you scan the image yourself?</li>   
+  <li>The quality of the scan may influence how easily the image can be georeferenced.</li> 
+	</ul>
+</details>
+<script>
+function expandAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = true);
+}
+
+function collapseAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = false);
+}
+</script>  
 **Common Use Cases**
 
 * Historical mapping: lay old paper maps or city plans over modern satellite imagery.   
