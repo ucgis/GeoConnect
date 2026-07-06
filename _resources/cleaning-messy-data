@@ -79,6 +79,7 @@ To successfully use a CSV or Google Sheet in GIS software:<br>
      alt="How to set up Excel"
      width="600">
 <br>
+
 <strong>Cleaning Messy Data</strong>
 <ul>
   <li><strong>OpenRefine</strong> – A powerful free, open-source tool for cleaning, transforming, and enriching messy datasets.</li>
