@@ -14,18 +14,13 @@ next_steps:
   - label: "My data is clean"
     type: resource
     ref: ingest-data
-
   - label: "I want to join two or more datasets"
     type: resource
     ref: table-join
-
-  - label: "I don't know, or it's none of these."
-    type: resource
-    ref: get-help
 ---
 
 <nav class="breadcrumbs">
-   '/' | relative_url }}">Geocoding</a>
+   '/' | relative_url }}">geocoding</a>
 
   {% if page.parent %}
     /
