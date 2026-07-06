@@ -1,6 +1,6 @@
 ---
 title: "Do you have the data you need?"
-sub-title: "Here are some questions to think through about your data before you get started mapping. List of data assessment questions."
+sub-title: "Here are some questions to think through about your data before you get started mapping."
 parent: "getting started with data"
 permalink: /do-you-have-data/
 next-steps:
