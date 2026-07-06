@@ -60,11 +60,11 @@ To successfully use a CSV or Google Sheet in GIS software to make a map:
 
 Not this ...
 
-{{ "/assets/images/graph1.png" | relative_url }}
+<img src="/assets/images/graph1.png" alt="Table showing county and ethnicity columns" width="600">
 
 This:
 
-{{ "/assets/images/graph2.png" | relative_url }}
+<img src="/assets/images/graph2.png" alt="Table showing county with ethnicity expanded out into types" width="600">
 
 ### Cleaning Messy Data
 
