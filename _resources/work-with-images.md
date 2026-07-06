@@ -65,17 +65,21 @@ function collapseAll() {
 
 Some platforms, such as ArcGIS Online and Google Earth Pro, allow the user to match a scanned image to the basemap by dragging and rotating it, then pinning identifiable locations on the image to the same location on the basemap. (In ArcGIS Online, the relevant tool is called Add Media Layer.) This is sometimes referred to as rubber-sheeting. This approach may be useful when a high level of precision is not required.
 
-* *Is your image already georeferenced?*   
-  * *When you open the data in a GIS program, does it have a coordinate system? One way to find out is if the data has a .prj or a world file (.tfw, .jfw). If your image has a (0,0) coordinate*   
-  * *Do you have an image downloaded from a public website (USGS, USDA, NASA)?*   
-    * *Such websites are more likely to provide georeferenced images.*  
-  * *Are these historic images or contemporary?*  
-    * *Contemporary images are more likely to have locational information in the file.*   
-  * *A file designated as a GeoTIFF is already georeferenced.*  
-* *Did you download the data from an authoritative source (David Rumsey), or did you scan the image yourself?*   
-  * *The quality of the scan may influence how easily the image can be georeferenced.*
-
-
+<!-- Expand / Collapse Controls -->
+<div style="margin: 1.5rem 0;">
+  <button onclick="expandAll()">Expand all</button>
+  <button onclick="collapseAll()">Collapse all</button>
+</div>
+<details class="collapsible">
+  <summary><strong>Is your image already georeferenced?</strong></summary>   
+  * When you open the data in a GIS program, does it have a coordinate system? One way to find out is if the data has a .prj or a world file (.tfw, .jfw). If your image has a (0,0) coordinate   
+  * Do you have an image downloaded from a public website (USGS, USDA, NASA)?   
+    * Such websites are more likely to provide georeferenced images.  
+  * Are these historic images or contemporary?  
+    * Contemporary images are more likely to have locational information in the file.   
+  * A file designated as a GeoTIFF is already georeferenced.  
+* Did you download the data from an authoritative source (David Rumsey), or did you scan the image yourself?  
+  * The quality of the scan may influence how easily the image can be georeferenced.
   
 **Common Use Cases**
 
