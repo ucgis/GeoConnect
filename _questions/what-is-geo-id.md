@@ -49,8 +49,10 @@ Some examples:
 * 124 Main Street  
 * 2400 Block of Elm St  
 * 917 1st Avenue, Anywhere, CA, 12398
-
+</details>
 </div>
+
+<div markdown="1">
 <details class="collapsible">
 <summary><strong>Administrative units</strong></summary> 
 
@@ -64,8 +66,10 @@ Some examples:
 * State name \- California or 06 (FIPS code)  
 * Voting district \- San Francisco Supervisorial District 1  
 * Parcel numbers
-
+</details>
 </div>
+
+<div markdown="1">
 <details class="collapsible">
 <summary><strong>Place names & points of interest</strong></summary>
 
@@ -73,8 +77,10 @@ Place names can be interesting. The approach you select will depend on how you w
 
 * FIPS  
 * GNIS
-
+</details>
 </div>
+
+<div markdown="1">
 <details class="collapsible">
 <summary><strong>XY coordinates (latitude and longitude)</strong></summary>
 
@@ -84,9 +90,8 @@ With XY coordinates, the X value indicates how far east or west a feature is (lo
 * 37° 22' 30.6624", \- 120° 25' 9.5484"  
 * 37° 22.51104', \- 120° 25.15914'  
 * Easting: 487,000 m, Northing: 3,618,000 m
-
 </details>
-
+</div>
 <script>
 function expandAll() {
   document.querySelectorAll('details.collapsible')
