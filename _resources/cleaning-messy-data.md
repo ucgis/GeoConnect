@@ -60,7 +60,7 @@ To successfully use a CSV or Google Sheet in GIS software to make a map:
 
 Not this ...
 
-<img src="https://ucgis.github.io/geoconnect/assets/images/graph1.png" alt="Table showing county and ethnicity columns" width="600">
+<img src="/assets/images/graph1.png" alt="Table showing county and ethnicity columns" width="600">
 
 This:
 
@@ -68,11 +68,11 @@ This:
 
 ### Cleaning Messy Data
 
-* https://openrefine.org/ — A powerful free, open-source tool for working with messy data: cleaning it, transforming it from one format into another, and extending it.
+* [<strong>OpenRefine</strong>](https://openrefine.org/) — A powerful free, open-source tool for working with messy data: cleaning it, transforming it from one format into another, and extending it.
 
 ### General Resources
 
-* Cleaning messy coordinate data: <https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data>
-* Analyzing and visualizing data: <https://guides.library.ucla.edu/c.php?g=1234052&p=9127691>
+* [Cleaning messy coordinate data](https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data)
+* [Analyzing and visualizing data](<https://guides.library.ucla.edu/c.php?g=1234052&p=9127691)
 
 
