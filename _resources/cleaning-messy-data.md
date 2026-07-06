@@ -60,7 +60,7 @@ To successfully use a CSV or Google Sheet in GIS software to make a map:
 
 Not this ...
 
-<img src="https://geoconnect.github.io/assets/images/graph1.png" alt="Table showing county and ethnicity columns" width="600">
+<img src="https://ucgis.github.io/geoconnect/assets/images/graph1.png" alt="Table showing county and ethnicity columns" width="600">
 
 This:
 
