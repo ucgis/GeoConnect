@@ -43,7 +43,6 @@ If you upload a scanned image of a map to a GIS, the platform doesn’t initiall
   <button onclick="collapseAll()">Collapse all</button>
 </div>
 <details class="collapsible">
-<details class="collapsible">
   <summary><strong>Example: Suppose you have a scanned historical map:</strong></summary>
   <ol>
     <li>Identify a road intersection on the scanned map.</li>
