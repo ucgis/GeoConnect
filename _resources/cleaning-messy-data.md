@@ -62,13 +62,13 @@ Not this ...
 
 <img src="{{ '/assets/images/graph1.png' | relative_url }}"
      alt="Table showing county and ethnicity columns"
-     style="max-width:200px; width:100%; height:auto;> 
+     style="max-width:200px; width:100%; height:auto;"> 
 
 This:
 
 <img src="{{ '/assets/images/graph2.png' | relative_url }}"
      alt="Table showing county with ethnicity expanded out into types"
-     style="max-width:200px; width:100%; height:auto;> 
+     style="max-width:200px; width:100%; height:auto;"> 
 
 ### Cleaning Messy Data
 
