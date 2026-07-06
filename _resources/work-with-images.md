@@ -43,13 +43,26 @@ If you upload a scanned image of a map to a GIS, the platform doesn’t initiall
   <button onclick="collapseAll()">Collapse all</button>
 </div>
 <details class="collapsible">
-<summary><strong>Example: Suppose you have a scanned historical map:</summary>
-1. On the scanned map, identify a road intersection.  
-2. Find that exact intersection on a georeferenced aerial image or basemap.  
-3. Repeat for several well-distributed locations.  
-4. The GIS software uses these matched control points to calculate the transformation and place the map in its correct geographic position.
+<details class="collapsible">
+  <summary><strong>Example: Suppose you have a scanned historical map:</strong></summary>
+  <ol>
+    <li>Identify a road intersection on the scanned map.</li>
+    <li>Find that exact intersection on a georeferenced aerial image or basemap.</li>
+    <li>Repeat for several well-distributed locations.</li>
+    <li>The GIS software uses these matched control points to calculate the transformation and place the map in its correct geographic position.</li>
+  </ol>
 </details>
+<script>
+function expandAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = true);
+}
 
+function collapseAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = false);
+}
+</script>
 
 Some platforms, such as ArcGIS Online and Google Earth Pro, allow the user to match a scanned image to the basemap by dragging and rotating it, then pinning identifiable locations on the image to the same location on the basemap. (In ArcGIS Online, the relevant tool is called Add Media Layer.) This is sometimes referred to as rubber-sheeting. This approach may be useful when a high level of precision is not required.
 
@@ -91,14 +104,4 @@ Some platforms, such as ArcGIS Online and Google Earth Pro, allow the user to ma
 * Create points on a map (ArcGIS Pro): [https://doc.esri.com/en/arcgis-pro/latest/get-started/create-points-on-a-map.html](https://doc.esri.com/en/arcgis-pro/latest/get-started/create-points-on-a-map.html)  
 * Create features in QGIS: [https://docs.qgis.org/3.44/en/docs/training\_manual/create\_vector\_data/create\_new\_vector.html](https://docs.qgis.org/3.44/en/docs/training_manual/create_vector_data/create_new_vector.html) 
 
-<script>
-function expandAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = true);
-}
 
-function collapseAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = false);
-}
-</script>
