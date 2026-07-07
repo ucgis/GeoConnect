@@ -147,5 +147,8 @@ function collapseAll() {
 
 ## General Resources
 
-_includes/resources/
-  visualize.md
+{% capture visualize_content %}
+{% include resources/visualize.md %}
+{% endcapture %}
+
+{{ visualize_content | markdownify }}
