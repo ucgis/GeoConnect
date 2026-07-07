@@ -1,3 +1,8 @@
+
+---
+title: Visualization
+---
+
 - [ESRI Basemaps](https://developers.arcgis.com/documentation/mapping-and-location-services/mapping/basemaps/)
 - [ArcGIS Online: Add Files as Items](https://doc.arcgis.com/en/arcgis-online/manage-data/add-files-as-items.htm)
 - [ArcGIS Pro: Add Data](https://doc.esri.com/en/arcgis-pro/latest/get-started/add-data-to-your-project.html)
