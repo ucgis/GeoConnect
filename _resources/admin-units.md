@@ -19,6 +19,17 @@ next-steps:
     ref: geocoding
 
 ---
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% if page.parent %}
+    /
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% endif %}
+
+  /
+  <span>{{ page.title }}</span>
+</nav>
 
 Administrative units may include political boundaries as well as areas or districts that are used in the everyday work of government agencies or utilities. Examples include Census tracts, water districts or school districts, neighborhoods of a city defined by the city government, service areas, etc. Place names such as bodies of water (e.g. Lake Superior) or National Parks have designated boundaries that can be mapped. Maps of these boundaries may not be easy to find, but the data associated with administrative units and place names may be critical for understanding a spatial problem.
 
@@ -39,7 +50,7 @@ Use a spatial join if you:
 ## Recommended practices:
 
 * Try to choose a tool that will create a new file. If the tool you choose creates a temporary join, make sure you save your joined data as a new file.   
-* Some tools will allow you to select the fields you want to add to the new file so that only those are added. You can also delete un-needed fields from the files either before or after the join. **Remember: There are some fields that GIS programs require, like the ObjectID field. Don’t delete these\!**
+* Some tools will allow you to select the fields you want to add to the new file so that only those are added. You can also delete un-needed fields from the files either before or after the join. **Remember: There are some fields that GIS programs require, like the ObjectID field. Don’t delete these!**
 
 ## Method 1: Table Join
 
@@ -97,21 +108,21 @@ Why one might choose a spatial join over a table join is in a spatial join, you 
 
 ### QGIS
 
-* Joining features between layers (QGIS Documentation): [https://docs.qgis.org/3.44/en/docs/user\_manual/working\_with\_vector/joins\_relations.html\#joining-features-between-two-layers](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/joins_relations.html#joining-features-between-two-layers)   
+* [Joining features between layers (QGIS Documentation)](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/joins_relations.html#joining-features-between-two-layers)   
   * Tool-based documentation  
-* Performing Table Joins: [https://www.qgistutorials.com/en/docs/3/performing\_table\_joins.html](https://www.qgistutorials.com/en/docs/3/performing_table_joins.html)  
+* [Performing Table Joins](https://www.qgistutorials.com/en/docs/3/performing_table_joins.html)  
   * A short tutorial that walks you through obtaining a population data table and a boundary file from the US Census website, uploading them into QGIS, and creating a new joined file using a Table Join. Also includes steps to create a population density map for California from this new file.
 
 ### ArcGIS Pro
 
-* Add Join (Data Management): [https://pro.arcgis.com/en/pro-app/3.4/tool-reference/data-management/add-join.htm](https://pro.arcgis.com/en/pro-app/3.4/tool-reference/data-management/add-join.htm)   
+* [Add Join (Data Management)](https://pro.arcgis.com/en/pro-app/3.4/tool-reference/data-management/add-join.htm)   
   * Tool-based documentation   
-* Join tabular data to a spatial layer:  [https://learn.arcgis.com/en/projects/join-tabular-data-to-a-spatial-layer/](https://learn.arcgis.com/en/projects/join-tabular-data-to-a-spatial-layer/)    
+* [Join tabular data to a spatial layer](https://learn.arcgis.com/en/projects/join-tabular-data-to-a-spatial-layer/)    
   * A 15 minute tutorial that has you join a CSV of data to a layer in ArcGIS Pro
 
 ### ArcGIS Online
 
-* Join Features: [https://doc.arcgis.com/en/arcgis-online/analyze/join-features-mv.htm](https://doc.arcgis.com/en/arcgis-online/analyze/join-features-mv.htm)   
+* [Join Features](https://doc.arcgis.com/en/arcgis-online/analyze/join-features-mv.htm)   
   * Tool-based documentation  
-* Join a table to a feature layer in ArcGIS Online:  [https://learn.arcgis.com/en/projects/join-a-table-to-a-feature-layer-in-arcgis-online/](https://learn.arcgis.com/en/projects/join-a-table-to-a-feature-layer-in-arcgis-online/)   
+* [Join a table to a feature layer in ArcGIS Online](https://learn.arcgis.com/en/projects/join-a-table-to-a-feature-layer-in-arcgis-online/)   
   * A 15 minute tutorial that has you join data from a CSV to an existing layer in ArcGIS Online 
