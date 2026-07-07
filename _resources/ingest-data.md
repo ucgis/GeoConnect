@@ -73,10 +73,25 @@ There are a few different ways to add data to a map.
   <summary><strong>Python</strong></summary>
 
 <pre><code class="language-python">
+# Adding GIS (Geographic Information System) data to Python is very common
+# in data science, mapping, and spatial analysis.
+
+# General workflow:
+# 1. Install the right libraries
+# 2. Load GIS data (e.g., shapefiles, GeoJSON, raster)
+# 3. Work with it (analyze, transform, visualize)
+
 import geopandas as gpd
 
+# Load shapefile
 gdf = gpd.read_file("data/shapefile.shp")
+
+# View data
 print(gdf.head())
+
+# Load GeoJSON
+gdf = gpd.read_file("data/file.geojson")
+
 </code></pre>
 
 </details>
@@ -132,13 +147,10 @@ function collapseAll() {
 
 ## General Resources
 
-- ESRI Basemaps  
-  https://developers.arcgis.com/documentation/mapping-and-location-services/mapping/basemaps/
-
-- ArcGIS Online: Add Files as Items  
-  https://doc.arcgis.com/en/arcgis-online/manage-data/add-files-as-items.htm
-
-- ArcGIS Pro: Add Datattps://doc.esri.com/en/arcgis-pro/latest/get-started/add-data-to-your-project.html
-
-- QGIS: Basic Map Preparation  
-  https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/preparation.html
+- [ESRI Basemaps]  
+  (https://developers.arcgis.com/documentation/mapping-and-location-services/mapping/basemaps/)
+- [ArcGIS Online: Add Files as Items]  
+  (https://doc.arcgis.com/en/arcgis-online/manage-data/add-files-as-items.htm)
+- [ArcGIS Pro: Add Data](https://doc.esri.com/en/arcgis-pro/latest/get-started/add-data-to-your-project.html)
+- [QGIS: Basic Map Preparation]  
+  (https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/preparation.html)
