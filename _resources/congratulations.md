@@ -1,4 +1,4 @@
-<p align="center">**Congratulations!**</p> 
+<p align="center"><strong>Congratulations!</strong></p> 
 <p align="center">You've Reached the end of the UC GIS Consultation Tool</p>
 
 **Welcome to the UC Geospatial Community**
