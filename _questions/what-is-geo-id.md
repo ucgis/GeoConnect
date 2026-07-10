@@ -1,5 +1,6 @@
 ---
 title: "What is the geographic identifier?"
+sub-title: "All spatial data needs information about **where**."
 parent: "getting started with data"
 permalink: /what-is-geo-id/
 next-steps:
