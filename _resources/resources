@@ -4,6 +4,12 @@ title: Resource List
 
 - ...
 ---
+**Lat-Long**
+* [Lat-Long Graphic](https://en.wikipedia.org/wiki/Geographic_coordinate_system#/media/File:FedStats_Lat_long.svg)   
+* [Formula for converting Degrees Minutes Seconds to Decimal Degrees](https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees)  
+* [UTM to Latitude and Longitude Convertor](https://www.ngs.noaa.gov/NCAT/)  
+* [Map Projections](https://gistbok-ltb.ucgis.org/page/current/concept/CV-03-006)
+
 **Ingest Data**
 - [ESRI Basemaps](https://developers.arcgis.com/documentation/mapping-and-location-services/mapping/basemaps/)
 - [ArcGIS Online: Add Files as Items](https://doc.arcgis.com/en/arcgis-online/manage-data/add-files-as-items.htm)
