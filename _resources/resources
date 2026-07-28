@@ -4,6 +4,23 @@ title: Resource List
 
 - ...
 ---
+
+
+**Finalize Maps**
+* [ESRI: Create maps, scenes, and apps](https://doc.esri.com/en/arcgis-enterprise/latest/create/create-maps-and-apps.html?pivots=os-windows)  
+* [Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services]  
+  (https://www.youtube.com/watch?v=0gekWZy8k3w)  
+* [QGIS](https://www.qgistutorials.com/en/docs/3/web_mapping_with_qgis2web.html)   
+* [Google Earth: Create engaging map experiences](https://mapsplatform.google.com/solutions/build-immersive-experiences/)
+
+**Cleaning Messy Data**
+* [Cleaning messy coordinate data](https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data)
+* [Analyzing and visualizing data](https://guides.library.ucla.edu/c.php?g=1234052&p=9127691)
+
+**Choose a Platform**
+* [GIS and Digital Mapping Tools matrix](https://docs.google.com/spreadsheets/d/e/2PACX-1vRO90zVdeOgK7gMNa1lLuP7RfZXsqB0SYuW5vgmRsOMpWjlg9ruUbjiSSIf8lqq5OiCp0f6tLDTHOEr/pubhtml)
+* [associated library research guide](https://guides.lib.ucr.edu/c.php?g=171041&p=8392166)
+
 **Lat-Long**
 * [Lat-Long Graphic](https://en.wikipedia.org/wiki/Geographic_coordinate_system#/media/File:FedStats_Lat_long.svg)   
 * [Formula for converting Degrees Minutes Seconds to Decimal Degrees](https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees)  
@@ -43,3 +60,27 @@ title: Resource List
 * [Create a Layer and Add Features in ArcGIS Online](https://www.esri.com/about/newsroom/arcwatch/create-a-layer-and-add-features-in-arcgis-online)
 *[Create points on a map (ArcGIS Pro)](https://doc.esri.com/en/arcgis-pro/latest/get-started/create-points-on-a-map.html)  
 * [Create features in QGIS](https://docs.qgis.org/3.44/en/docs/training_manual/create_vector_data/create_new_vector.html) 
+
+**Admin Units**
+## Tool-specific Documentation Links 
+
+### QGIS
+
+* [Joining features between layers (QGIS Documentation)](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/joins_relations.html#joining-features-between-two-layers)   
+  * Tool-based documentation  
+* [Performing Table Joins](https://www.qgistutorials.com/en/docs/3/performing_table_joins.html)  
+  * A short tutorial that walks you through obtaining a population data table and a boundary file from the US Census website, uploading them into QGIS, and creating a new joined file using a Table Join. Also includes steps to create a population density map for California from this new file.
+
+### ArcGIS Pro
+
+* [Add Join (Data Management)](https://pro.arcgis.com/en/pro-app/3.4/tool-reference/data-management/add-join.htm)   
+  * Tool-based documentation   
+* [Join tabular data to a spatial layer](https://learn.arcgis.com/en/projects/join-tabular-data-to-a-spatial-layer/)    
+  * A 15 minute tutorial that has you join a CSV of data to a layer in ArcGIS Pro
+
+### ArcGIS Online
+
+* [Join Features](https://doc.arcgis.com/en/arcgis-online/analyze/join-features-mv.htm)   
+  * Tool-based documentation  
+* [Join a table to a feature layer in ArcGIS Online](https://learn.arcgis.com/en/projects/join-a-table-to-a-feature-layer-in-arcgis-online/)   
+  * A 15 minute tutorial that has you join data from a CSV to an existing layer in ArcGIS Online 
