@@ -77,6 +77,6 @@ This:
 ### General Resources
 
 * [Cleaning messy coordinate data](https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data)
-* [Analyzing and visualizing data](<https://guides.library.ucla.edu/c.php?g=1234052&p=9127691)
+* [Analyzing and visualizing data](https://guides.library.ucla.edu/c.php?g=1234052&p=9127691)
 
 
