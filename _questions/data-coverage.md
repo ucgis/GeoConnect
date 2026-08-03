@@ -1,7 +1,8 @@
 ---
 title: "Let's check that the data coverage is what you need."
-sub-title: "Do you just want to map locations, or are you trying to map something about the data?"
+subtitle: "Do you just want to map locations, or are you trying to map something about the data?"
 parent: "ingest-data"
+parent_url: "/ingest-data/"
 permalink: /data-coverage/
 next-steps:
   - label: "I'm just mapping locations."
