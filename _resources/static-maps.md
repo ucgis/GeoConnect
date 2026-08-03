@@ -1,6 +1,6 @@
 ---
 title: "How to print or take a screenshot of a map."
-sub-title: "Brief description"
+sub-title: "A static map is a fixed, non-interactive image of a geographic area"
 jobs_to_be_done:
   - "Goal 1"
   - "Goal 2"
