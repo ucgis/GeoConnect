@@ -1,6 +1,6 @@
 ---
 title: "Cleaning Messy Data"
-subtitle: "Brief description"
+subtitle: "Involves standardizing formats, removing duplicates, and addressing missing or incorrect values."
 
 jobs_to_be_done:
   - "Goal 1"
