@@ -13,7 +13,6 @@ next-steps:
   - label: "It's in latitude and longitude (XY coordinates)."
     type: resource
     ref: lat-long
-    
 ---
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
