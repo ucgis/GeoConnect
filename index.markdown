@@ -14,61 +14,43 @@ title: UC GIS Consultation Tool
   </div>
 
   <div class="starting-points">
-    <h2>Common Starting Points</h2>
-    <div class="cards-grid">
-      {% assign start_question = site.questions | where: "slug", "do-you-have-data" | first %}
-      {% if start_question %}
-      <div class="card card-featured card-question">
-        <a href="{{ start_question.url | relative_url }}" class="card-link">
-          <div class="card-icon">
-            <i data-lucide="git-branch"></i>
-          </div>
-          <div class="card-content">
-            <h3>{{ start_question.title }}</h3>
-            {% if start_question.sub-title %}
-            <p class="card-subtitle">{{ start_question.sub-title }}</p>
-            {% endif %}
-          </div>
-          <div class="card-arrow">→</div>
-        </a>
-      </div>
-      {% endif %}
-<div class="cards-grid">
-      {% assign start_question = site.questions | where: "slug", "graphic-representation" | first %}
-      {% if start_question %}
-      <div class="card card-featured card-question">
-        <a href="{{ start_question.url | relative_url }}" class="card-link">
-          <div class="card-icon">
-            <i data-lucide="git-branch"></i>
-          </div>
-          <div class="card-content">
-            <h3>{{ start_question.title }}</h3>
-            {% if start_question.sub-title %}
-            <p class="card-subtitle">{{ start_question.sub-title }}</p>
-            {% endif %}
-          </div>
-          <div class="card-arrow">→</div>
-        </a>
-      </div>
-      {% endif %}
+  <h2>Common Starting Points</h2>
+
   <div class="cards-grid">
-      {% assign start_question = site.questions | where: "slug", "data-coverage" | first %}
-      {% if start_question %}
-      <div class="card card-featured card-question">
-        <a href="{{ start_question.url | relative_url }}" class="card-link">
-          <div class="card-icon">
-            <i data-lucide="git-branch"></i>
-          </div>
-          <div class="card-content">
-            <h3>{{ start_question.title }}</h3>
-            {% if start_question.sub-title %}
-            <p class="card-subtitle">{{ start_question.sub-title }}</p>
-            {% endif %}
-          </div>
-          <div class="card-arrow">→</div>
-        </a>
-      </div>
-      {% endif %}
+
+    {% assign start_question = site.questions | where: "slug", "do-you-have-data" | first %}
+    {% if start_question %}
+    <div class="card card-featured card-question">
+      ...
+    </div>
+    {% endif %}
+
+    {% assign start_question = site.questions | where: "slug", "graphic-representation" | first %}
+    {% if start_question %}
+    <div class="card card-featured card-question">
+      ...
+    </div>
+    {% endif %}
+
+    {% assign start_question = site.questions | where: "slug", "data-coverage" | first %}
+    {% if start_question %}
+    <div class="card card-featured card-question">
+      ...
+    </div>
+    {% endif %}
+
+    <!-- Placeholder cards for future starting points -->
+
+    <div class="card card-question">
+      ...
+    </div>
+
+    <div class="card card-resource">
+      ...
+    </div>
+
+  </div>
+</div>
       
 <!-- Placeholder cards for future starting points -->
       <div class="card card-question">
