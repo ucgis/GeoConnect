@@ -26,7 +26,6 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
-
 ## Finding Quality GIS Data
 
 Once you've identified potential data sources, consider these factors when evaluating datasets:
