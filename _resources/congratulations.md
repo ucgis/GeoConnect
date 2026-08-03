@@ -28,4 +28,3 @@ The UC GIS Consultation Tool is more than a website—it's an ongoing collaborat
 **What Helped Make This Possible**
 
 This tool was built through a collaborative effort among librarians and GIS specialists from across the UC campuses. Through surveys, discussions, and community engagement, we worked to better understand the needs of GIS users and create a centralized space that makes geospatial resources easier to discover, access, and share. The creation of this tool would not have been possible without a research grant from the [Librarians Association of the University of California (LAUC)](https://lauc.wildapricot.org/).
-
