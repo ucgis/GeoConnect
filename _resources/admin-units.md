@@ -1,6 +1,6 @@
 ---
 title: "Admin Units"
-sub-title: "Brief description"
+sub-title: "official political or organizational boundaries—such as countries, states, and counties—used to structure, analyze, and display spatial data"
 jobs_to_be_done:
   - "Goal 1"
   - "Goal 2"
