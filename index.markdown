@@ -13,57 +13,90 @@ title: UC GIS Consultation Tool
     <p>Choose a starting point below, or begin with the most common question:</p>
   </div>
 
-  <h2>Common Starting Points</h2>
+<h2>Common Starting Points</h2>
+
+<style>
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-link:hover .card {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+</style>
 
 <div class="card-grid">
-  
-      <div class="card card-question">
-        <div class="do-you-have-data">
-          <div class="card-icon">
-            <i data-lucide="sparkles"></i>
-          </div>
-          <div class="card-content">
-            <h3>Do you have the data you need?</h3>
-            <p class="card-subtitle coming-soon">Here are some questions to think through about your data before you get started mapping.</p>
-          </div>
-        </div>
+<a href-do-you-have-data.md
+  <div class="card card-question">
+    <div class="do-you-have-data">
+      <div class="card-icon">
+        <i data-lucide="sparkles"></i>
       </div>
+      <div class="card-content">
+        <h3>Do you have the data you need?</h3>
+        <p class="card-subtitle coming-soon">
+          Here are some questions to think through about your data before you get started mapping.
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
+  <div class="card card-resource">
+    <div class="what-do-you-want-to-map">
+      <div class="card-icon">
+        <i data-lucide="globe"></i>
+      </div>
+      <div class="card-content">
+        <h3>What do you want to map?</h3>
+        <p class="card-subtitle coming-soon">
+          All spatial data needs information about <strong>where</strong>.
+        </p>
+      </div>
+    </div>
+  </div>
 
-      <div class="card card-resource">
-        <div class="what-do-you-want-to-map">
-          <div class="card-icon">
-            <i data-lucide="globe"></i>
-          </div>
-          <div class="card-content">
-            <h3>What do you want to map?</h3>
-            <p class="card-subtitle coming-soon">All spatial data needs information about **where**.</p>
-          </div>
-        </div>
+  <div class="card card-resource">
+    <div class="what-is-geo-id">
+      <div class="card-icon">
+        <i data-lucide="globe"></i>
       </div>
+      <div class="card-content">
+        <h3>What is the geographic identifier?</h3>
+        <p class="card-subtitle coming-soon">
+          What map do you want to create?
+        </p>
+      </div>
+    </div>
+  </div>
 
-      <div class="card card-resource">
-        <div class="what-is-geo-id">
-          <div class="card-icon">
-            <i data-lucide="globe"></i>
-          </div>
-          <div class="card-content">
-            <h3>What is the geographic identifier?</h3>
-            <p class="card-subtitle coming-soon">What map do you want to create?</p>
-          </div>
-        </div>
+  <div class="card card-question">
+    <div class="do-you-have-data">
+      <div class="card-icon">
+        <i data-lucide="sparkles"></i>
       </div>
+      <div class="card-content">
+        <h3>Coming Soon</h3>
+        <p class="card-subtitle coming-soon">
+          Coming soon
+        </p>
+      </div>
+    </div>
+  </div>
 
-      <div class="card card-question">
-        <div class="do-you-have-data">
-          <div class="card-icon">
-            <i data-lucide="sparkles"></i>
-          </div>
-          <div class="card-content">
-            <h3>coming soon</h3>
-            <p class="card-subtitle coming-soon">coming soon</p>
-          </div>
-        </div>
-      </div>
 </div>
       
 <!-- Placeholder cards for future starting points -->
