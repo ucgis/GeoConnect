@@ -1,6 +1,6 @@
 ---
 title: "How to make an interactive map."
-sub-title: "Brief description"
+sub-title: "a digital, clickable map that lets users actively explore geographic data by zooming, panning, and clicking elements"
 jobs_to_be_done:
   - "Goal 1"
   - "Goal 2"
