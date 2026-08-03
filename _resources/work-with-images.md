@@ -1,6 +1,6 @@
 ---
 title: "Here's some information about how to work with images."
-sub-title: "Brief description"
+sub-title: "involves raster data like satellite photos, drone captures, and aerial scans"
 jobs_to_be_done:
   - "Goal 1"
   - "Goal 2"
@@ -115,5 +115,3 @@ function collapseAll() {
 * [Create a Layer and Add Features in ArcGIS Online](https://www.esri.com/about/newsroom/arcwatch/create-a-layer-and-add-features-in-arcgis-online)
 *[Create points on a map (ArcGIS Pro)](https://doc.esri.com/en/arcgis-pro/latest/get-started/create-points-on-a-map.html)  
 * [Create features in QGIS](https://docs.qgis.org/3.44/en/docs/training_manual/create_vector_data/create_new_vector.html) 
-
-
