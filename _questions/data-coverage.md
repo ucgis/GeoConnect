@@ -2,7 +2,7 @@
 title: "Let's check that the data coverage is what you need."
 sub-title: "Do you just want to map locations, or are you trying to map something about the data?"
 parent: "ingest-data"
-permalink: "graphic-representation"
+permalink: /data-coverage/
 next-steps:
   - label: "I'm just mapping locations."
     type: question
