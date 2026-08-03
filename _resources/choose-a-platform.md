@@ -12,6 +12,7 @@ next-steps:
     type: question
     ref: static-maps
 ---
+
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
