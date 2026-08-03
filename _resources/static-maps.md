@@ -23,7 +23,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
-You’ve done all the work for creating a map \- congratulations\! Now it’s time to make the final version to share.
+You’ve done all the work for creating a map **congratulations!** Now it’s time to make the final version to share.
 
 If your map is going to be a static rather than an interactive map, you have a few options for creating a map suitable for printing.
 
