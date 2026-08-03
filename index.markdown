@@ -53,6 +53,17 @@ title: UC GIS Consultation Tool
         </div>
       </div>
 
+      <div class="card card-question">
+        <div class="do-you-have-data">
+          <div class="card-icon">
+            <i data-lucide="sparkles"></i>
+          </div>
+          <div class="card-content">
+            <h3>coming soon</h3>
+            <p class="card-subtitle coming-soon">coming soon</p>
+          </div>
+        </div>
+      </div>
 </div>
       
 <!-- Placeholder cards for future starting points -->
