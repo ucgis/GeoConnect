@@ -96,7 +96,13 @@ Use this online converter to convert coordinate values manually one by one from 
 
 You can use a spreadsheet to convert DMS to DD in a spreadsheet program (like Excel or Google Sheets) before importing to a GIS program.
 
-*Expand for step-by-step instructions…* 
+<!-- Expand / Collapse Controls -->
+<div style="margin: 1.5rem 0;">
+  <button onclick="expandAll()">Expand all</button>
+  <button onclick="collapseAll()">Collapse all</button>
+</div>
+<details class="collapsible">
+<summary><strong>Expand for step-by-step instructions…</strong></summary>
 
 1. **Open your CSV** in a spreadsheet program.  
 2. **Use a formula** to convert the DMS values to DD. The general formula is:  
@@ -107,6 +113,8 @@ You can use a spreadsheet to convert DMS to DD in a spreadsheet program (like Ex
 3. **Create new columns** for the converted Decimal Latitude and Decimal Longitude values.  
 4. **Save the modified file** as a new CSV file.  
 5. **Import the new DD CSV** into the GIS platform you’ve chosen.
+</details>
+<details class="collapsible">
 
 ### Convert your data 
 
@@ -266,4 +274,17 @@ Is your data not lining up where you want it to be?
 * [Lat-Long Graphic](https://en.wikipedia.org/wiki/Geographic_coordinate_system#/media/File:FedStats_Lat_long.svg)   
 * [Formula for converting Degrees Minutes Seconds to Decimal Degrees](https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees)  
 * [UTM to Latitude and Longitude Convertor](https://www.ngs.noaa.gov/NCAT/)  
-* [Map Projections](https://gistbok-ltb.ucgis.org/page/current/concept/CV-03-006) 
+* [Map Projections](https://gistbok-ltb.ucgis.org/page/current/concept/CV-03-006)
+
+
+<script>
+function expandAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = true);
+}
+
+function collapseAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = false);
+}
+</script>
