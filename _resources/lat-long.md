@@ -128,11 +128,17 @@ function collapseAll() {
 </script>
 ### Convert your data 
 
-Different GIS software programs have different methods for importing and converting coordinate data to decimal degrees. Expand the different options below for step-by-step instructions for each program.
+Different GIS software programs have different methods for importing and converting coordinate data to decimal degrees.Expand the different options below for step-by-step instructions for each program.
 
-#### ArcGIS Pro: Convert Degrees Minutes Seconds (DMS)
+<!-- Expand / Collapse Controls -->
+<div style="margin: 1.5rem 0;">
+  <button onclick="expandAll()">Expand all</button>
+  <button onclick="collapseAll()">Collapse all</button>
+</div>
+<details class="collapsible">
+<summary><strong>ArcGIS Pro: Convert Degrees Minutes Seconds (DMS)</strong></summary>
 
-If you haven’t followed the recommended procedure of converting DMS to DD in your spreadsheet, the **Convert Coordinate Notation** tool can accomplish the task. *Expand for step-by-step instructions…*
+If you haven’t followed the recommended procedure of converting DMS to DD in your spreadsheet, the **Convert Coordinate Notation** tool can accomplish the task. 
 
 * Ensure your CSV has columns for Latitude and Longitude in a recognized format (e.g., 34 50 12N or 34°50’12”N).  
 * Add CSV to [ArcGIS Pro via Map tab \> Add Data](https://support.esri.com/en-us/knowledge-base/how-to-import-xy-data-tables-to-arcmap-and-convert-the--000012745). The CSV will be added as a Standalone Table.  
@@ -144,13 +150,20 @@ If you haven’t followed the recommended procedure of converting DMS to DD in y
   * For Input Coordinate Format, select **DMS 2** (or another format, if appropriate)  
   * For Output Coordinate Format, select **DD 2**.  
   * Click Run. If all goes well, points will be created in the proper locations on your map, and the coordinates will be expressed in decimal degrees in new columns in the attribute table.
+</details>
 
 #### Keep in Mind
 
 * **Coordinate System:** Ensure you define the input coordinate system as Geographic (e.g., GCS\_WGS\_1984 or NAD83) for the conversion to work accurately.  
 * **Export Data:** After displaying the points, right-click the layer and choose **Export Data** to save the points as a permanent feature class.
 
-#### QGIS: Convert Degrees Minutes Seconds (DMS)
+<!-- Expand / Collapse Controls -->
+<div style="margin: 1.5rem 0;">
+  <button onclick="expandAll()">Expand all</button>
+  <button onclick="collapseAll()">Collapse all</button>
+</div>
+<details class="collapsible">
+<summary><strong>QGIS: Convert Degrees Minutes Seconds (DMS)</strong></summary>
 
 **–** *(courtesy of Gemini)*
 
@@ -181,12 +194,18 @@ This method uses the built-in functionality in QGIS to interpret DMS coordinates
 6. **Export the layer** to a permanent format (like a Shapefile or GeoPackage) by right-clicking the layer and selecting Export \> Save Features As.... This makes the layer editable and permanent. 
 
 **Alternative: Use a QGIS Plugin: ** For recurring conversions or more advanced options, the [Coordinates Converter](https://plugins.qgis.org/plugins/coordinates_converter/) plugin from the QGIS Python Plugins Repository can also be used.
+</details>
 
-## Convert Degrees Minutes Seconds (DMS) in Python
+<div style="margin: 1.5rem 0;">
+  <button onclick="expandAll()">Expand all</button>
+  <button onclick="collapseAll()">Collapse all</button>
+</div>
+<details class="collapsible">
+<summary><strong>Convert Degrees Minutes Seconds (DMS) in Python</strong></summary> 
 
 To convert a DMS (Degrees, Minutes, Seconds) coordinate CSV file to a format with decimal degrees (DD) in Python, the recommended methods involve using the pandas library for data manipulation and the csv module for file handling, along with custom functions to perform the mathematical conversion. 
 
-**Python: Methods to Convert a CSV with data in DMS to XY (lat/long)** 
+**Python: Methods to Convert a CSV with data in DMS to XY (lat/long)**
 
 **Using pandas for Data Manipulation:** This approach is efficient for large datasets and complex column structures. It involves extracting the D, M, S components using regular expressions and then applying the conversion logic.
 
@@ -270,7 +289,7 @@ with open('input.csv', newline='') as infile, open('output.csv', 'w', newline=''
     	
     	writer.writerow(row)
 ```
-
+</details>
 ## Troubleshooting
 
 Is your data not lining up where you want it to be? 
