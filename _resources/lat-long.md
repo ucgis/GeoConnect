@@ -115,7 +115,17 @@ You can use a spreadsheet to convert DMS to DD in a spreadsheet program (like Ex
 5. **Import the new DD CSV** into the GIS platform you’ve chosen.
 </details>
 <details class="collapsible">
+<script>
+function expandAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = true);
+}
 
+function collapseAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = false);
+}
+</script>
 ### Convert your data 
 
 Different GIS software programs have different methods for importing and converting coordinate data to decimal degrees. Expand the different options below for step-by-step instructions for each program.
@@ -277,14 +287,4 @@ Is your data not lining up where you want it to be?
 * [Map Projections](https://gistbok-ltb.ucgis.org/page/current/concept/CV-03-006)
 
 
-<script>
-function expandAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = true);
-}
 
-function collapseAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = false);
-}
-</script>
