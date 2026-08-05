@@ -114,7 +114,7 @@ You can use a spreadsheet to convert DMS to DD in a spreadsheet program (like Ex
 4. **Save the modified file** as a new CSV file.  
 5. **Import the new DD CSV** into the GIS platform you’ve chosen.
 </details>
-<details class="collapsible">
+
 <script>
 function expandAll() {
   document.querySelectorAll('details.collapsible')
