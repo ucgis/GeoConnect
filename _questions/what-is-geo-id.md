@@ -40,15 +40,13 @@ You might choose different approaches depending on how you wish to visualize you
 
 <div markdown="1">
 
-  <details class="collapsible">
-  
+<details class="collapsible">
 
 <summary><strong>Addresses</strong></summary>
 
 Addresses may be in a single field or in multiple fields. They may be street blocks, or missing the actual street number. P.O. Boxes will only map to the Zip code, not the actual address. Addresses are typically visualized as points.
 
 Some examples:
-
 * 124 Main Street  
 * 2400 Block of Elm St  
 * 917 1st Avenue, Anywhere, CA, 12398
@@ -58,9 +56,10 @@ Some examples:
 </div>
 
 <div markdown="1">
-<details class="collapsible">
-<summary><strong>Administrative units</strong></summary> 
 
+<details class="collapsible">
+
+<summary><strong>Administrative units</strong></summary> 
 (census geographies, zip codes, school districts, etc.)  
 Administrative units may vary greatly based on your area of interest. Administrative units also vary around the world. Administrative units are typically visualized as areas (polygons). 
 
