@@ -45,7 +45,7 @@ You might choose different approaches depending on how you wish to visualize you
 <summary markdown="span"><strong>Addresses</strong></summary>
 Addresses may be in a single field or in multiple fields. They may be street blocks, or missing the actual street number. P.O. Boxes will only map to the Zip code, not the actual address. Addresses are typically visualized as points.
 
-Examples:
+**Examples:**
 
 | Address |
 | :---- |
@@ -76,7 +76,7 @@ OR
 <summary markdown="span"><strong>Administrative units</strong></summary> 
 Administrative units may vary greatly based on your area of interest. Administrative units also vary around the world. Administrative units are typically visualized as areas (polygons). 
 
-Some examples:
+**Examples:**
 * Census block/tract/group  \-   
 * Zip codes (5 or 9 digit) \- 12398 or 12398-3485  
 * State name \- California or 06 (FIPS code)  
@@ -93,7 +93,7 @@ Some examples:
 
 Place names can be interesting. The approach you select will depend on how you want to visualize the data. They may also require some data wrangling. Place names and points of interest can be represented by points or areas (polygons) depending on the method that you use. 
 
-Examples:
+**Examples:**
 * [Federal Information Processing Standards (FIPS)](https://www.nist.gov/standardsgov/compliance-faqs-federal-information-processing-standards-fips) \- Numerical identifiers that describe geographic areas includes two digit states codes and five digit county and entity codes.  
   * California FIPS code is 06  
   * Alameda County FIPS code is 06001          
@@ -109,7 +109,7 @@ Examples:
 
 With XY coordinates, the X value indicates how far east or west a feature is (longitude), and the Y value indicates how far north or south it is (latitude). Negative values are possible. XY coordinates can come in a number of formats. These are visualized as points.
 
-Some examples:
+**Examples:**
 * 37.375184, \-120.419319  
 * 37° 22' 30.6624", \- 120° 25' 9.5484"  
 * 37° 22.51104', \- 120° 25.15914'  
