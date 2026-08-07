@@ -14,7 +14,7 @@ sub-title: "You made a map!"
   <span>{{ page.title }}</span>
 </nav>
 
-**Congratulations!** You've reached the end of the UC GIS Consultation Tool
+**Congratulations!** You've reached the end of the UC GIS Consultation Tool.
 
 ## Welcome to the UC Geospatial Community
 
