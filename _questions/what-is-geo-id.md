@@ -9,7 +9,7 @@ next-steps:
     ref: geocoding
   - label: "It's an named place or administrative unit (census geographies, zip codes, school districts, National Parks, etc.)"
     type: resource
-    ref: admin-unit
+    ref: admin-units
   - label: "It's in latitude and longitude (XY coordinates)."
     type: resource
     ref: lat-long
