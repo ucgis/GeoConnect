@@ -285,6 +285,17 @@ with open('input.csv', newline='') as infile, open('output.csv', 'w', newline=''
     	writer.writerow(row)
 ```
 </details>
+<script>
+function expandAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = true);
+}
+
+function collapseAll() {
+  document.querySelectorAll('details.collapsible')
+    .forEach(d => d.open = false);
+}
+</script>
 ## Troubleshooting
 
 Is your data not lining up where you want it to be? 
