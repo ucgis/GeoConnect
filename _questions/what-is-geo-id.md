@@ -46,6 +46,7 @@ You might choose different approaches depending on how you wish to visualize you
 Addresses may be in a single field or in multiple fields. They may be street blocks, or missing the actual street number. P.O. Boxes will only map to the Zip code, not the actual address. Addresses are typically visualized as points.
 
 Examples:
+
 | Address |
 | :---- |
 | 124 Main Street |
