@@ -11,9 +11,9 @@ steps:
   - "Check specialized repositories like USGS Earth Explorer for specific data types."
   - "Ask your UC GIS librarian for recommendations tailored to your research needs."
 next-steps:
-  - type: question
-    ref: how-is-your-data-formatted
-    label: "Ready to work with your data?"
+  - label: ""Before you get started mapping...""
+    type: resource
+    ref: metadata
 ---
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
