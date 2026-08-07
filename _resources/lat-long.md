@@ -196,11 +196,6 @@ This method uses the built-in functionality in QGIS to interpret DMS coordinates
 **Alternative: Use a QGIS Plugin: ** For recurring conversions or more advanced options, the [Coordinates Converter](https://plugins.qgis.org/plugins/coordinates_converter/) plugin from the QGIS Python Plugins Repository can also be used.
 </details>
 
-<div style="margin: 1.5rem 0;">
-  <button onclick="expandAll()">Expand all</button>
-  <button onclick="collapseAll()">Collapse all</button>
-</div>
-<details class="collapsible">
 <summary><strong>Convert Degrees Minutes Seconds (DMS) in Python</strong></summary> 
 
 To convert a DMS (Degrees, Minutes, Seconds) coordinate CSV file to a format with decimal degrees (DD) in Python, the recommended methods involve using the pandas library for data manipulation and the csv module for file handling, along with custom functions to perform the mathematical conversion. 
