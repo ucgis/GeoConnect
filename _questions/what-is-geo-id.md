@@ -7,7 +7,7 @@ next-steps:
   - label: "It's an address or cross-street."
     type: resource
     ref: geocoding
-  - label: "It's an named place or administrative unit (census geographies, zip codes, school districts, National Parks, etc.)"
+  - label: "It's a named place or administrative unit (census geographies, zip codes, school districts, National Parks, etc.)"
     type: resource
     ref: admin-units
   - label: "It's in latitude and longitude (XY coordinates)."
