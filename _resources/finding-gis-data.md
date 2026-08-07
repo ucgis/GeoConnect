@@ -11,7 +11,7 @@ steps:
   - "Check specialized repositories like USGS Earth Explorer for specific data types."
   - "Ask your UC GIS librarian for recommendations tailored to your research needs."
 next-steps:
-  - label: ""Before you get started mapping...""
+  - label: "Before you get started mapping..."
     type: resource
     ref: metadata
 ---
