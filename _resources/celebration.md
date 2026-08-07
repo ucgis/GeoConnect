@@ -1,3 +1,19 @@
+---
+title: "Congratulations!"
+sub-title: "You made a map!"
+---
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% if page.parent %}
+    /
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% endif %}
+
+  /
+  <span>{{ page.title }}</span>
+</nav>
+
 <p align="center"><strong>Congratulations!</strong></p> 
 <p align="center">You've Reached the end of the UC GIS Consultation Tool</p>
 
