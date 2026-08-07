@@ -9,7 +9,7 @@ steps:
   - "Step 2 instructions"
 next-steps:
   - label: "I finished my map!"
-    type: question
+    type: resource
     ref: celebration
 ---
 <nav class="breadcrumbs">
