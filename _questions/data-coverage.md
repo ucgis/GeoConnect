@@ -4,16 +4,16 @@ sub-title: "Does it cover the area, scale, time frame, or is it not detailed eno
 parent: "previous page"
 permalink: /data-coverage/
 next-steps:
-- label: "I'm just mapping locations." 
+  - label: "I'm just mapping locations." 
     type: resource
     ref: finalize-map 
-- label: "I'd like to map something about the data." 
+  - label: "I'd like to map something about the data." 
     type: resource
     ref: qual-quant 
-- label: "The data isn’t matching what I need" 
+  - label: "The data isn’t matching what I need" 
     type: resource
     ref: finding-gis-data 
-- label: "I need to do some data cleanup first" 
+  - label: "I need to do some data cleanup first" 
     type: resource
     ref: cleaning-data 
 
