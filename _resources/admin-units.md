@@ -4,9 +4,6 @@ sub-title: "Official political or organizational boundaries—such as countries,
 jobs_to_be_done:
   - "Goal 1"
   - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
 next-steps:
   - label: "Let's choose a platform for your map."
     type: resource
