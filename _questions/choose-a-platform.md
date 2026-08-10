@@ -1,12 +1,5 @@
 ---
 title: "Let's choose a platform for your map."
-sub-title: "Brief description"
-jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
 next-steps:
   - label: "I'm ready to get started mapping! I know which platform I want to use."
     type: question
