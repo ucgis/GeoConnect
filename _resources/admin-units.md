@@ -6,7 +6,7 @@ jobs_to_be_done:
   - "Goal 2"
 next-steps:
   - label: "Let's choose a platform for your map."
-    type: resource
+    type: question
     ref: choose-a-platform
   - label: "I need to do some data cleanup first"
     type: resource
