@@ -2,18 +2,12 @@
 title: "what-do-you-want-to-map"
 sub-title: "What map do you want to create?"
 parent: "previous page"
-permalink: "test-test"
+permalink: "what-do-you-want-to-map"
 
 next-steps:
-  - label: "I want to map locations"
+  - label: "Let’s talk about data!"
     type: question
-    ref: map-locations
-  - label: "Do you want to create a shaded area (thematic) map?"
-    type: resource
-    ref: map-thematic
-  - label: "I want to make something more complicated"
-    type: resource
-    ref: get-help
+    ref: do-you-have-data
 ---
 
 <nav class="breadcrumbs">
