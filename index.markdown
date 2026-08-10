@@ -4,8 +4,8 @@ title: UC GIS Consultation Tool
 ---
 <div class="home-page">
   <div class="hero">
-    <h1>GIS Research Consultation Guide</h1>
-    <p class="hero-subtitle">Interactive guidance from University of California (UC) GIS Librarians to help you with your geospatial research needs.</p>
+    <h1>GIS Interactive Guide</h1>
+    <p class="hero-subtitle">Your guided walk-through to help you with finding, cleaning, choosing a platform, and visualizing data to map with GIS. Created by the University of California (UC) GIS Librarians to help you with your geospatial research needs.</p>
   </div>
 
   <div class="home-content">
@@ -59,7 +59,7 @@ title: UC GIS Consultation Tool
       </div>
     </div>
   </div>
-
+<!--text about being a work in progress-->
   <div class="about-section">
     <h2>About This Tool</h2>
     <p>UC GIS Librarians have extensive knowledge and frequently conduct consultations with predictable pathways and decision points. This tool guides you through those same decisions to help you find the resources and guidance you need.</p>
