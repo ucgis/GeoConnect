@@ -1,8 +1,9 @@
 ---
 title: "What is the geographic identifier?"
-sub-title: "All spatial data needs information about **where**."
-parent: "getting started with data"
-permalink: /what-is-geo-id/
+sub-title: "Includes general spreadsheet formatting tips."
+jobs_to_be_done:
+  - "Goal 1"
+  - "Goal 2"
 next-steps:
   - label: "It's an address or cross-street."
     type: resource
