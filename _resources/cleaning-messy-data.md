@@ -67,7 +67,7 @@ Not this ...
 This:
 
 <img src="{{ '/assets/images/graph2.png' | relative_url }}"
-     alt="Table showing county with ethnicity expanded out into types"
+     alt="The form of this histogram suggests that 3 or 4 data classes seem most appropriate. Lacking any other insight, the “dips/gaps” suggest natural places to break the data"
      style="max-width:600px; width:100%; height:auto;"> 
 
 ### Cleaning Messy Data
