@@ -2,7 +2,6 @@
 layout: home
 title: UC GIS Consultation Tool
 ---
-{% include proof_banner.html %}
 <div class="home-page">
   <div class="hero">
     <h1>GIS Research Consultation Guide</h1>
