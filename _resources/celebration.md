@@ -16,6 +16,8 @@ sub-title: "You made a map!"
 
 **Congratulations!** You've reached the end of the UC GIS Consultation Tool.
 
+![Original hamster dance gif with rows of dancing hamsters](/assets/images/hampster_dance_windows_93_gif_by_jefftheironic_dcltma0.gif)
+
 ## Welcome to the UC Geospatial Community
 
 Congratulations on completing the UC GIS Consultation Tool experience and taking the next step in your geospatial journey!
