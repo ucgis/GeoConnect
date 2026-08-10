@@ -1,6 +1,6 @@
 ---
 title: "Cleaning Messy Data"
-subtitle: "Involves standardizing formats, removing duplicates, and addressing missing or incorrect values."
+subtitle: "Brief description"
 
 jobs_to_be_done:
   - "Goal 1"
@@ -67,7 +67,7 @@ Not this ...
 This:
 
 <img src="{{ '/assets/images/graph2.png' | relative_url }}"
-     alt="The form of this histogram suggests that 3 or 4 data classes seem most appropriate. Lacking any other insight, the “dips/gaps” suggest natural places to break the data"
+     alt="Table showing county with ethnicity expanded out into types"
      style="max-width:600px; width:100%; height:auto;"> 
 
 ### Cleaning Messy Data
@@ -78,5 +78,4 @@ This:
 
 * [Cleaning messy coordinate data](https://coordinatemapper.com/resources/how-to-clean-messy-coordinate-data)
 * [Analyzing and visualizing data](https://guides.library.ucla.edu/c.php?g=1234052&p=9127691)
-
 
