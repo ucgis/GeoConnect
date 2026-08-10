@@ -61,13 +61,10 @@ Divides data where each data class contains an equal number of features. (Ex: 10
 
 A technique where you define your own custom class breaks or intervals without relying on the automated classification statistical methods. A good method before using manual classification is to try the other statistical methods mentioned above to see what you get. **Note:** while this method offers you full control over your map's visual representation, avoid creating a large number of  breaks \- too many breaks (colors) can make a map messy and hard to read. 
 
-
-
-* [https://www.axismaps.com/guide/data-classification](https://www.axismaps.com/guide/data-classification) (image source)
-
- 
-![][assets/breaks.png]
-
+<img src="{{ '/assets/images/breaks.png' | relative_url }}"
+     alt="Table showing county and ethnicity columns"
+     style="max-width:200px; width:100%; height:auto;"> 
+     
 ## Did you know?
 
 It’s possible to represent relative amounts of two attributes at once (e.g. diabetes and obesity levels) by using bivariate symbolization. Each attribute would be represented by a different color, which are blended to varying degrees based on relative prominence. Darker shades would typically represent features that had high values of one or both attributes. 
