@@ -2,20 +2,20 @@
 title: "Let's check that the data coverage is what you need."
 sub-title: "Does it cover the area, scale, time frame, or is it not detailed enough?"
 parent: "previous page"
-permalink: "data-coverage"
+permalink: /data-coverage/
 next-steps:
 - label: "I'm just mapping locations." 
     type: resource
     ref: finalize-map 
 - label: "I'd like to map something about the data." 
     type: resource
-    Ref: qual-quant 
+    ref: qual-quant 
 - label: "The data isn’t matching what I need" 
     type: resource
-    Ref: finding-gis-data 
+    ref: finding-gis-data 
 - label: "I need to do some data cleanup first" 
     type: resource
-    Ref: cleaning-data 
+    ref: cleaning-data 
 
 ---
 <nav class="breadcrumbs">
