@@ -27,8 +27,6 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
-Let's check that the data coverage is what you need.   
-Subtitle: Does it cover the right area, scale, time frame, or is it not detailed enough?
 
 Before going any further with mapping the data, make sure it completely covers the area you expected it to and only the area you need. If it doesn’t, there may be an issue with the way the data loaded into the GIS, or it may be that the data you acquired has gaps, covers a smaller extent than what you expected, or you just want a subset of the larger geographic area (e.g. a county when you have the full state).
 
