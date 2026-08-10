@@ -1,3 +1,8 @@
+---
+layout: default
+title: About
+nav_order: 3
+---
 # Glossaries & Definitions
 
 Basic, simple definitions for GIS concepts and terms can be found in different glossaries and dictionaries:
