@@ -3,7 +3,6 @@ layout: default
 title: About
 nav_order: 2
 ---
-{% include proof_banner.html %}
 
 # About the UC GIS Consultation Tool
 
