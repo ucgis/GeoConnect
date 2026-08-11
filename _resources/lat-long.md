@@ -1,12 +1,9 @@
 ---
-title: "Lat-long"
-sub-title: "Brief description"
+title: "Working with Latitude and Longitude Data in GIS."
+sub-title: "How to Format, Convert, and Use Coordinate Data."
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
+  - "Distinguish between latitude and longitude coordinates."
+  - "Identify whether a dataset is ready for mapping in a GIS application."
 next-steps:
   - label: "Let's choose a platform for your map."
     type: question
