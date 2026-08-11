@@ -2,11 +2,8 @@
 title: "Visualize your data in a GIS program"
 sub-title: "Does your data show up in the map where you expect it to?"
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
+  - "Explain the role of basemaps in GIS visualization."
+  - "Import and view common GIS data formats."
 next-steps:
   - label: "Yes, it's where I expected it to be."
     type: question
