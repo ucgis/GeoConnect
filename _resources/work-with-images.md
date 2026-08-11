@@ -1,12 +1,9 @@
 ---
 title: "Here's some information about how to work with images."
-sub-title: "involves raster data like satellite photos, drone captures, and aerial scans"
+sub-title: "Involves raster data like satellite photos, drone captures, and aerial scans."
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
+  - "Explain how images such as scanned maps, aerial photos, and historical documents can be used in GIS."
+  - "Describe the purpose of georeferencing and how it enables images to align with geographic coordinates."
 next-steps:
   - label: "Yes, it's a digitized image of a map"  
     type: question  
