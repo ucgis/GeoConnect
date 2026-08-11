@@ -1,12 +1,9 @@
 ---
 title: "How to make an interactive map."
-sub-title: "a digital, clickable map that lets users actively explore geographic data by zooming, panning, and clicking elements"
+sub-title: "Transforming Your Map into an Interactive Experience."
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
+  - "Identify key interactive map functions and their purposes."
+  - "Select an appropriate platform for publishing an interactive map."
 next-steps:
   - label: "I finished my map!"
     type: resource
