@@ -2,8 +2,8 @@
 title: "What is the geographic identifier?"
 sub-title: "Includes general spreadsheet formatting tips."
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
+  - "Differentiate between longitude (X) and latitude (Y) coordinates and identify common coordinate formats."
+  - "Select an appropriate geographic identifier and visualization method based on mapping needs."
 next-steps:
   - label: "It's an address or cross-street."
     type: resource
