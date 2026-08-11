@@ -2,11 +2,8 @@
 title: "Best practices for map-making"
 sub-title: "How will your map be viewed?"
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
+  - "Select appropriate basemaps and map symbology for a given dataset."
+  - "Apply cartographic design principles for colors, labels, symbols, and scale."
 next-steps:
   - label: "I need a static map."
     type: resource
@@ -15,6 +12,17 @@ next-steps:
     type: resource
     ref: interactive
 ---
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% if page.parent %}
+    /
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% endif %}
+
+  /
+  <span>{{ page.title }}</span>
+</nav>
 You’ve done all the work for creating a map \- congratulations\! Now it’s time to make the final version to share.
 
 You are here because you want to make an interactive map rather than a static map (print, PDF, or other type of image). Interactive maps enable the user to engage with them in several ways, including:
