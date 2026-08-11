@@ -1,15 +1,9 @@
 ---
 title: "Cleaning Messy Data"
-subtitle: "Brief description"
-
+subtitle: "Prepare and format tabular datasets according to GIS data structure requirements."
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
-
+  - "Recognize and correct common data quality issues that can affect GIS mapping and analysis."
+  - "Prepare and format tabular datasets according to GIS data structure requirements."
 next_steps:
   - label: "My data is clean"
     type: resource
