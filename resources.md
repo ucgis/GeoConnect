@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Resource List
 nav_order: 4
 ---
 ## Administrative Units
