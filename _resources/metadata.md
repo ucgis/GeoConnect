@@ -1,12 +1,9 @@
 ---
 title: "I want to know more about my data"
-sub-title: "How can you read metadata to understand the quality, source of your data. "
+sub-title: "How can you read metadata to understand the quality, source of your data."
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
+  - "Define metadata and explain its role as "data about data.""
+  - "Identify the key elements of metadata, including who, what, where, when, why, and how."
 next-steps:
   - label: "Does your data need to be cleaned?"
     type: resource
