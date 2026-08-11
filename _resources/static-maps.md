@@ -2,11 +2,8 @@
 title: "How to print or take a screenshot of a map."
 sub-title: "A static map is a fixed, non-interactive image of a geographic area"
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
-steps:
-  - "Step 1 instructions"
-  - "Step 2 instructions"
+  - "Evaluate map scale, layout, readability, and accessibility before finalizing a map."
+  - "Select suitable output settings, including map size and print resolution (DPI)."
 next-steps:
   - label: "I finished my map!"
     type: resource
