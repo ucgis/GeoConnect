@@ -2,8 +2,8 @@
 title: "Different ways to symbolize data"
 sub-title: "Figuring out what kind of data you have, plus information about how to visualize the different types;"
 jobs_to_be_done:
-  - "Goal 1"
-  - "Goal 2"
+  - "Differentiate between qualitative (categorical) and quantitative data in GIS."
+  - "Identify attribute data that can be visualized beyond simple location mapping."
 next-steps:
   - label: "I'm ready to finalize my map!"
     type: resource
