@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Glossaries & Definitions
 nav_order: 3
 ---
 # Glossaries & Definitions
