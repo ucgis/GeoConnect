@@ -32,7 +32,7 @@ title: UC GIS Consultation Tool
     </div>
     {% endif %}
 
-    {% assign q2 = site.questions | where: "slug", "finding-gis-data" | first %}
+    {% assign q2 = site.resources | where: "slug", "finding-gis-data" | first %}
     {% if q2 %}
     <div class="card card-featured">
       2.url | relative_url }}" class="card-link">
