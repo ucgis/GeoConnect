@@ -1,6 +1,6 @@
 ---
 title: "Let's choose a platform for your map!"
-subtitle: "Explore your options for creating, analyzing, and sharing maps"
+sub-title: "Explore your options for creating, analyzing, and sharing maps"
 permalink: /choose-a-platform/
 next-steps:
   - label: "I'm ready to get started mapping! I know which platform I want to use."
