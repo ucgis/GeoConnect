@@ -1,6 +1,6 @@
 ---
 title: "Finding Openly Available GIS Data"
-sub-title: "If you don't have data yet, these resources and tips can help you get started."
+sub-title: "If you don't have data yet, these resources and tips can help you get started"
 jobs_to_be_done:
   - "Locate GIS datasets for research"
   - "Access open geospatial data repositories"
