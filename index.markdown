@@ -13,74 +13,65 @@ title: UC GIS Consultation Tool
   </div>
 
 <div class="starting-points">
-    <h2>Common Starting Points</h2>
-    <div class="cards-grid">
-      {% assign start_question = site.questions | where: "slug", "what-do-you-want-to-map" | first %}
-      {% if start_question %}
-      <div class="card card-featured">
-        <a href="{{ start_question.url | relative_url }}" class="card-link">
-          <div class="card-content">
-            <h3>{{ start_question.title }}</h3>
-            {% if start_question.sub-title %}
-            <p class="card-subtitle">{{ start_question.sub-title }}</p>
-            {% endif %}
-          </div>
-          <div class="card-arrow">→</div>
-        </a>
-      </div>
-      <div class="cards-grid">
-      {% assign start_question = site.questions | where: "slug", "finding-gis-data" | first %}
-      {% if start_question %}
-      <div class="card card-featured">
-        <a href="{{ start_question.url | relative_url }}" class="card-link">
-          <div class="card-content">
-            <h3>{{ start_question.title }}</h3>
-            {% if start_question.sub-title %}
-            <p class="card-subtitle">{{ start_question.sub-title }}</p>
-            {% endif %}
-          </div>
-          <div class="card-arrow">→</div>
-        </a>
-      </div>
-      {% endif %}
-    
+  <h2>Common Starting Points</h2>
 
-      <!-- Placeholder cards for future starting points -->
+  <div class="cards-grid">
 
-            
-      {% assign start_question = site.questions | where: "slug", "choose-a-platform" | third %}
-      <div class="card">
-        <div class="card-link card-disabled">
-          <div class="card-content">
-            <h3>I need to visualize my data</h3>
-            <p class="card-subtitle coming-soon">Coming soon!</p>
-          </div>
+    {% assign q1 = site.questions | where: "slug", "what-do-you-want-to-map" | first %}
+    {% if q1 %}
+    <div class="card card-featured">
+      {{ q1.url | relative_url }} class="card-link">
+        <div class="card-content">
+          <h3>{{ q1.title }}</h3>
+          {% if q1.sub-title %}
+          <p class="card-subtitle">{{ q1.sub-title }}</p>
+          {% endif %}
         </div>
-      </div>
-
-      <div class="card">
-        <div class="card-link card-disabled">
-          <div class="card-content">
-            <h3>I need to analyze spatial patterns</h3>
-            <p class="card-subtitle coming-soon">Coming soon!</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-link card-disabled">
-          <div class="card-content">
-            <h3>I need to create a web map</h3>
-            <p class="card-subtitle coming-soon">Coming soon!</p>
-          </div>
-        </div>
-      </div>
+        <div class="card-arrow">→</div>
+      </a>
     </div>
+    {% endif %}
+
+    {% assign q2 = site.questions | where: "slug", "finding-gis-data" | first %}
+    {% if q2 %}
+    <div class="card card-featured">
+      {{ q2.url | relative_url }} class="card-link">
+        <div class="card-content">
+          <h3>{{ q2.title }}</h3>
+          {% if q2.sub-title %}
+          <p class="card-subtitle">{{ q2.sub-title }}</p>
+          {% endif %}
+        </div>
+        <div class="card-arrow">→</div>
+      </a>
+    </div>
+    {% endif %}
+
+    {% assign q3 = site.questions | where: "slug", "choose-a-platform" | first %}
+    {% if q3 %}
+    <div class="card card-featured">
+      {{ q3.url | relative_url }}
+        <div class="card-content">
+          <h3>{{ q3.title }}</h3>
+          {% if q3.sub-title %}
+          <p class="card-subtitle">{{ q3.sub-title }}</p>
+          {% endif %}
+        </div>
+        <div class="card-arrow">→</div>
+      </a>
+    </div>
+    {% endif %}
+
   </div>
-<!--text about being a work in progress-->
+</div>
+
   <div class="about-section">
     <h2>About This Tool</h2>
-    <p>UC GIS Librarians have extensive knowledge and frequently conduct consultations with predictable pathways and decision points. This tool guides you through those same decisions to help you find the resources and guidance you need.</p>
+    <p>Thank you for visiting. Our website is currently under development as we continue to build and refine content to better serve our community. This initial version provides a foundation for the information and resources we plan to offer. Additional sections, features, and content will be added over time based on user feedback and evolving needs.
+
+      We appreciate your patience and welcome your suggestions as we work to create a more comprehensive and useful experience.
+      
+      UC GIS Librarians have extensive knowledge and frequently conduct consultations with predictable pathways and decision points. This tool guides you through those same decisions to help you find the resources and guidance you need.</p>
     <p><strong>Need direct help?</strong> <a href="https://docs.google.com/spreadsheets/d/1xkgsnwz5MXEIpD9OMWajIPKpSdTdlb7THoeWCirHR7A/edit?usp=sharing">Contact a UC GIS librarian</a> for a personal consultation.</p>
   </div>
 </div>
