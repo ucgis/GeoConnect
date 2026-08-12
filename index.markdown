@@ -20,7 +20,7 @@ title: UC GIS Consultation Tool
     {% assign q1 = site.questions | where: "slug", "what-do-you-want-to-map" | first %}
     {% if q1 %}
     <div class="card card-featured">
-      {{ q1.url | relative_url }}
+      <a href="{{ q1.url | url }}
         <div class="card-content">
           <h3>{{ q1.title }}</h3>
           {% if q1.sub-title %}
@@ -28,13 +28,14 @@ title: UC GIS Consultation Tool
           {% endif %}
         </div>
         <div class="card-arrow">→</div>
+        </a>
     </div>
     {% endif %}
 
     {% assign q2 = site.resources | where: "slug", "finding-gis-data" | first %}
     {% if q2 %}
     <div class="card card-featured">
-      2.url | relative_url }}" class="card-link">
+      <a href="{{ q2.url | url }}
         <div class="card-content">
           <h3>{{ q2.title }}</h3>
           {% if q2.sub-title %}
@@ -42,13 +43,14 @@ title: UC GIS Consultation Tool
           {% endif %}
         </div>
         <div class="card-arrow">→</div>
+        </a>
     </div>
     {% endif %}
 
     {% assign q3 = site.questions | where: "slug", "choose-a-platform" | first %}
     {% if q3 %}
     <div class="card card-featured">
-      {{ q3.url | relative_url }}
+      <a href="{{ q3.url | url }}
         <div class="card-content">
           <h3>{{ q3.title }}</h3>
           {% if q3.sub-title %}
@@ -56,6 +58,7 @@ title: UC GIS Consultation Tool
           {% endif %}
         </div>
         <div class="card-arrow">→</div>
+        </a>
     </div>
     {% endif %}
 
