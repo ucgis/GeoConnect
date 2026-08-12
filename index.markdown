@@ -16,8 +16,20 @@ title: UC GIS Consultation Tool
     <h2>Common Starting Points</h2>
     <div class="cards-grid">
       {% assign start_question = site.questions | where: "slug", "what-do-you-want-to-map" | first %}
+      {% if start_question %}
+      <div class="card card-featured">
+        <a href="{{ start_question.url | relative_url }}" class="card-link">
+          <div class="card-content">
+            <h3>{{ start_question.title }}</h3>
+            {% if start_question.sub-title %}
+            <p class="card-subtitle">{{ start_question.sub-title }}</p>
+            {% endif %}
+          </div>
+          <div class="card-arrow">→</div>
+        </a>
+      </div>
+      <div class="cards-grid">
       {% assign start_question = site.questions | where: "slug", "finding-gis-data" | second %}
-      {% assign start_question = site.questions | where: "slug", "choose-a-platform" | third %}
       {% if start_question %}
       <div class="card card-featured">
         <a href="{{ start_question.url | relative_url }}" class="card-link">
@@ -31,8 +43,12 @@ title: UC GIS Consultation Tool
         </a>
       </div>
       {% endif %}
+    
 
       <!-- Placeholder cards for future starting points -->
+
+            
+      {% assign start_question = site.questions | where: "slug", "choose-a-platform" | third %}
       <div class="card">
         <div class="card-link card-disabled">
           <div class="card-content">
