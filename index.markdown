@@ -29,7 +29,7 @@ title: UC GIS Consultation Tool
         </a>
       </div>
       <div class="cards-grid">
-      {% assign start_question = site.questions | where: "slug", "finding-gis-data" | second %}
+      {% assign start_question = site.questions | where: "slug", "finding-gis-data" | first %}
       {% if start_question %}
       <div class="card card-featured">
         <a href="{{ start_question.url | relative_url }}" class="card-link">
