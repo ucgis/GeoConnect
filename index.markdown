@@ -16,6 +16,8 @@ title: UC GIS Consultation Tool
     <h2>Common Starting Points</h2>
     <div class="cards-grid">
       {% assign start_question = site.questions | where: "slug", "what-do-you-want-to-map" | first %}
+      {% assign start_question = site.questions | where: "slug", "finding-gis-data" | second %}
+      {% assign start_question = site.questions | where: "slug", "choose-a-platform" | third %}
       {% if start_question %}
       <div class="card card-featured">
         <a href="{{ start_question.url | relative_url }}" class="card-link">
