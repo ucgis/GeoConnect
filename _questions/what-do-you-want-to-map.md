@@ -1,6 +1,6 @@
 ---
-title: "what-do-you-want-to-map"
-sub-title: "What map do you want to create?"
+title: "What kind of map do you want to create?"
+sub-title: "Choose the map that best tells your story"
 parent: "previous page"
 permalink: "what-do-you-want-to-map"
 
@@ -19,7 +19,6 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
-# What kind of map do you want to create?
 
 Maps are powerful and there are many types of maps you can create. When getting started with a mapping project using GIS, it’s helpful to think at the beginning about what you want your map to look like. Read through the descriptions below to help answer this question. 
 
