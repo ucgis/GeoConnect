@@ -28,7 +28,6 @@ title: UC GIS Consultation Tool
           {% endif %}
         </div>
         <div class="card-arrow">→</div>
-      </a>
     </div>
     {% endif %}
 
@@ -43,7 +42,6 @@ title: UC GIS Consultation Tool
           {% endif %}
         </div>
         <div class="card-arrow">→</div>
-      </a>
     </div>
     {% endif %}
 
@@ -58,7 +56,6 @@ title: UC GIS Consultation Tool
           {% endif %}
         </div>
         <div class="card-arrow">→</div>
-      </a>
     </div>
     {% endif %}
 
