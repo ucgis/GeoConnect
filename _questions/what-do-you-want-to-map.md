@@ -48,7 +48,7 @@ Examples:
 * Election maps: looking by county by county or state by state.
 
 
-We gave you some examples of different types of maps, to see and learn more about different types of maps, look at the Map and Government Information Library’s \[Map of Maps/Map Types\](https://waml.org/waml-information-bulletin/volume-53-number-2/cool-project-the-map-and-government-information-librarys-map-of-maps-map-types/)
+We gave you some examples of different types of maps, to see and learn more about different types of maps, look at the Map and Government Information Library’s [Map of Maps/Map Types](https://waml.org/waml-information-bulletin/volume-53-number-2/cool-project-the-map-and-government-information-librarys-map-of-maps-map-types/)
 
 <img src="{{ '/assets/images/mapsofmaps.png' | relative_url }}"
      alt="Maps of Maps poster image"
