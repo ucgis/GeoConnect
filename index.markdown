@@ -27,7 +27,7 @@ title: UC GIS Consultation Tool
 {% if q1 %}
 <div class="card card-featured">
   1.url | relative_url }}" class="card-link">
-    ```html <div class= }}" class="card-link"> <div class="card-content"> <h3>{{ q1.title }}</h3> {% if q1.sub-title %} <p class="card-subtitle">{{ q1.sub-title }}</p> {% endif %} </div> <div class="card-arrow">→</div> </a> </div>
+    ```html <div class= }}" class="card-link"> <div class="card-content"> <h3>{{ q1.title }}</h3> {% if q1.sub-title %} <p class="card-subtitle">{{ q1.sub-title }}</p> {% endif %} </div> <div class="card-arrow">→</div> </a> </div> {% endif %}
 {% assign q2 = site.questions | where: "slug", "finding-gis-data" | first %}
 {% if q2 %}
 ```html<div class="card card-featured">
