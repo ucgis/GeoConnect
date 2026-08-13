@@ -53,5 +53,5 @@ We gave you some examples of different types of maps, to see and learn more abou
      alt="Maps of Maps poster image"
      style="max-width:200px; width:100%; height:auto;"> 
 
-Great\! Now that you have an idea of what kind of map you want to make, let’s continue,,,,  
+Great! Now that you have an idea of what kind of map you want to make, let’s continue!  
 
