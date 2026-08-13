@@ -8,7 +8,6 @@ next-steps:
     type: question
     ref: do-you-have-data
 ---
-
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
   {% if page.parent %}
