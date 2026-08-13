@@ -50,6 +50,7 @@ title: UC GIS Consultation Tool
     <div class="card-arrow">→</div>
   </a>
 </div>
+{% endif %}
 {% assign q3 = site.questions | where: "slug", "choose-a-platform" | first %}
 {% if q3 %}
 <div class="card card-featured">
@@ -63,6 +64,7 @@ title: UC GIS Consultation Tool
     <div class="card-arrow">→</div>
   </a>
 </div>
+{% endif %}
   <div class="about-section">
     <h2>About This Tool</h2>
 
