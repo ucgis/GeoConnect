@@ -25,37 +25,49 @@ title: UC GIS Consultation Tool
 
 {% assign q1 = site.questions | where: "slug", "what-do-you-want-to-map" | first %}
 {% if q1 %}
-<div class="card card-featured">
-  1.url | relative_url }}" class="card-link">
-    ```html <div class= }}" class="card-link"> <div class="card-content"> <h3>{{ q1.title }}</h3> {% if q1.sub-title %} <p class="card-subtitle">{{ q1.sub-title }}</p> {% endif %} </div> <div class="card-arrow">→</div> </a> </div> {% endif %}
-{% assign q2 = site.questions | where: "slug", "finding-gis-data" | first %}
-{% if q2 %}
-```html<div class="card card-featured">
-  2.url | relative_url }}" class="card-link">
-    <div class="card-content">
-      <h3>{{ q2.title }}</h3>
-      {% if q2.sub-title %}
-      <p class="card-subtitle">{{ q2.sub-title }}</p>
+&lt;div class="card card-featured"&gt;
+  &lt;a href="{{ q1.url | relative_url }}" class="card-link"&gt;
+    &lt;div class="card-content"&gt;
+      &lt;h3&gt;{{ q1.title }}&lt;/h3&gt;
+      {% if q1.sub-title %}
+      &lt;p class="card-subtitle"&gt;{{ q1.sub-title }}&lt;/p&gt;
       {% endif %}
-    </div>
-    <div class="card-arrow">→</div>
-  </a>
-</div>
+    &lt;/div&gt;
+    &lt;div class="card-arrow"&gt;→&lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
 {% endif %}
+
+{% assign q2 = site.resources | where: "slug", "finding-gis-data" | first %}
+{% if q2 %}
+&lt;div class="card card-featured"&gt;
+  &lt;a href="{{ q2.url | relative_url }}" class="card-link"&gt;
+    &lt;div class="card-content"&gt;
+      &lt;h3&gt;{{ q2.title }}&lt;/h3&gt;
+      {% if q2.sub-title %}
+      &lt;p class="card-subtitle"&gt;{{ q2.sub-title }}&lt;/p&gt;
+      {% endif %}
+    &lt;/div&gt;
+    &lt;div class="card-arrow"&gt;→&lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+{% endif %}
+
 {% assign q3 = site.questions | where: "slug", "choose-a-platform" | first %}
 {% if q3 %}
-<div class="card card-featured">
-  3.url | relative_url }}" class="card-link">
-    <div class="card-content">
-      <h3>{{ q3.title }}</h3>
+&lt;div class="card card-featured"&gt;
+  &lt;a href="{{ q3.url | relative_url }}" class="card-link"&gt;
+    &lt;div class="card-content"&gt;
+      &lt;h3&gt;{{ q3.title }}&lt;/h3&gt;
       {% if q3.sub-title %}
-      <p class="card-subtitle">{{ q3.sub-title }}</p>
+      &lt;p class="card-subtitle"&gt;{{ q3.sub-title }}&lt;/p&gt;
       {% endif %}
-    </div>
-    <div class="card-arrow">→</div>
-  </a>
-</div>
+    &lt;/div&gt;
+    &lt;div class="card-arrow"&gt;→&lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
 {% endif %}
+
   <div class="about-section">
     <h2>About This Tool</h2>
 
