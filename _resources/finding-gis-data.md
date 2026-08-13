@@ -6,7 +6,7 @@ jobs_to_be_done:
   - "Access open geospatial data repositories"
   - "Identify reliable data sources for your project"
 next-steps:
-  - label: "Before you get started mapping..."
+  - label: "Before you get started mapping."
     type: resource
     ref: metadata
 ---
