@@ -2,7 +2,7 @@
 title: "Let's check that the data coverage is what you need."
 sub-title: "Does it cover the area, scale, time frame, or is it not detailed enough?"
 parent: "previous page"
-permalink: /data-coverage/
+permalink: "data-coverage"
 next-steps:
   - label: "I'm just mapping locations." 
     type: resource
