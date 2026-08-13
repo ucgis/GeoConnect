@@ -20,7 +20,7 @@ next-steps:
 
 Maps are powerful and there are many types of maps you can create. When getting started with a mapping project using GIS, it’s helpful to think at the beginning about what you want your map to look like. Read through the descriptions below to help answer this question. 
 
-## There are many kinds of maps\!
+## There are many kinds of maps!
 
 Here are some broad general categories (non-exhaustive) to get you started thinking:
 
