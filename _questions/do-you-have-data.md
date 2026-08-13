@@ -8,10 +8,10 @@ next-steps:
     type: question
     ref: choose-a-platform
   - label: "Yes, it's a spreadsheet"
-    type: question
+    type: resource
     ref: what-is-geo-id
   - label: "Yes, it's a digitized image of a map"
-    type: question
+    type: resource
     ref: work-with-images
   - label: "No, I don't have data that’s ready to be used"
     type: resource
