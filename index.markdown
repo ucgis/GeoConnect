@@ -31,7 +31,6 @@ title: UC GIS Consultation Tool
       {% if q1.sub-title %}
       <p class="card-subtitle">{{ q1.sub-title }}</p>
       {% endif %}
-    </div>
     <div class="card-arrow">→</div>
   </a>
 </div>
