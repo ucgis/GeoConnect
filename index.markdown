@@ -62,7 +62,7 @@ title: UC GIS Consultation Tool
 </div>
 {% endif %}
 
-
+</div>
   <div class="about-section">
     <h2>About This Tool</h2>
 
