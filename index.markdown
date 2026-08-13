@@ -26,7 +26,7 @@ title: UC GIS Consultation Tool
 {% assign q1 = site.questions | where: "slug", "what-do-you-want-to-map" | first %}
 {% if q1 %}
 <div class="card card-featured">
-  ```{{ q1.url | relative_url }}
+  ```{{ q1.url | relative_url }}" class="card-link">
     <div class="card-content">
       <h3>{{ q1.title }}</h3>
       {% if q1.sub-title %}
