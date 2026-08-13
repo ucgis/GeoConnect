@@ -40,8 +40,7 @@ title: UC GIS Consultation Tool
 {% assign q2 = site.resources | where: "slug", "finding-gis-data" | first %}
 {% if q2 %}
 <div class="card card-featured">
-  <{ q2.url | relative_url }}
-    <div class="card-content">
+  <a href="{{ q2.url | relative_url }}" class="card-content">
       <h3>{{ q2.title }}</h3>
       {% if q2.sub-title %}
       <p class="card-subtitle">{{ q2.sub-title }}</p>
@@ -55,8 +54,7 @@ title: UC GIS Consultation Tool
 {% assign q3 = site.questions | where: "slug", "choose-a-platform" | first %}
 {% if q3 %}
 <div class="card card-featured">
-  _url }}" class="card-link">
-    <div class="card-content">
+  <a href="{{ q3.url | relative_url }}" class="card-content">
       <h3>{{ q3.title }}</h3>
       {% if q3.sub-title %}
       <p class="card-subtitle">{{ q3.sub-title }}</p>
