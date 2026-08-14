@@ -6,6 +6,9 @@ next-steps:
   - label: "I'm ready to get started mapping! I know which platform I want to use."
     type: resource
     ref: static-maps
+  - label: "I still need to find some data first."
+    type: resource
+    ref: finding-gis-data
 ---
 
 <nav class="breadcrumbs">
