@@ -10,10 +10,10 @@ next-steps:
   - label: "I'd like to map something about the data." 
     type: resource
     ref: qual-quant 
-  - label: "The data isn’t matching what I need" 
+  - label: "The data isn’t matching what I need." 
     type: resource
     ref: finding-gis-data 
-  - label: "I need to do some data cleanup first" 
+  - label: "I need to do some data cleanup first." 
     type: resource
     ref: cleaning-messy-data 
 
