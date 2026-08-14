@@ -90,7 +90,7 @@ title: UC GIS Consultation Tool
     </p>
 
     <p>
-      We appreciate your patience and welcome your suggestions as we work to create a
+      We appreciate your patience and [welcome your suggestions](https://forms.gle/Kt7dicLdwbsta6aX6) as we work to create a
       more comprehensive and useful experience.
       </p>
 </div>
