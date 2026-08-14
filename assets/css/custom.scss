@@ -401,7 +401,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   animation: fadeInUp 0.5s ease-out backwards;
-  min-height: 400px;
+  min-height: 300px;
   &:nth-child(1) { animation-delay: 0.1s; }
   &:nth-child(2) { animation-delay: 0.2s; }
   &:nth-child(3) { animation-delay: 0.3s; }
