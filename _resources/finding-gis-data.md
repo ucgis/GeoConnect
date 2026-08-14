@@ -1,5 +1,5 @@
 ---
-title: "Finding Available GIS Data"
+title: "Find GIS Data"
 sub-title: "If you don't have data yet, these resources and tips can help you get started"
 jobs_to_be_done:
   - "Locate GIS datasets for research"
