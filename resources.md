@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resource List
-nav_order: 4
+nav_order: 3
 ---
 ## Administrative Units
 ### Tool-specific Documentation Links 
