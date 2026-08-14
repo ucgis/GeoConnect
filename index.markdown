@@ -65,13 +65,11 @@ title: UC GIS Consultation Tool
 </div>
   <div class="about-section">
     <h2>About This Tool</h2>
-
     <p>
       UC GIS Librarians have extensive knowledge and frequently conduct consultations
       with predictable pathways and decision points. This tool guides you through those
       same decisions to help you find the resources and guidance you need.
     </p>
-
     <p>
       <strong>Need direct help?</strong>
 <a href="https://docs.google.com/spreadsheets/d/1xkgsnwz5MXEIpD9OMWajIPKpSdTdlb7THoeWCirHR7A/edit?usp=sharing"
