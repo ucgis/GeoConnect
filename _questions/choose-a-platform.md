@@ -19,6 +19,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+
 Choosing an appropriate GIS platform for your needs comes down to your goals, timeframe, and GIS expertise. Do you need to make simple web maps, do complex spatial analysis, or manage large sets of data?  
 
 Not all GIS or mapping platforms are the same! While almost all of them can perform basic mapping tasks, some are complicated to learn because they can perform specialized or computational tasks in addition to the basics. Other platforms are focused on telling stories with maps. Some are web-based, others need to be installed on your device. While some platforms are well-known, more obscure ones may be exactly what you need.
