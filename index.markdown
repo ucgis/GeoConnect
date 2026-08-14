@@ -67,19 +67,6 @@ title: UC GIS Consultation Tool
     <h2>About This Tool</h2>
 
     <p>
-      Thank you for visiting. Our website is currently under development as we continue
-      to build and refine content to better serve our community. This initial version
-      provides a foundation for the information and resources we plan to offer.
-      Additional sections, features, and content will be added over time based on user
-      feedback and evolving needs.
-    </p>
-
-    <p>
-      We appreciate your patience and welcome your suggestions as we work to create a
-      more comprehensive and useful experience.
-    </p>
-
-    <p>
       UC GIS Librarians have extensive knowledge and frequently conduct consultations
       with predictable pathways and decision points. This tool guides you through those
       same decisions to help you find the resources and guidance you need.
@@ -96,5 +83,16 @@ title: UC GIS Consultation Tool
     </p>
 
   </div>
+    <p>
+      Thank you for visiting. Our website is currently under development as we continue
+      to build and refine content to better serve our community. This initial version
+      provides a foundation for the information and resources we plan to offer.
+      Additional sections, features, and content will be added over time based on user
+      feedback and evolving needs.
+    </p>
 
+    <p>
+      We appreciate your patience and welcome your suggestions as we work to create a
+      more comprehensive and useful experience.
+      </p>
 </div>
