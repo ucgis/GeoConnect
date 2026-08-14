@@ -15,7 +15,7 @@ next-steps:
     ref: finding-gis-data 
   - label: "I need to do some data cleanup first" 
     type: resource
-    ref: cleaning-data 
+    ref: cleaning-messy-data 
 
 ---
 <nav class="breadcrumbs">
