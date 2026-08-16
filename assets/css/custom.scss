@@ -454,7 +454,10 @@
 
 .card-link {
   display: flex;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
   align-items: flex-start;
   min-height: unset;
   padding: 2.5rem;
