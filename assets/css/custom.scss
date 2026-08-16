@@ -416,7 +416,14 @@
       transform: translateX(5px);
     }
   }
-  
+
+  .card {
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.card-link {
+  background: rgba(0, 255, 0, 0.1);
+}
   &:active:not(.card-disabled) {
     transform: translateY(-4px);
   }
