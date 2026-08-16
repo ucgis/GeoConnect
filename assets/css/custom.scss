@@ -466,7 +466,17 @@
   gap: 1.25rem;
   min-height: 100px;
 }
+.card {
+  border: 3px solid red;
+}
 
+.card-link {
+  border: 3px solid green;
+}
+
+.card-content {
+  border: 3px solid blue;
+}
 .card-disabled {
   cursor: not-allowed;
   opacity: 0.5;
