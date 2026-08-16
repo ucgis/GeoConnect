@@ -520,7 +520,9 @@
     transition: color 0.2s ease;
   }
 }
-
+.card-content {
+  background: rgba(0,0,255,.1);
+}
 .card:hover:not(.card-disabled) .card-content h3 {
   color: #2774AE;
 }
