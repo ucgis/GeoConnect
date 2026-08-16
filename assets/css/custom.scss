@@ -389,7 +389,7 @@
 
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
   gap: 2rem;
   justify-content: start;
 }
