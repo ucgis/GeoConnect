@@ -423,6 +423,7 @@
 
 .card-link {
   background: rgba(0, 255, 0, 0.1);
+  min-height: unset;
 }
   &:active:not(.card-disabled) {
     transform: translateY(-4px);
