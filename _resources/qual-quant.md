@@ -1,6 +1,9 @@
 ---
 title: "Different ways to symbolize data"
-sub-title: "Figuring out what kind of data you have, plus information about how to visualize the different types;"
+sub-title: "Figuring out what kind of data you have, plus information about how to visualize the different types"
+parent: "data-coverage"
+parent_url: /data-coverage/
+permalink: /resources/qual-quant/
 jobs_to_be_done:
   - "Differentiate between qualitative (categorical) and quantitative data in GIS."
   - "Identify attribute data that can be visualized beyond simple location mapping."
@@ -59,11 +62,13 @@ Divides data where each data class contains an equal number of features. (Ex: 10
 
 #### Manual Classification
 
-A technique where you define your own custom class breaks or intervals without relying on the automated classification statistical methods. A good method before using manual classification is to try the other statistical methods mentioned above to see what you get. **Note:** while this method offers you full control over your map's visual representation, avoid creating a large number of  breaks \- too many breaks (colors) can make a map messy and hard to read. 
+A technique where you define your own custom class breaks or intervals without relying on the automated classification statistical methods. A good method before using manual classification is to try the other statistical methods mentioned above to see what you get. 
+
+**Note:** while this method offers you full control over your map's visual representation, avoid creating a large number of  breaks \- too many breaks (colors) can make a map messy and hard to read. 
 
 <img src="{{ '/assets/images/breaks.png' | relative_url }}"
      alt="This histogram suggests that 3 or 4 data classes seem most appropriate, the “dips/gaps” suggest natural places to break the data."
-     style="max-width:200px; width:100%; height:auto;"> 
+     style="max-width:300px; width:100%; height:auto;"> 
      
 ## Did you know?
 
@@ -71,7 +76,7 @@ It’s possible to represent relative amounts of two attributes at once (e.g. di
 
 ## Resources
 
-* [https://gistbok-ltb.ucgis.org/page/current/concept/AM-02-009](https://gistbok-ltb.ucgis.org/page/current/concept/AM-02-009) 
-* [https://www.searchanddiscovery.com/pdfz/documents/barrell02/images/ch18.pdf.html](https://www.searchanddiscovery.com/pdfz/documents/barrell02/images/ch18.pdf.html)
-* [https://community.environicsanalytics.com/hc/en-us/articles/13299751591437-What-are-the-Mapping-Classification-Methods](https://community.environicsanalytics.com/hc/en-us/articles/13299751591437-What-are-the-Mapping-Classification-Methods)
-* [https://www.axismaps.com/guide/data-classification](https://www.axismaps.com/guide/data-classification)
+* [Classification and Clustering](https://gistbok-ltb.ucgis.org/page/current/concept/AM-02-009) 
+* [GIS: The Exploration and Exploitation Tool](https://www.searchanddiscovery.com/pdfz/documents/barrell02/images/ch18.pdf.html)
+* [What are the Mapping Classification Methods?](https://community.environicsanalytics.com/hc/en-us/articles/13299751591437-What-are-the-Mapping-Classification-Methods)
+* [The Basics of Data Classification](https://www.axismaps.com/guide/data-classification)
