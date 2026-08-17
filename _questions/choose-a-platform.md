@@ -1,9 +1,6 @@
 ---
 title: "Let's choose a platform for your map!"
 sub-title: "Explore your options for creating, analyzing, and sharing maps"
-parent: "admin-units"
-parent: "lat-long"
-parent: "geocoding"
 permalink: "choose-a-platform"
 next-steps:
   - label: "I still need to find some data first."
