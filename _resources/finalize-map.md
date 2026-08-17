@@ -1,6 +1,9 @@
 ---
 title: "Best practices for map-making"
 sub-title: "How will your map be viewed?"
+parent: "qual-quant"
+parent_url: /resources/qual-quant/
+permalink: /resources/finalize-map/
 jobs_to_be_done:
   - "Select appropriate basemaps and map symbology for a given dataset."
   - "Apply cartographic design principles for colors, labels, symbols, and scale."
@@ -41,10 +44,9 @@ Maps created in Google Earth for Web can be shared for others to explore just by
 
 There are many considerations involved with making an interactive map. Below are just a few resources to help you.
 
-Resources:
+## Resources:
 
 * [ESRI: Create maps, scenes, and apps](https://doc.esri.com/en/arcgis-enterprise/latest/create/create-maps-and-apps.html?pivots=os-windows)  
-* [Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services]  
-  (https://www.youtube.com/watch?v=0gekWZy8k3w)  
+* [Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services](https://www.youtube.com/watch?v=0gekWZy8k3w)  
 * [QGIS](https://www.qgistutorials.com/en/docs/3/web_mapping_with_qgis2web.html)   
 * [Google Earth: Create engaging map experiences](https://mapsplatform.google.com/solutions/build-immersive-experiences/)
