@@ -14,6 +14,17 @@ next-steps:
     type: resource
     ref: ingest-data
 ---
+<nav class="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% if page.parent %}
+    /
+    <a href="{{ page.parent_url | relative_url }}">{{ page.parent }}</a>
+  {% endif %}
+
+  /
+  <span>{{ page.title }}</span>
+</nav>
 ## What is metadata?
 
 Metadata is data about your data. It is information that describes the who, what, where, when, why, and how of a dataset. Metadata provides context to the content of the data. 
