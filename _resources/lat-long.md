@@ -40,8 +40,8 @@ When working with XY coordinates (longitude or latitude) in a GIS system, coordi
 
 It saves a little time if the column headings match what the GIS software will automatically recognize as containing coordinate values. These field names include:
 
-* **Latitude:** Y, Latitude, lat  
-* **Longitude:** X, Longitude, long
+**Latitude:** Y, Latitude, lat  
+**Longitude:** X, Longitude, long
 
 For example: 
 
@@ -57,8 +57,8 @@ In a GIS, locations on the Earth’s surface are described by a pair of values, 
 
 <img src="{{ '/assets/images/lat-long.png' | relative_url }}"
      alt="Latitude and Longitude of the Earth "
-     style="max-width:350px; width:100%; height:auto;"> 
-[Illustration of geographic latitude and longitude of the earth by Djexplo](https://commons.wikimedia.org/wiki/File:Latitude_and_Longitude_of_the_Earth.svg)
+     style="max-width:450px; width:100%; height:auto;"> 
+<p>[Illustration of geographic latitude and longitude of the earth by Djexplo](https://commons.wikimedia.org/wiki/File:Latitude_and_Longitude_of_the_Earth.svg)</p>
 
 XY coordinates can come in a number of formats. These are visualized as points.  
 	
