@@ -45,33 +45,33 @@ Additional questions to think about before and during your mapping adventures:
 </div>
 <details class="collapsible">
 <summary><strong>GIS Files + Online Platforms</strong></summary>
-Sometimes we find data that’s available in one of the many acceptable GIS file formats. Here are some common GIS file types:<br>
-  * Shapefile (zipped collection of subfiles): Contains point, lines, and areas<br>
-  * GeoJSON (.geojson)<br>
-  * KML/KMZ (.kml/.kmz)<br>
-  * GeoTIFF (.tiff)<br>
-  * Geodatabase (.gdb)<br> 
-  * Geopackage (.gpkg)<br>
-* ArcGIS Pro project package (.ppkx) ?<br>
+<p></p>Sometimes we find data that’s available in one of the many acceptable GIS file formats. Here are some common GIS file types:
+  <ul>
+  <li>Shapefile (zipped collection of subfiles): Contains point, lines, and areas</li>
+  <li>GeoJSON (.geojson)</li>
+  <li>KML/KMZ (.kml/.kmz)</li>
+  <li>GeoTIFF (.tiff)</li>
+  <li>Geodatabase (.gdb)</li> 
+  <li>Geopackage (.gpkg)<</li>
+  <li>ArcGIS Pro project package (.ppkx)v</li> 
+  </ul>
 <p>There may be other times where you don’t have a tangible file. Your data might already be in an online GIS platform.</p> 
-<br>
 </details>
 <details class="collapsible">
 <summary><strong>Spreadsheets</strong></summary>
-Many times you may have data that is in a spreadsheet format. If your data is in a spreadsheet, you must have at least one field that contains location based information. This may include, Latitude/Longitude, an address, or some other type of geographic identifier (such as census tracts, administrative boundaries, school districts, or other).<br>
+<p></p>Many times you may have data that is in a spreadsheet format. If your data is in a spreadsheet, you must have at least one field that contains location based information. This may include, Latitude/Longitude, an address, or some other type of geographic identifier (such as census tracts, administrative boundaries, school districts, or other).<br>
   * CSV<br>
   * XLSX<br>
   * TXT<br>
-  <br>
+</p>
 </details>
 <details class="collapsible">
 <summary><strong>Image</strong></summary>
 <p>If you have a scanned image of a map, you can utilize it in a GIS platform.</p> 
-<br>
 </details>
 <details class="collapsible">
 <summary><strong>Other</strong></summary>
-Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this.
+<p>Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this.</p>
 </details>
 
 <script>
