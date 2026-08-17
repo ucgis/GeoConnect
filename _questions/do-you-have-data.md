@@ -33,7 +33,10 @@ next-steps:
 To get started mapping, you’ll need data that’s tied to locations. Knowing what format your data is in will help you map it in the most efficient way. You may find that you have several different types of data. We recommend starting with one type and then revisiting this page to review your other types. 
 
 Additional questions to think about before and during your mapping adventures:  
-Does your data cover your area of interest? Does it represent what you need it to in the way you need it to? Does it contain personally identifiable information (PII)? Does it cover the time period you need it to?
+* Does your data cover your area of interest? 
+* Does it represent what you need it to in the way you need it to? 
+* Does it contain personally identifiable information (PII)? 
+* Does it cover the time period you need it to?
 
 <!-- Expand / Collapse Controls -->
 <div style="margin: 1.5rem 0;">
@@ -42,7 +45,7 @@ Does your data cover your area of interest? Does it represent what you need it t
 </div>
 <details class="collapsible">
 <summary><strong>GIS Files + Online Platforms</strong></summary>
-Sometimes we find data that’s available in one of the many acceptable GIS file formats. Explore some common GIS file types:<br>
+Sometimes we find data that’s available in one of the many acceptable GIS file formats. Here are some common GIS file types:<br>
   * Shapefile (zipped collection of subfiles): Contains point, lines, and areas<br>
   * GeoJSON (.geojson)<br>
   * KML/KMZ (.kml/.kmz)<br>
@@ -63,12 +66,12 @@ Many times you may have data that is in a spreadsheet format. If your data is in
 </details>
 <details class="collapsible">
 <summary><strong>Image</strong></summary>
-If you have a scanned image of a map, you can utilize it in a GIS platform. 
+<p>If you have a scanned image of a map, you can utilize it in a GIS platform.</p> 
 <br>
 </details>
 <details class="collapsible">
 <summary><strong>Other</strong></summary>
-Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this Note:knowing that in the future we can provide a section on this.
+Depending on the size of your data and where it’s coming from, the data may be provided as a service that you can add directly to your map rather than downloading it. Reach out to your Librarian if you are interested in this.
 </details>
 
 <script>
