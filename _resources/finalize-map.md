@@ -10,10 +10,13 @@ jobs_to_be_done:
 next-steps:
   - label: "I need a static map."
     type: resource
-    ref: static
+    ref: static-maps
   - label: "I need an interactive map."
     type: resource
-    ref: interactive
+    ref: interactive-maps
+  - label: "I finished my map!"
+    type: resource
+    ref: celebration
 ---
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
