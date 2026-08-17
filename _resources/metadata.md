@@ -1,6 +1,8 @@
 ---
 title: "I want to know more about my data"
 sub-title: "How can you read metadata to understand the quality, source of your data."
+parent: "finding-gis-data"
+parent_url: /resources/finding-gis-data/
 jobs_to_be_done:
   - "Define metadata and explain its role as data about data."
   - "Identify the key elements of metadata, including who, what, where, when, why, and how."
