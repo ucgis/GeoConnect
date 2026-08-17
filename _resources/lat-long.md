@@ -132,8 +132,8 @@ Different GIS software programs have different methods for importing and convert
   <button onclick="expandAll()">Expand all</button>
   <button onclick="collapseAll()">Collapse all</button>
 </div>
-<details class="collapsible">
-<summary><strong>ArcGIS Pro: Convert Degrees Minutes Seconds (DMS)</strong></summary>
+<details class="collapsible" markdown="1">
+<summary markdown="span"><strong>ArcGIS Pro: Convert Degrees Minutes Seconds (DMS)</strong></summary>
 
 If you haven’t followed the recommended procedure of converting DMS to DD in your spreadsheet, the **Convert Coordinate Notation** tool can accomplish the task. 
 
@@ -159,8 +159,8 @@ If you haven’t followed the recommended procedure of converting DMS to DD in y
   <button onclick="expandAll()">Expand all</button>
   <button onclick="collapseAll()">Collapse all</button>
 </div>
-<details class="collapsible">
-<summary><strong>QGIS: Convert Degrees Minutes Seconds (DMS)</strong></summary>
+<details class="collapsible" markdown="1">
+<summary markdown="span"><strong>QGIS: Convert Degrees Minutes Seconds (DMS)</strong></summary>
 
 **–** *(courtesy of Gemini)*
 
@@ -192,8 +192,8 @@ This method uses the built-in functionality in QGIS to interpret DMS coordinates
 
 **Alternative: Use a QGIS Plugin: ** For recurring conversions or more advanced options, the [Coordinates Converter](https://plugins.qgis.org/plugins/coordinates_converter/) plugin from the QGIS Python Plugins Repository can also be used.
 </details>
-<details class="collapsible">
-<summary><strong>Convert Degrees Minutes Seconds (DMS) in Python</strong></summary> 
+<details class="collapsible" markdown="1">
+<summary markdown="span"><strong>Convert Degrees Minutes Seconds (DMS) in Python</strong></summary> 
 
 To convert a DMS (Degrees, Minutes, Seconds) coordinate CSV file to a format with decimal degrees (DD) in Python, the recommended methods involve using the pandas library for data manipulation and the csv module for file handling, along with custom functions to perform the mathematical conversion. 
 
