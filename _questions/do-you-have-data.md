@@ -59,10 +59,12 @@ Additional questions to think about before and during your mapping adventures:
 </details>
 <details class="collapsible">
 <summary><strong>Spreadsheets</strong></summary>
-<p></p>Many times you may have data that is in a spreadsheet format. If your data is in a spreadsheet, you must have at least one field that contains location based information. This may include, Latitude/Longitude, an address, or some other type of geographic identifier (such as census tracts, administrative boundaries, school districts, or other).<br>
-  * CSV<br>
-  * XLSX<br>
-  * TXT<br>
+<p>Many times you may have data that is in a spreadsheet format. If your data is in a spreadsheet, you must have at least one field that contains location based information. This may include, Latitude/Longitude, an address, or some other type of geographic identifier (such as census tracts, administrative boundaries, school districts, or other).
+  <ul>
+  <li>CSV</li>
+  <li>XLSX</li>
+  <li>TXT</li>
+</ul>
 </p>
 </details>
 <details class="collapsible">
