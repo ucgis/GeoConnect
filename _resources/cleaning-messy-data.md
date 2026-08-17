@@ -7,7 +7,7 @@ permalink: /resources/cleaning-messy-data/
 jobs_to_be_done:
   - "Recognize and correct common data quality issues that can affect GIS mapping and analysis."
   - "Prepare and format tabular datasets according to GIS data structure requirements."
-next_steps:
+next-steps:
   - label: "Does your data need to be cleaned?"
     type: resource
     ref: cleaning-messy-data
