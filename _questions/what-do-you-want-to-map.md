@@ -2,7 +2,7 @@
 title: "What kind of map do you want to create?"
 sub-title: "Choose the map that best tells your story"
 parent: "previous page"
-permalink: "what-do-you-want-to-map"
+permalink: /what-do-you-want-to-map/
 next-steps:
   - label: "Let’s talk about data!"
     type: question
