@@ -1,6 +1,9 @@
 ---
 title: "Geocoding"
 sub-title: "Tips for formatting; Info about geocoding."
+parent: "admin-units"
+parent_url: /resources/admin-units/
+permalink: /resources/geocoding/
 jobs_to_be_done:
   - "Locate GIS datasets for research"
   - "Access open geospatial data repositories"
@@ -10,7 +13,7 @@ next-steps:
     type: resource
     ref: cleaning-messy-data
   - label: "Let's choose a platform for your map."
-    type: resource
+    type: question
     ref: choose-a-platform
 ---
 <nav class="breadcrumbs">
@@ -28,8 +31,8 @@ Geocoding is the process of determining geographic coordinates for place names, 
 
 Related tasks include:
 
-* Batch geocoding: geocoding multiple addresses, place names or codes at one time.  
-* Reverse geocoding: determining the nearest street address for a given point location specified as a latitude and longitude.
+* **Batch geocoding:** geocoding multiple addresses, place names or codes at one time.  
+* **Reverse geocoding:** determining the nearest street address for a given point location specified as a latitude and longitude.
 
 Geocoding is an iterative process. At times it requires mapping/geocoding your data, reviewing the results, and then doing data clean up to improve your results. As you review your results, double check to make sure the locations make sense based on what your expectations are. 
 
