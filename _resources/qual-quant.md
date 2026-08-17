@@ -68,7 +68,7 @@ A technique where you define your own custom class breaks or intervals without r
 
 <img src="{{ '/assets/images/breaks.png' | relative_url }}"
      alt="This histogram suggests that 3 or 4 data classes seem most appropriate, the “dips/gaps” suggest natural places to break the data."
-     style="max-width:300px; width:100%; height:auto;"> 
+     style="max-width:450px; width:100%; height:auto;"> 
      
 ## Did you know?
 
