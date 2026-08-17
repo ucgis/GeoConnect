@@ -98,8 +98,8 @@ You can use a spreadsheet to convert DMS to DD in a spreadsheet program (like Ex
   <button onclick="expandAll()">Expand all</button>
   <button onclick="collapseAll()">Collapse all</button>
 </div>
-<details class="collapsible">
-<summary><strong>Expand for step-by-step instructions…</strong></summary>
+<details  markdown="1" class="collapsible">
+<summary markdown="span"><strong>Expand for step-by-step instructions…</strong></summary>
 
 1. **Open your CSV** in a spreadsheet program.  
 2. **Use a formula** to convert the DMS values to DD. The general formula is:  
