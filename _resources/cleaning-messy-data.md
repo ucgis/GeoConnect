@@ -2,7 +2,7 @@
 title: "Cleaning Messy Data"
 subtitle: "Prepare and format tabular datasets according to GIS data structure requirements."
 parent: "admin-units"
-parent_url: /admin-units/
+parent_url: /resources/admin-units/
 permalink: /resources/cleaning-messy-data/
 jobs_to_be_done:
   - "Recognize and correct common data quality issues that can affect GIS mapping and analysis."
