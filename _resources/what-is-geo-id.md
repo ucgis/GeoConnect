@@ -1,7 +1,7 @@
 ---
 title: "What is the geographic identifier?"
 sub-title: "Includes general spreadsheet formatting tips."
-parent: "/resources/do-you-have-data"
+parent: "do-you-have-data"
 jobs_to_be_done:
   - "Differentiate between longitude (X) and latitude (Y) coordinates and identify common coordinate formats."
   - "Select an appropriate geographic identifier and visualization method based on mapping needs."
