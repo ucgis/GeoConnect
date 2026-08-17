@@ -1,7 +1,7 @@
 # Site settings
-title: UC GIS Consultation Tool
-description: Interactive decision tree for GIS research consultations
-baseurl: "/GeoConnect" # the subpath of your site - this is your repository name
+title: GeoNavigator
+description: A choose-your-own adventure for creating maps and working with GIS data. 
+baseurl: "/GeoNavigator" # the subpath of your site - this is your repository name
 url: "https://ucgis.github.io" # the base hostname & protocol for your site
 
 # Theme
@@ -48,7 +48,8 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Footer content
-footer_content: "University of California GIS Librarians"
+footer_content: "University of California GeoConnect Working Group"
+footer_content: "<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"target="_blank"rel="noopener noreferrer">CC BY-NC-SA 4.0</a>
 
 # Aux links (optional - for future use)
 aux_links:
