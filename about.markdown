@@ -4,11 +4,13 @@ title: About
 nav_order: 4
 ---
 
-# About the UC GIS Consultation Tool
+# About the GeoNavigator
 
-## What is This Tool?
+## What is the GeoNavigator?
 
-The University of California (UC) GIS Consultation Tool is an interactive decision tree that mirrors the consultation process UC GIS librarians use when working with researchers. Instead of navigating a traditional website structure, users follow a branching path of questions and resources tailored to their specific needs.
+A choose-your-own adventure for creating maps and working with GIS data. This guided walk-through will support you with finding, cleaning, and visualizing data to create maps, as well as selecting the best platform.
+
+Created by librarians and GIS staff across multiple University of California (UC) campuses to centralize support for beginning and intermediate mappers with geospatial research and map creation. Instead of navigating a traditional website structure, users follow a branching path of questions and resources tailored to their specific needs.
 
 ## GeoConnect
 
