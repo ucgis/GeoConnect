@@ -1,8 +1,7 @@
 ---
 title: "Let's check that the data coverage is what you need?"
 sub-title: "Does it cover the area, scale, time frame, or is it not detailed enough?"
-parent: "previous page"
-permalink: "data-coverage"
+permalink: /data-coverage/
 next-steps:
   - label: "I'm just mapping locations." 
     type: resource
@@ -46,12 +45,12 @@ Before going any further with mapping the data, make sure it completely covers t
      **Temporal Filters:** Isolates data based on a time component (e.g., viewing traffic accidents that occurred *after* 5:00 PM or *between* specific dates). 
 
 **Is any of the data missing?** (Geographic coverage, Is the data outdated? Do you need something more recent?, etc.)  
-  1. Determine which data is missing and conduct a search for new/additional data.  
+  * Determine which data is missing and conduct a search for new/additional data.  
        
 **Is there an issue with the data upload?** (Are there missing rows, ex. The table has 200 rows but you only have 50.)  
-  1. Check your original dataset and reupload to see if that resolves the issue.  
+  * Check your original dataset and reupload to see if that resolves the issue.  
        
 **Is your data too generalized?**   
-  1. You may need to find a more specific dataset if the data is too general for your area.
+  * You may need to find a more specific dataset if the data is too general for your area.
 
 This is not an exhaustive list of questions, rather a guide to help you while you search for the data that is best for your project.
