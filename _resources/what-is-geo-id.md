@@ -1,6 +1,8 @@
 ---
 title: "What is the geographic identifier?"
 sub-title: "Includes general spreadsheet formatting tips."
+parent: "previous page"
+permalink: "what-is-geo-id"
 jobs_to_be_done:
   - "Differentiate between longitude (X) and latitude (Y) coordinates and identify common coordinate formats."
   - "Select an appropriate geographic identifier and visualization method based on mapping needs."
@@ -78,7 +80,7 @@ OR
 Administrative units may vary greatly based on your area of interest. Administrative units also vary around the world. Administrative units are typically visualized as areas (polygons). 
 
 **Examples:**
-* Census block/tract/group  \-   
+* Census block/tract/group    
 * Zip codes (5 or 9 digit) \- 12398 or 12398-3485  
 * State name \- California or 06 (FIPS code)  
 * Voting district \- San Francisco Supervisorial District 1  
