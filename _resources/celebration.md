@@ -1,6 +1,8 @@
 ---
 title: "Congratulations!"
 sub-title: "You made a map!"
+parent: "interactive-maps"
+parent_url: /resources/interactive-maps/
 ---
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
