@@ -66,6 +66,9 @@ A choose-your-own adventure for creating maps and working with GIS data. This gu
       UC GIS Librarians have extensive knowledge and frequently conduct consultations that follow predictable pathways and encounter common decision points. This tool guides you through those same questions and decisions to help you find the resources and guidance you need.
     </p>
     <p>
+          GeoNavigator is a living document. Additional sections, features, and content will be added over time based on user feedback and evolving needs. We welcome your <a href="https://forms.gle/Kt7dicLdwbsta6aX6">feedback and suggestions</a>!
+    </p>
+    <p>
       <strong>Need direct help?</strong>
 <a href="https://docs.google.com/spreadsheets/d/1xkgsnwz5MXEIpD9OMWajIPKpSdTdlb7THoeWCirHR7A/edit?usp=sharing"
    target="_blank"
@@ -76,7 +79,5 @@ A choose-your-own adventure for creating maps and working with GIS data. This gu
     </p>
 
   </div>
-    <p>
-      GeoNavigator is a living document. Additional sections, features, and content will be added over time based on user feedback and evolving needs. We welcome your <a href="https://forms.gle/Kt7dicLdwbsta6aX6">feedback and suggestions</a>!
-      </p>
+
 </div>
