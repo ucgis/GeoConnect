@@ -6,12 +6,10 @@ title: UC GIS Consultation Tool
 <div class="home-page">
 
   <div class="hero">
-    <h1>GIS Interactive Guide</h1>
+    <h1>GeoNavigator</h1>
     <p class="hero-subtitle">
-      Your guided walk-through to help you with finding, cleaning, choosing a platform,
-      and visualizing data to map with GIS. Created by the University of California (UC)
-      GIS Librarians to help you with your geospatial research needs.
-    </p>
+A choose-your-own adventure for creating maps and working with GIS data. This guided walk-through will support you with finding, cleaning, and visualizing data to create maps, as well as selecting the best platform.</p>
+<p>Created by librarians and GIS staff across multiple University of California (UC) campuses to centralize support for beginning and intermediate mappers with geospatial research and map creation.</p>
   </div>
 
   <div class="home-content">
