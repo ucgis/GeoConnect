@@ -28,7 +28,7 @@ next-steps:
 </nav>
 # Visualizing more than just the location of your data 
 
-If you're just mapping the locations of your data, take a look at [Best practices for map-making ](https://ucgis.github.io/GeoNavigator/resources/finalize-map/). 
+If you're just mapping the locations of your data, take a look at [Best practices for map-making](https://ucgis.github.io/GeoNavigator/resources/finalize-map/). 
 
 Your data is more than just places on a map. Most likely your data has additional attributes associated with it which you can visualize in different ways. These attributes can be **qualitative** attributes (e.g. bird species, paving material, which language is spoken) or **quantitative** attributes (e.g. total bird observations, path width, number of speakers of a particular language). Open your data table (known as attribute table) in a GIS software to determine which attribute(s) you want to represent on your map. 
 
