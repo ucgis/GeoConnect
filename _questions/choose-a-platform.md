@@ -1,7 +1,7 @@
 ---
 title: "Let's choose a platform for your map!"
 sub-title: "Explore your options for creating, analyzing, and sharing maps"
-permalink: "choose-a-platform"
+permalink: /choose-a-platform/
 next-steps:
   - label: "I still need to find some data first."
     type: resource
