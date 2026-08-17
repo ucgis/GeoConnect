@@ -38,22 +38,22 @@ Geocoding is an iterative process. At times it requires mapping/geocoding your d
   <button onclick="expandAll()">Expand all</button>
   <button onclick="collapseAll()">Collapse all</button>
 </div>
-<details class="collapsible">
+<details class="collapsible" markdown="1">
   
-<summary><strong>Esri / ArcGIS</strong></summary>
+<summary markdown="span"><strong>Esri / ArcGIS</strong></summary>
 
 [ArcGIS Online World Geocoding Service](http://desktop.arcgis.com/en/arcmap/latest/manage-data/geocoding/working-with-arcgis-online-geocoding-service.htm)  
 The Esri World Geocoding Service provides high quality geocoding for place names, addresses and zip codes within the USA. It also works with locations outside of the USA, but in sometimes more limited ways. You can also access this through ArcGIS Pro, ArcMap, or the browser-based ArcGIS Online. Using this service requires an ArcGIS Online account and credits. 
 </details>
-<details class="collapsible">
+<details class="collapsible" markdown="1">
   
-<summary><strong>QGIS</strong></summary>
+<summary markdown="span"><strong>QGIS</strong></summary>
 
 The [MMQGIS plugin](https://michaelminn.com/linux/mmqgis/) is a Python plugin for QGIS that contains geocoding tools, which can draw on the Google Geocoding API data, the OpenStreetMap Nominatim service, or a local street address layer, such as the [US Census Bureau's TIGER/Line data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html). To use it, download the plugin first. Then select the “Geocode CSV with Google / OpenStreetMap” feature found under MMQGIS--\>Geocode.
 
 </details>
-<details class="collapsible">
-<summary><strong>Other</strong></summary>
+<details class="collapsible" markdown="1">
+<summary markdown="span"><strong>Other</strong></summary>
 
 Browser-based:
 
@@ -62,8 +62,8 @@ Browser-based:
 * [Texas A\&M Geoservices](http://geoservices.tamu.edu/Services/Geocode/) \- US only, browser based, 2,500 addresses, then must purchase plan, must create account.
 
 </details>
-<details class="collapsible">
-<summary><strong>Python:</strong></summary> 
+<details class="collapsible" markdown="1">
+<summary markdown="span"><strong>Python:</strong></summary> 
 
 * [Geopy](https://github.com/geopy/geopy) **\-** General purpose geocoding and reverse geocoding via various online services.  
 * [Geocodio Python Library](https://www.geocod.io/updates/2025-08-11-introducing-the-official-geocodio-python-library/) \- Bulk geocoding and data enrichment for US and Canadian addresses.  
@@ -72,8 +72,8 @@ Browser-based:
 * [Python Geocoder](https://pypi.python.org/pypi/geocoder) \-  is another open-source library that leverages Python to retrieve latitude and longitude coordinates from Google Maps. One of its advantages is that it can be used completely separately from QGIS.
 
 </details>
-<details class="collapsible">
-<summary><strong>R</strong></summary>
+<details class="collapsible" markdown="1">
+<summary markdown="span"><strong>R</strong></summary>
 
 * [Tidygeocoder](https://jessecambon.github.io/tidygeocoder/) \- A unified high-level interface is provided for a selection of supported geocoding services and results are returned in tibble (dataframe) format.  
 * [Ggmap](https://www.rdocumentation.org/packages/ggmap/versions/4.0.1/topics/geocode) \- Geocodes (finds latitude and longitude of) a location using the Google Geocoding API. Note: To use Google's Geocoding API, you must first enable the API in the Google Cloud Platform Console.  
@@ -83,8 +83,8 @@ Browser-based:
 API services? (Nominatum, Census geocoder, etc.)
 
 </details>
-<details class="collapsible">
-<summary><strong>Tips for Geocoding</strong></summary>
+<details class="collapsible" markdown="1">
+<summary markdown="span"><strong>Tips for Geocoding</strong></summary>
 
 Geocoding works well when you have done some data cleanup. Below are considerations you might want to consider before you geocode your data. 
 
