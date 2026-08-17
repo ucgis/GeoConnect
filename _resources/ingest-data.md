@@ -1,6 +1,9 @@
 ---
 title: "Visualize your data in a GIS program"
 sub-title: "Does your data show up in the map where you expect it to?"
+parent: "choose-a-platform"
+parent_url: /resources/choose-a-platform/
+permalink: /resources/ingest-data/
 jobs_to_be_done:
   - "Explain the role of basemaps in GIS visualization."
   - "Import and view common GIS data formats."
@@ -24,10 +27,6 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
-
-## Ingest Data
-
-Links to platform-specific documentation about how to get data into the platform to visualize it on a map. There is more than one way to add data to your map. Below are just a few suggested approaches.
 
 ## Basemaps
 
