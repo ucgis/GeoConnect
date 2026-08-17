@@ -94,7 +94,9 @@ Why one might choose a spatial join over a table join is in a spatial join, you 
 
 ### General Process:
 
-*Illustration here*
+<img src="{{ '/assets/images/Spatialjoinimage.png' | relative_url }}"
+     alt="Spatial join allows data from geocoded points for counties to be added to county polygons."
+     style="max-width:450px; width:100%; height:auto;"> 
 
 1. Step 1: Geocode your data so that it is represented as points. In a web-based platform this is usually a straightforward process that happens as part of uploading data. See the section on geocoding for more details.  
 2. Step 2: Run a spatial join in order to match the points to the overlapping areas based on their spatial relationship. Create a new file that associates the data you want to map with the administrative areas (represented now as areas not points).
