@@ -1,6 +1,8 @@
 ---
 title: "Find GIS Data"
 sub-title: "If you don't have data yet, these resources and tips can help you get started"
+parent: "do-you-have-data"
+parent_url: /do-you-have-data/
 jobs_to_be_done:
   - "Locate GIS datasets for research"
   - "Access open geospatial data repositories"
