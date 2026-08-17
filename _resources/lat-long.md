@@ -119,11 +119,6 @@ You can use a spreadsheet to convert DMS to DD in a spreadsheet program (like Ex
 
 Different GIS software programs have different methods for importing and converting coordinate data to decimal degrees.Expand the different options below for step-by-step instructions for each program.
 
-<!-- Expand / Collapse Controls -->
-<div style="margin: 1.5rem 0;">
-  <button onclick="expandAll()">Expand all</button>
-  <button onclick="collapseAll()">Collapse all</button>
-</div>
 <details class="collapsible" markdown="1">
 <summary markdown="span"><strong>ArcGIS Pro: Convert Degrees Minutes Seconds (DMS)</strong></summary>
 
@@ -146,11 +141,6 @@ If you haven’t followed the recommended procedure of converting DMS to DD in y
 * **Coordinate System:** Ensure you define the input coordinate system as Geographic (e.g., GCS\_WGS\_1984 or NAD83) for the conversion to work accurately.  
 * **Export Data:** After displaying the points, right-click the layer and choose **Export Data** to save the points as a permanent feature class.
 
-<!-- Expand / Collapse Controls -->
-<div style="margin: 1.5rem 0;">
-  <button onclick="expandAll()">Expand all</button>
-  <button onclick="collapseAll()">Collapse all</button>
-</div>
 <details class="collapsible" markdown="1">
 <summary markdown="span"><strong>QGIS: Convert Degrees Minutes Seconds (DMS)</strong></summary>
 
@@ -274,17 +264,7 @@ with open('input.csv', newline='') as infile, open('output.csv', 'w', newline=''
     	writer.writerow(row)
 ```
 </details>
-<script>
-function expandAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = true);
-}
 
-function collapseAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = false);
-}
-</script>
 ## Troubleshooting
 
 Is your data not lining up where you want it to be? 
