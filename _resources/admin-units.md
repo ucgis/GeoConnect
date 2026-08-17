@@ -128,4 +128,4 @@ Why one might choose a spatial join over a table join is in a spatial join, you 
   * A 15 minute tutorial that has you join data from a CSV to an existing layer in ArcGIS Online
  
 ### Need Help?
-  <p>If you have questions or need assistance, [please contact us!](https://docs.google.com/spreadsheets/d/1xkgsnwz5MXEIpD9OMWajIPKpSdTdlb7THoeWCirHR7A/edit?usp=sharing)
+  <p>If you have questions or need assistance, <a href="[https://www.example.com](https://docs.google.com/spreadsheets/d/1xkgsnwz5MXEIpD9OMWajIPKpSdTdlb7THoeWCirHR7A/edit?usp=sharing)">please contact us!</a>
