@@ -1,6 +1,9 @@
 ---
 title: "Administrative Units"
 sub-title: "Official political or organizational boundaries—such as countries, states, and counties—used to structure, analyze, and display spatial data."
+parent: "what-is-geo-id"
+parent_url: /resources/what-is-geo-id/
+permalink: /resources/admin-units/
 jobs_to_be_done:
   - "Identify and describe administrative units commonly used in GIS mapping and spatial analysis."
   - "Evaluate and validate GIS join outputs using established data management and quality assurance practices."
