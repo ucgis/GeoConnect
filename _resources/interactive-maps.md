@@ -1,6 +1,9 @@
 ---
 title: "How to make an interactive map."
 sub-title: "Transforming Your Map into an Interactive Experience."
+parent: "finalize-map"
+parent_url: /resources/finalize-map/
+permalink: /resources/interactive-maps/
 jobs_to_be_done:
   - "Identify key interactive map functions and their purposes."
   - "Select an appropriate platform for publishing an interactive map."
@@ -32,16 +35,15 @@ And it can get fancier than that\! You may have seen timelapse maps, 3D maps tha
 
 The best-known platform for creating interactive maps is ArcGIS Online. You can create an interactive web map directly in ArcGIS Online, or you can enable a map created in ArcGIS Pro to become an ArcGIS Online web map. Another Esri product, ArcGIS StoryMaps, allows you to share interactive maps along with text, video, and/or audio to provide context.
 
-Similarly, QGIS has a plugin called QGIS2Web (https://plugins.qgis.org/plugins/qgis2web/) that allows you to create a web map from your QGIS project.
+Similarly, QGIS has a plugin called [QGIS2Web](https://plugins.qgis.org/plugins/qgis2web/) that allows you to create a web map from your QGIS project.
 
 Maps created in Google Earth for Web can be shared for others to explore just by copying the URL.
 
 There are many considerations involved with making an interactive map. Below are just a few resources to help you.
 
-Resources:
+## Resources:
 
 * [ESRI: Create maps, scenes, and apps](https://doc.esri.com/en/arcgis-enterprise/latest/create/create-maps-and-apps.html?pivots=os-windows)  
-* [Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services]  
-  (https://www.youtube.com/watch?v=0gekWZy8k3w)  
+* [Building Beautiful Interactive Mapping Applications with ArcGIS Basemap Services](https://www.youtube.com/watch?v=0gekWZy8k3w)  
 * [QGIS](https://www.qgistutorials.com/en/docs/3/web_mapping_with_qgis2web.html)   
 * [Google Earth: Create engaging map experience](https://mapsplatform.google.com/solutions/build-immersive-experiences/)
