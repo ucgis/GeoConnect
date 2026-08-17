@@ -1,6 +1,9 @@
 ---
 title: "Working with Latitude and Longitude Data in GIS."
 sub-title: "How to Format, Convert, and Use Coordinate Data."
+parent: "what-is-geo-id"
+parent_url: /resources/what-is-geo-id/
+permalink: /resources/lat-long/
 jobs_to_be_done:
   - "Distinguish between latitude and longitude coordinates."
   - "Identify whether a dataset is ready for mapping in a GIS application."
@@ -50,11 +53,15 @@ For example:
 
 ## Background information on XY coordinates (latitude and longitude)
 
-In a GIS, locations on the Earth’s surface are described by a pair of values, or XY coordinates, representing horizontal and vertical distance from a point of origin. With XY coordinates, the X value indicates how far east or west a feature is of the Prime Meridian (longitude), and the Y value indicates how far north or south of the Equator it is (latitude). We divide the Earth into 360 degrees of longitude (180 east and 180 west of the Prime Meridian), and 180 degrees of latitude (90 north and 90 south of the Equator). Negative values represent locations that are south of the Equator or west of the Prime Meridian (*INCLUDE [DIAGRAM](https://commons.wikimedia.org/wiki/File:Latitude_and_Longitude_of_the_Earth.svg), cite image)*. 
+In a GIS, locations on the Earth’s surface are described by a pair of values, or XY coordinates, representing horizontal and vertical distance from a point of origin. With XY coordinates, the X value indicates how far east or west a feature is of the Prime Meridian (longitude), and the Y value indicates how far north or south of the Equator it is (latitude). We divide the Earth into 360 degrees of longitude (180 east and 180 west of the Prime Meridian), and 180 degrees of latitude (90 north and 90 south of the Equator). Negative values represent locations that are south of the Equator or west of the Prime Meridian. 
+
+<img src="{{ '/assets/images/lat-long.png' | relative_url }}"
+     alt="Latitude and Longitude of the Earth "
+     style="max-width:350px; width:100%; height:auto;"> 
+[Illustration of geographic latitude and longitude of the earth by Djexplo](https://commons.wikimedia.org/wiki/File:Latitude_and_Longitude_of_the_Earth.svg)
 
 XY coordinates can come in a number of formats. These are visualized as points.  
 	
-
 | Type of XY coordinates | Example format |
 | :---- | :---- |
 | Decimal degrees | 37.375184, \-120.419319 |
@@ -87,7 +94,7 @@ There are several ways to convert coordinate data to decimal degrees. The recomm
 
 ### Converting one (or a few)
 
-Use this online converter to convert coordinate values manually one by one from degrees minutes seconds to decimal degrees: [https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees](https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees)
+Use this [online converter](https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees) to convert coordinate values manually one by one from degrees minutes seconds to decimal degrees: 
 
 ### Convert your data from DMS to DD in your spreadsheet 
 
