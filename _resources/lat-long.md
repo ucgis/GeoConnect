@@ -58,7 +58,8 @@ In a GIS, locations on the Earth’s surface are described by a pair of values, 
 <img src="{{ '/assets/images/lat-long.png' | relative_url }}"
      alt="Latitude and Longitude of the Earth "
      style="max-width:450px; width:100%; height:auto;"> 
-<p>[Illustration of geographic latitude and longitude of the earth by Djexplo](https://commons.wikimedia.org/wiki/File:Latitude_and_Longitude_of_the_Earth.svg)</p>
+
+[Illustration of geographic latitude and longitude of the earth by Djexplo](https://commons.wikimedia.org/wiki/File:Latitude_and_Longitude_of_the_Earth.svg)
 
 XY coordinates can come in a number of formats. These are visualized as points.  
 	
