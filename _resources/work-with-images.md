@@ -1,6 +1,8 @@
 ---
-title: "Here's some information about how to work with images."
+title: "Here's some information about how to work with images "
 sub-title: "Involves raster data like satellite photos, drone captures, and aerial scans."
+parent: "do-you-have-data"
+permalink: "work-with-images"
 jobs_to_be_done:
   - "Explain how images such as scanned maps, aerial photos, and historical documents can be used in GIS."
   - "Describe the purpose of georeferencing and how it enables images to align with geographic coordinates."
@@ -87,7 +89,8 @@ function collapseAll() {
 * Urban planning: align unreferenced architectural or engineering drawings to evaluate properly lines or utility layouts.  
 * Environmental analysis: overlay drone or satellite imagery over topographic data to map flood zones, wildlife habitats or deforestation. 
 
-**Resources:**  
+**Resources:** 
+
 	**Georeferencing**
 
 * [Imagery and Its Use in GIS](https://www.geographyrealm.com/imagery-use-gis/)  
@@ -99,7 +102,7 @@ function collapseAll() {
 
 * [Creating lines and polygons](https://training.caltopo.com/all_users/objects/lines-and-polys)  
 * [Create a Layer and Add Features in ArcGIS Online](https://www.esri.com/about/newsroom/arcwatch/create-a-layer-and-add-features-in-arcgis-online)
-*[Create points on a map (ArcGIS Pro)](https://doc.esri.com/en/arcgis-pro/latest/get-started/create-points-on-a-map.html)  
+* [Create points on a map (ArcGIS Pro](https://doc.esri.com/en/arcgis-pro/latest/get-started/create-points-on-a-map.html)  
 * [Create features in QGIS](https://docs.qgis.org/3.44/en/docs/training_manual/create_vector_data/create_new_vector.html)
 
 <script>
