@@ -100,11 +100,6 @@ Use this [online converter](https://www.latlong.net/degrees-minutes-seconds-to-d
 
 You can use a spreadsheet to convert DMS to DD in a spreadsheet program (like Excel or Google Sheets) before importing to a GIS program.
 
-<!-- Expand / Collapse Controls -->
-<div style="margin: 1.5rem 0;">
-  <button onclick="expandAll()">Expand all</button>
-  <button onclick="collapseAll()">Collapse all</button>
-</div>
 <details  markdown="1" class="collapsible">
 <summary markdown="span"><strong>Expand for step-by-step instructions…</strong></summary>
 
@@ -119,17 +114,6 @@ You can use a spreadsheet to convert DMS to DD in a spreadsheet program (like Ex
 5. **Import the new DD CSV** into the GIS platform you’ve chosen.
 </details>
 
-<script>
-function expandAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = true);
-}
-
-function collapseAll() {
-  document.querySelectorAll('details.collapsible')
-    .forEach(d => d.open = false);
-}
-</script>
 ### Convert your data 
 
 Different GIS software programs have different methods for importing and converting coordinate data to decimal degrees.Expand the different options below for step-by-step instructions for each program.
