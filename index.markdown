@@ -1,6 +1,6 @@
 ---
 layout: home
-title: UC GIS Consultation Tool
+title: GeoNavigator
 ---
 
 <div class="home-page">
