@@ -11,9 +11,6 @@ next-steps:
   - label: "Yes, it's where I expected it to be."
     type: question
     ref: data-coverage
-  - label: "No, it's in the wrong place, or not there at all!"
-    type: resource
-    ref: get-help
 ---
 
 <nav class="breadcrumbs">
