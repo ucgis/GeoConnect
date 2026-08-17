@@ -2,7 +2,7 @@
 title: "Visualize your data in a GIS program"
 sub-title: "Does your data show up in the map where you expect it to?"
 parent: "choose-a-platform"
-parent_url: /resources/choose-a-platform/
+parent_url: /choose-a-platform/
 permalink: /resources/ingest-data/
 jobs_to_be_done:
   - "Explain the role of basemaps in GIS visualization."
