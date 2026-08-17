@@ -63,9 +63,7 @@ A choose-your-own adventure for creating maps and working with GIS data. This gu
   <div class="about-section">
     <h2>About This Tool</h2>
     <p>
-      UC GIS Librarians have extensive knowledge and frequently conduct consultations
-      with predictable pathways and decision points. This tool guides you through those
-      same decisions to help you find the resources and guidance you need.
+      UC GIS Librarians have extensive knowledge and frequently conduct consultations that follow predictable pathways and encounter common decision points. This tool guides you through those same questions and decisions to help you find the resources and guidance you need.
     </p>
     <p>
       <strong>Need direct help?</strong>
@@ -79,15 +77,6 @@ A choose-your-own adventure for creating maps and working with GIS data. This gu
 
   </div>
     <p>
-      Thank you for visiting. Our website is currently under development as we continue
-      to build and refine content to better serve our community. This initial version
-      provides a foundation for the information and resources we plan to offer.
-      Additional sections, features, and content will be added over time based on user
-      feedback and evolving needs.
-    </p>
-
-    <p>
-      We appreciate your patience and [welcome your suggestions](https://forms.gle/Kt7dicLdwbsta6aX6) as we work to create a
-      more comprehensive and useful experience.
+      GeoNavigator is a living document. Additional sections, features, and content will be added over time based on user feedback and evolving needs. We welcome your <a href="https://forms.gle/Kt7dicLdwbsta6aX6">feedback and suggestions</a>!
       </p>
 </div>
