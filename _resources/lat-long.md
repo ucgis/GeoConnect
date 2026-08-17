@@ -280,5 +280,6 @@ Is your data not lining up where you want it to be?
 * [UTM to Latitude and Longitude Convertor](https://www.ngs.noaa.gov/NCAT/)  
 * [Map Projections](https://gistbok-ltb.ucgis.org/page/current/concept/CV-03-006)
 
-
+### Need Help?
+  <p>If you have questions or need assistance, <a href="[https://www.example.com](https://docs.google.com/spreadsheets/d/1xkgsnwz5MXEIpD9OMWajIPKpSdTdlb7THoeWCirHR7A/edit?usp=sharing)">please contact us!</a>
 
