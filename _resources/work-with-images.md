@@ -2,7 +2,7 @@
 title: "Here's some information about how to work with images "
 sub-title: "Involves raster data like satellite photos, drone captures, and aerial scans."
 parent: "do-you-have-data"
-permalink: "work-with-images"
+permalink: "resources/work-with-images"
 jobs_to_be_done:
   - "Explain how images such as scanned maps, aerial photos, and historical documents can be used in GIS."
   - "Describe the purpose of georeferencing and how it enables images to align with geographic coordinates."
