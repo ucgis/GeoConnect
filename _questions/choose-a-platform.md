@@ -4,12 +4,12 @@ sub-title: "Explore your options for creating, analyzing, and sharing maps"
 parent: "previous page"
 permalink: "choose-a-platform"
 next-steps:
-  - label: "I'm ready to get started mapping! I know which platform I want to use."
-    type: resource
-    ref: static-maps
   - label: "I still need to find some data first."
     type: resource
     ref: finding-gis-data
+  - label: "My data is clean"
+    type: resource
+    ref: ingest-data 
 ---
 
 <nav class="breadcrumbs">
