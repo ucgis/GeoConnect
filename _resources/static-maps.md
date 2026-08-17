@@ -1,7 +1,9 @@
 ---
 title: "How to print or take a screenshot of a map."
 sub-title: "A static map is a fixed, non-interactive image of a geographic area"
-permalink: "static-maps"
+parent: "finalize-map"
+parent_url: /finalize-map/
+permalink: /resources/static-maps/
 jobs_to_be_done:
   - "Evaluate map scale, layout, readability, and accessibility before finalizing a map."
   - "Select suitable output settings, including map size and print resolution (DPI)."
@@ -21,7 +23,9 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
-You’ve done all the work for creating a map **congratulations!** Now it’s time to make the final version to share.
+You’ve done all the work for creating a map **congratulations!** 
+
+Now it’s time to make the final version to share.
 
 If your map is going to be a static rather than an interactive map, you have a few options for creating a map suitable for printing.
 
