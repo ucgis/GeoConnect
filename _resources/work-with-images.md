@@ -93,14 +93,14 @@ function collapseAll() {
 
 **Resources:** 
 
-	**Georeferencing**
+***Georeferencing***
 
 * [Imagery and Its Use in GIS](https://www.geographyrealm.com/imagery-use-gis/)  
 * [Georeference historical imagery in ArcGIS Pro](https://learn.arcgis.com/en/projects/georeference-imagery-in-arcgis-pro/)  
 * [Georeferencing a Map (QGIS)](https://docs.qgis.org/3.44/en/docs/training_manual/forestry/map_georeferencing.html)  
 * [Hand-drawn historic maps: Utilization and conversion of unique features into Geographic Information Systems](https://www.tandfonline.com/doi/full/10.1080/15420353.2024.2399714#abstract)
 
-**Creating points / lines /polygons**
+***Creating points / lines /polygons***
 
 * [Creating lines and polygons](https://training.caltopo.com/all_users/objects/lines-and-polys)  
 * [Create a Layer and Add Features in ArcGIS Online](https://www.esri.com/about/newsroom/arcwatch/create-a-layer-and-add-features-in-arcgis-online)
