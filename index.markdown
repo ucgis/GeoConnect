@@ -1,6 +1,5 @@
 ---
 layout: home
-title: GeoNavigator
 ---
 
 <div class="home-page">
