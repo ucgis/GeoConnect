@@ -47,6 +47,7 @@ Examples:
   </a>
 </figcaption>
 </figure>
+
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
      alt="Hand-colored shading shows residential and commercial buildings, amusements, agricultural and industrial sites."
@@ -60,6 +61,7 @@ Examples:
   </a>
 </figcaption>
 </figure>
+
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/olmpic.png' | relative_url }}"
      alt="Includes location map, transportation information, and dates of Olympic events"
@@ -73,6 +75,7 @@ Examples:
   </a>
 </figcaption>
 </figure>
+
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/county.png' | relative_url }}"
      alt="Blue line print."
@@ -99,11 +102,34 @@ Examples:
 * Weather map showing equal lines of barometric pressure or temperature ranges.
   * [Map of California illustrating its climatology](https://digital.library.ucla.edu/catalog/ark:/21198/zz002bbh9m)   
 * Election maps: looking by county by county or state by state.
-* [One World, One War. A Map Showing the Line-up and the Strategic Stakes in this First Global War](https://digital.library.ucla.edu/catalog/ark:/21198/zz002cf0dp)
-* [Map of Los Angeles Showing Location of Elementary Schools and Percentage of the Total Enrollment in Each School
-Comprised in the Five Leading Non-English Language or Racial Background Groups, School Year 1935-36](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2295)
 
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<img src="{{ '/assets/images/oneworld.png' | relative_url }}"
+     alt="A Map Showing the Line-up and the Strategic Stakes in this First Global War"
+     style="max-width:50px; width:100%; height:auto;">
+<figcaption>
+  <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002cf0dp"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="One World, One War. A Map Showing the Line-up and the Strategic Stakes in this First Global War">
+    One World, One War. A Map Showing the Line-up and the Strategic Stakes in this First Global War
+  </a>
+</figcaption>
+</figure>
 
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<img src="{{ '/assets/images/school.png' | relative_url }}"
+     alt="Thematic Map of Los Angeles Showing Location of Elementary Schools"
+     style="max-width:50px; width:100%; height:auto;">
+<figcaption>
+  <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002cf0dp"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="Map of Los Angeles Showing Location of Elementary Schools and Percentage of the Total Enrollment in Each School Comprised in the Five Leading Non-English Language or Racial Background Groups, School Year 1935-36">
+    Map of Los Angeles Showing Location of Elementary Schools and Percentage of the Total Enrollment in Each School Comprised in the Five Leading Non-English Language or Racial Background Groups, School Year 1935-36
+  </a>
+</figcaption>
+</figure>
 
 We gave you some examples of different types of maps, to see and learn more about different types of maps, look at the Map and Government Information Library’s [Map of Maps/Map Types](https://waml.org/waml-information-bulletin/volume-53-number-2/cool-project-the-map-and-government-information-librarys-map-of-maps-map-types/)
 
