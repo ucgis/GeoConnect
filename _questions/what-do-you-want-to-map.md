@@ -51,42 +51,41 @@ Examples:
 <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
      alt="Hand-colored shading shows residential and commercial buildings, amusements, agricultural and industrial sites."
      style="max-width:50px; width:100%; height:auto;">
-
 <figcaption>
-    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185"
-       target="_blank"
-       rel="noopener noreferrer"
-       title="Land utilization of the City of Santa Monica"
-    </a>
-  </figcaption>
+  <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="Land utilization of the City of Santa Monica">
+    Land utilization of the City of Santa Monica
+  </a>
+</figcaption>
+</figure>
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/olmpic.png' | relative_url }}"
      alt="Includes location map, transportation information, and dates of Olympic events"
      style="max-width:50px; width:100%; height:auto;">
-
 <figcaption>
-    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/z18q0f3b"
-       target="_blank"
-       rel="noopener noreferrer"
-       title="UCLA 1984 Olympic Village map"
-    </a>
-  </figcaption>
+  <a href="https://digital.library.ucla.edu/catalog/ark:/21198/z18q0f3b"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="UCLA 1984 Olympic Village map">
+    UCLA 1984 Olympic Village map
+  </a>
+</figcaption>
 </figure>
-
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/county.png' | relative_url }}"
      alt="Blue line print."
      style="max-width:50px; width:100%; height:auto;">
-
 <figcaption>
-    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c1hf2"
-       target="_blank"
-       rel="noopener noreferrer"
-       title="Official map of the County of Los Angeles, California"
-    </a>
-  </figcaption>
+  <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c1hf2"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="Official map of the County of Los Angeles, California">
+    Official map of the County of Los Angeles, California
+  </a>
+</figcaption>
 </figure>
-
 
 ### Thematic maps
 
