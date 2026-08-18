@@ -38,12 +38,18 @@ Examples:
      alt="Maps of Maps poster image"
      style="max-width:50px; width:100%; height:auto;">
      <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253">Outline Map L.A. City School District and Vicinity Showing Location of School Sites</a></figcaption>
-
-
-
-* [Land utilization of the City of Santa Monica](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185}
-* [UCLA 1984 Olympic Village map](https://digital.library.ucla.edu/catalog/ark:/21198/z18q0f3b)
-* [Official map of the County of Los Angeles, California](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c1hf2)
+* <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
+     alt="Maps of Maps poster image"
+     style="max-width:50px; width:100%; height:auto;">
+     <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185">Land utilization of the City of Santa Monica</a></figcaption>
+* <img src="{{ '/assets/images/olmpic.png' | relative_url }}"
+     alt="Maps of Maps poster image"
+     style="max-width:50px; width:100%; height:auto;">
+     <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/z18q0f3b">UCLA 1984 Olympic Village map</a></figcaption>
+* <img src="{{ '/assets/images/county.png' | relative_url }}"
+     alt="Maps of Maps poster image"
+     style="max-width:50px; width:100%; height:auto;">
+     <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c1hf2">Official map of the County of Los Angeles, California</a></figcaption>
 
 ### Thematic maps
 
