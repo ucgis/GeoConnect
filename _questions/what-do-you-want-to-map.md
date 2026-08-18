@@ -34,10 +34,20 @@ Examples:
 * The boundaries of field plots for an ecological survey.  
 * Transit and station maps show public transport routes and specific train or bus stops.   
 * Site and property plans to show exact land boundaries.
-* <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
-     alt="Maps of Maps poster image"
-     style="max-width:50px; width:100%; height:auto;">
-     <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253">Outline Map L.A. City School District and Vicinity Showing Location of School Sites</a></figcaption>
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+  /images/LAschool.png' | relative_url }}"
+       alt="Maps of Maps poster image"
+       style="max-width:50px; width:100%; height:auto;">
+
+  <figcaption>
+    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="View item in UCLA Digital Library">
+      Outline Map L.A. City School District and Vicinity Showing Location of School Sites
+    </a>
+  </figcaption>
+</figure>
 * <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
      alt="Maps of Maps poster image"
      style="max-width:50px; width:100%; height:auto;">
