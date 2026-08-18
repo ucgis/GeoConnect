@@ -34,7 +34,7 @@ Examples:
 * The boundaries of field plots for an ecological survey.  
 * Transit and station maps show public transport routes and specific train or bus stops.   
 * Site and property plans to show exact land boundaries.
-<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+  p><figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
   <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
        alt="Outline Map L.A. City School District"
        style="max-width:50px; width:100%; height:auto;">
@@ -47,7 +47,7 @@ Examples:
   </a>
 </figcaption>
 </figure>
-<br>
+</p>
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
      alt="Hand-colored shading shows residential and commercial buildings, amusements, agricultural and industrial sites."
