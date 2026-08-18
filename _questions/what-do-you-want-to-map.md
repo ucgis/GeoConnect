@@ -33,7 +33,40 @@ Examples:
 * A map showing the location of elementary schools in San Francisco, color-coded by whether they are public, charter, secular private, or religious.  
 * The boundaries of field plots for an ecological survey.  
 * Transit and station maps show public transport routes and specific train or bus stops.   
-* Site and property plans to show exact land boundaries. 
+* Site and property plans to show exact land boundaries.
+<div style="display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+            gap:20px;">
+
+  <div style="text-align:center;">
+    assets/images/project1.png
+    <br>
+    <strong>Outline Map L.A. City School District and Vicinity Showing Location of School Sites</strong>
+    <br>
+   ://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253">View Map</a>
+  </div>
+
+  <div style="text-align:center;">
+    images/project2.png
+    <br>
+    <strong>Project 2</strong>
+    <br>
+    ://example.com/project2">View Project</a>
+  </div>
+
+  <div style="text-align:center;">
+    /project3.png" alt="Project 3" width="200">
+    <br>
+    <strong>Project 3</strong>
+    <br>
+    https://example.com/project3View Project</a>
+  </div>
+
+</div>
+* [Outline Map L.A. City School District and Vicinity Showing Location of School Sites](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253)
+* [Land utilization of the City of Santa Monica](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185}
+* [UCLA 1984 Olympic Village map](https://digital.library.ucla.edu/catalog/ark:/21198/z18q0f3b)
+* [Official map of the County of Los Angeles, California](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c1hf2)
 
 ### Thematic maps
 
@@ -42,9 +75,15 @@ With a thematic map you can show how something changes over an area. Choropleth 
 Examples:
 
 * The percentage of farmland in each county in California’s Central Valley that was planted in almonds last year.  
-* Dot density which uses dots to show where a specific item or group is concentrated. Ex: Where one dot equals 500 residents to show rural versus urban distribution.   
-* Weather map showing equal lines of barometric pressure or temperature ranges.  
+* Dot density which uses dots to show where a specific item or group is concentrated. Ex: Where one dot equals 500 residents to show rural versus urban distribution.
+  * [Distribution of population for 1940, metropolitan area-County of Los Angeles](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c1jj3)   
+* Weather map showing equal lines of barometric pressure or temperature ranges.
+  * [Map of California illustrating its climatology](https://digital.library.ucla.edu/catalog/ark:/21198/zz002bbh9m)   
 * Election maps: looking by county by county or state by state.
+* [One World, One War. A Map Showing the Line-up and the Strategic Stakes in this First Global War](https://digital.library.ucla.edu/catalog/ark:/21198/zz002cf0dp)
+* [Map of Los Angeles Showing Location of Elementary Schools and Percentage of the Total Enrollment in Each School
+Comprised in the Five Leading Non-English Language or Racial Background Groups, School Year 1935-36](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2295)
+
 
 
 We gave you some examples of different types of maps, to see and learn more about different types of maps, look at the Map and Government Information Library’s [Map of Maps/Map Types](https://waml.org/waml-information-bulletin/volume-53-number-2/cool-project-the-map-and-government-information-librarys-map-of-maps-map-types/)
