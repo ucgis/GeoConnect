@@ -35,7 +35,7 @@ Examples:
 * Transit and station maps show public transport routes and specific train or bus stops.   
 * Site and property plans to show exact land boundaries.
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
-  /images/LAschool.png' | relative_url }}"
+  /assets/images/LAschool.png' | relative_url }}"
        alt="Maps of Maps poster image"
        style="max-width:50px; width:100%; height:auto;">
 
