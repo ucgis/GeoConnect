@@ -39,7 +39,7 @@ Examples:
             gap:20px;">
 
   <div style="text-align:center;">
-    /assets/images/LAschool.png
+    <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
     <br>
     <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253">Outline Map L.A. City School District and Vicinity Showing Location of School Sites</a>
   </div>
