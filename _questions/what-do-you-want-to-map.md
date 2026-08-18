@@ -39,11 +39,9 @@ Examples:
             gap:20px;">
 
   <div style="text-align:center;">
-    assets/images/LAschool.png
+    /assets/images/LAschool.png
     <br>
-    <strong>Outline Map L.A. City School District and Vicinity Showing Location of School Sites</strong>
-    <br>
-   ://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253">View Map</a>
+    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253">Outline Map L.A. City School District and Vicinity Showing Location of School Sites</a>
   </div>
 
   <div style="text-align:center;">
