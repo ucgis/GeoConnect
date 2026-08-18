@@ -38,14 +38,14 @@ Examples:
   <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
        alt="Outline Map L.A. City School District"
        style="max-width:50px; width:100%; height:auto;">
-
-  <figcaption>
-    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253"
-       target="_blank"
-       rel="noopener noreferrer"
-       title="Outline Map L.A. City School District and Vicinity Showing Location of School Sites"
-    </a>
-  </figcaption>
+<figcaption>
+  <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="Outline Map L.A. City School District and Vicinity Showing Location of School Sites">
+    Outline Map L.A. City School District and Vicinity Showing Location of School Sites
+  </a>
+</figcaption>
 </figure>
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
