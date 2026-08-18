@@ -36,37 +36,11 @@ Examples:
 * Site and property plans to show exact land boundaries.
 * <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
      alt="Maps of Maps poster image"
-     style="max-width:200px; width:100%; height:auto;"
+     style="max-width:200px; width:100%; height:auto;">
      <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253">Outline Map L.A. City School District and Vicinity Showing Location of School Sites</a></figcaption>
-     >
 
-<div style="display:grid;
-            grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
-            gap:20px;">
 
-  <div style="text-align:center;">
-    <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
-    <br>
-    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253">Outline Map L.A. City School District and Vicinity Showing Location of School Sites</a>
-  </div>
 
-  <div style="text-align:center;">
-    images/project2.png
-    <br>
-    <strong>Project 2</strong>
-    <br>
-    ://example.com/project2">View Project</a>
-  </div>
-
-  <div style="text-align:center;">
-    /project3.png" alt="Project 3" width="200">
-    <br>
-    <strong>Project 3</strong>
-    <br>
-    https://example.com/project3View Project</a>
-  </div>
-
-</div>
 * [Outline Map L.A. City School District and Vicinity Showing Location of School Sites](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253)
 * [Land utilization of the City of Santa Monica](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185}
 * [UCLA 1984 Olympic Village map](https://digital.library.ucla.edu/catalog/ark:/21198/z18q0f3b)
