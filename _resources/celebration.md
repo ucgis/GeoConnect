@@ -20,7 +20,7 @@ parent_url: /resources/interactive-maps/
 [<img src="{{ '/assets/images/hampster_dance_windows_93_gif_by_jefftheironic_dcltma0.gif' | relative_url }}"
     alt="Original hamster dance gif with rows of dancing hamsters">](https://www.deviantart.com/jefftheironic/art/Hampster-Dance-windows-93-gif-762247944)
 
-[![Original hamster dance gif with rows of dancing hamsters](../assets/images/hampster_dance_windows_93_gif_by_jefftheironic_dcltma0.gif)](https://www.deviantart.com/jefftheironic/art/Hampster-Dance-windows-93-gif-762247944)
+![![Original hamster dance gif with rows of dancing hamsters](../assets/images/hampster_dance_windows_93_gif_by_jefftheironic_dcltma0.gif)](https://www.deviantart.com/jefftheironic/art/Hampster-Dance-windows-93-gif-762247944)
 
 ## Welcome to the UC Geospatial Community
 
