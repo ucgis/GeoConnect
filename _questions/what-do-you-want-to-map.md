@@ -34,7 +34,7 @@ Examples:
 * The boundaries of field plots for an ecological survey.  
 * Transit and station maps show public transport routes and specific train or bus stops.   
 * Site and property plans to show exact land boundaries.
-<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0 0 20px 0;">
   <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
        alt="Outline Map L.A. City School District"
        style="max-width:50px; width:100%; height:auto;">
@@ -47,8 +47,7 @@ Examples:
   </a>
 </figcaption>
 </figure>
-
-<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0 0 20px 0;">
 <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
      alt="Hand-colored shading shows residential and commercial buildings, amusements, agricultural and industrial sites."
      style="max-width:50px; width:100%; height:auto;">
@@ -61,8 +60,7 @@ Examples:
   </a>
 </figcaption>
 </figure>
-
-<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0 0 20px 0;">
 <img src="{{ '/assets/images/olmpic.png' | relative_url }}"
      alt="Includes location map, transportation information, and dates of Olympic events"
      style="max-width:50px; width:100%; height:auto;">
@@ -75,7 +73,6 @@ Examples:
   </a>
 </figcaption>
 </figure>
-
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/county.png' | relative_url }}"
      alt="Blue line print."
@@ -103,7 +100,7 @@ Examples:
   * [Map of California illustrating its climatology](https://digital.library.ucla.edu/catalog/ark:/21198/zz002bbh9m)   
 * Election maps: looking by county by county or state by state.
 
-<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0 0 20px 0;">
 <img src="{{ '/assets/images/oneworld.png' | relative_url }}"
      alt="A Map Showing the Line-up and the Strategic Stakes in this First Global War"
      style="max-width:50px; width:100%; height:auto;">
