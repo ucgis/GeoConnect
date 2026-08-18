@@ -35,31 +35,58 @@ Examples:
 * Transit and station maps show public transport routes and specific train or bus stops.   
 * Site and property plans to show exact land boundaries.
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
-  /assets/images/LAschool.png' | relative_url }}"
-       alt="Maps of Maps poster image"
+  <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
+       alt="Outline Map L.A. City School District"
        style="max-width:50px; width:100%; height:auto;">
 
   <figcaption>
     <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253"
        target="_blank"
        rel="noopener noreferrer"
-       title="View item in UCLA Digital Library">
-      Outline Map L.A. City School District and Vicinity Showing Location of School Sites
+       title="Outline Map L.A. City School District and Vicinity Showing Location of School Sites"
     </a>
   </figcaption>
 </figure>
-* <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
-     alt="Maps of Maps poster image"
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<img src="{{ '/assets/images/santamonica.png' | relative_url }}"
+     alt="Hand-colored shading shows residential and commercial buildings, amusements, agricultural and industrial sites."
      style="max-width:50px; width:100%; height:auto;">
-     <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253](https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185">Land utilization of the City of Santa Monica</a></figcaption>
-* <img src="{{ '/assets/images/olmpic.png' | relative_url }}"
-     alt="Maps of Maps poster image"
+
+<figcaption>
+    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Land utilization of the City of Santa Monica"
+    </a>
+  </figcaption>
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<img src="{{ '/assets/images/olmpic.png' | relative_url }}"
+     alt="Includes location map, transportation information, and dates of Olympic events"
      style="max-width:50px; width:100%; height:auto;">
-     <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/z18q0f3b">UCLA 1984 Olympic Village map</a></figcaption>
-* <img src="{{ '/assets/images/county.png' | relative_url }}"
-     alt="Maps of Maps poster image"
+
+<figcaption>
+    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/z18q0f3b"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="UCLA 1984 Olympic Village map"
+    </a>
+  </figcaption>
+</figure>
+
+<figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+<img src="{{ '/assets/images/county.png' | relative_url }}"
+     alt="Blue line print."
      style="max-width:50px; width:100%; height:auto;">
-     <figcaption><a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c1hf2">Official map of the County of Los Angeles, California</a></figcaption>
+
+<figcaption>
+    <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c1hf2"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Official map of the County of Los Angeles, California"
+    </a>
+  </figcaption>
+</figure>
+
 
 ### Thematic maps
 
