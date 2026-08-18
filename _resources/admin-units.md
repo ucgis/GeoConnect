@@ -63,7 +63,9 @@ A table join copies data from one table to another based on a key field that is 
 
 ### General Process:
 
-*Include illustration with a general description of what’s happening.* 
+[<img src="{{ '/assets/images/table_join.png' | relative_url }}"
+     alt="Table join is based on a shared key field that allows for data about percent population change to be added from data table to county polygons."
+     style="max-width:450px; width:100%; height:auto;">](https://desktop.arcgis.com/en/arcmap/latest/manage-data/tables/about-joining-and-relating-tables.htm#GUID-40A1F094-1E46-43E1-AFFA-4593F284C714) 
 
 1. Step 1: Load both of your files into your GIS platform.   
 2. Run the Table Join tool in order to create a new file that adds the data from your data table to the geometries of the other.
