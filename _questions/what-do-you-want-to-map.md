@@ -47,7 +47,7 @@ Examples:
   </a>
 </figcaption>
 </figure>
-
+<br>
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
      alt="Hand-colored shading shows residential and commercial buildings, amusements, agricultural and industrial sites."
