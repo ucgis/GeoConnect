@@ -34,10 +34,11 @@ Examples:
 * The boundaries of field plots for an ecological survey.  
 * Transit and station maps show public transport routes and specific train or bus stops.   
 * Site and property plans to show exact land boundaries.
-  p><figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
+  <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
   <img src="{{ '/assets/images/LAschool.png' | relative_url }}"
        alt="Outline Map L.A. City School District"
        style="max-width:50px; width:100%; height:auto;">
+
 <figcaption>
   <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2253"
      target="_blank"
@@ -47,12 +48,12 @@ Examples:
   </a>
 </figcaption>
 </figure>
-</p>
 <figure style="display:flex; align-items:flex-start; gap:10px; margin:0;">
 <img src="{{ '/assets/images/santamonica.png' | relative_url }}"
      alt="Hand-colored shading shows residential and commercial buildings, amusements, agricultural and industrial sites."
      style="max-width:50px; width:100%; height:auto;">
-<figcaption>
+
+  <figcaption>
   <a href="https://digital.library.ucla.edu/catalog/ark:/21198/zz002c2185"
      target="_blank"
      rel="noopener noreferrer"
