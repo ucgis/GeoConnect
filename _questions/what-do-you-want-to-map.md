@@ -39,7 +39,7 @@ Examples:
             gap:20px;">
 
   <div style="text-align:center;">
-    assets/images/project1.png
+    assets/images/LAschool.png
     <br>
     <strong>Outline Map L.A. City School District and Vicinity Showing Location of School Sites</strong>
     <br>
@@ -96,4 +96,4 @@ Great! Now that you have an idea of what kind of map you want to make, let’s c
 
 <div class="help-box">
   <h3>Need Help?</h3>
-  <p>If you have questions or need assistance, <a href="[https://www.example.com](https://docs.google.com/spreadsheets/d/1xkgsnwz5MXEIpD9OMWajIPKpSdTdlb7THoeWCirHR7A/edit?usp=sharing)">please contact us!</a>
+  <p>If you have questions or need assistance, <a href="(https://docs.google.com/spreadsheets/d/1xkgsnwz5MXEIpD9OMWajIPKpSdTdlb7THoeWCirHR7A/edit?usp=sharing)">please contact us!</a>
