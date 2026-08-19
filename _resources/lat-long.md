@@ -25,7 +25,7 @@ next-steps:
 </nav>
 Does your data look like this? (i.e. latitude and longitude formatted as decimal degrees in two separate columns) 
 
-| lon | lat |
+| long | lat |
 | :---- | :---- |
 | \-122.254  | 37.871 |
 | \-120.426  | 37.364 |
