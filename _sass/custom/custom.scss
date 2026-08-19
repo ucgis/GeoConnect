@@ -1,1 +1,17 @@
+/* Fix box stretching for ALL card types across the site */
 
+/* Stop the grid container from stretching rows vertically */
+.cards-grid {
+  align-items: start !important;
+  grid-auto-rows: min-content !important;
+}
+
+/* Apply uniform height and layout to all card styles (.card-featured, .card-question, etc.) */
+.cards-grid .card {
+  height: auto !important;
+  min-height: 160px; /* Adjust this to change minimum box height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: start;
+}
