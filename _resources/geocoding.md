@@ -16,6 +16,7 @@ next-steps:
     type: question
     ref: choose-a-platform
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -27,6 +28,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 Geocoding is the process of determining geographic coordinates for place names, street addresses, and codes (e.g., zip codes). Geocoding is typically preceded by the data cleaning step of preprocessing and standardizing the format of the data you will be geocoding. The resulting locations are output as geographic features with attributes, which can be used for mapping or spatial analysis. 
 
 Related tasks include:
