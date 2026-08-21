@@ -19,6 +19,7 @@ next-steps:
     ref: geocoding
 
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -30,6 +31,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 
 Administrative units may include political boundaries as well as areas or districts that are used in the everyday work of government agencies or utilities. Examples include Census tracts, water districts or school districts, neighborhoods of a city defined by the city government, service areas, etc. Place names such as bodies of water (e.g. Lake Superior) or National Parks have designated boundaries that can be mapped. Maps of these boundaries may not be easy to find, but the data associated with administrative units and place names may be critical for understanding a spatial problem.
 
