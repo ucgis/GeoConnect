@@ -16,6 +16,7 @@ next-steps:
     type: resource
     ref: lat-long
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -27,7 +28,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
-
+-->
 Many times you might have data that has geographic information in a table form. Geographic information might include: an address or cross-street, an administrative unit (e.g. census geographies, zip codes, provinces, territories, school districts, etc.), XY coordinates (e.g. latitude and longitude), or place names. Sometimes the geographic identifier is easily understandable such as a county name. Other times a unique identifier such as a FIPS code will be the geographic identifier that can be used. 
 
 It just takes a little work to convert your geographic information into a geospatial format. 
