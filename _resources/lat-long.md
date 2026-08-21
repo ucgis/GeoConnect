@@ -12,6 +12,7 @@ next-steps:
     type: question
     ref: choose-a-platform
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -23,6 +24,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 Does your data look like this? (i.e. latitude and longitude formatted as decimal degrees in two separate columns) 
 
 | long | lat |
