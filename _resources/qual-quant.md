@@ -15,6 +15,7 @@ next-steps:
     type: resource
     ref: cleaning-messy-data 
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -26,6 +27,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 # Visualizing more than just the location of your data 
 
 If you're just mapping the locations of your data, take a look at [Best practices for map-making](https://ucgis.github.io/GeoNavigator/resources/finalize-map/). 
