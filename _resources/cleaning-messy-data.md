@@ -15,6 +15,7 @@ next-steps:
     type: resource
     ref: ingest-data
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -26,6 +27,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 
 # Cleaning Messy Data
 
