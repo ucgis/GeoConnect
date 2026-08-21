@@ -15,6 +15,7 @@ next-steps:
     type: resource  
     ref: qual-quant   
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -26,6 +27,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 Working with images in GIS can involve integrating spatial photos or historical maps/data with geographic data to map, measure and analyze new information or changes over time. Sometimes having the image displayed in the GIS is all that’s needed; in other cases, you may want to extract features from the scanned image by creating a point, line, or polygon layer in the GIS.
 
 **Georeferencing your images**
