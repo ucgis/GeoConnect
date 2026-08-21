@@ -12,6 +12,7 @@ next-steps:
     type: resource
     ref: celebration
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -23,6 +24,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 You’ve done all the work for creating a map **congratulations!** 
 
 Now it’s time to make the final version to share.
