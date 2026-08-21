@@ -18,6 +18,7 @@ next-steps:
     type: resource
     ref: celebration
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -29,6 +30,8 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
+
 You’ve done all the work for creating a map \- congratulations\! Now it’s time to make the final version to share.
 
 You are here because you want to make an interactive map rather than a static map (print, PDF, or other type of image). Interactive maps enable the user to engage with them in several ways, including:
