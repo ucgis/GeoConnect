@@ -16,7 +16,7 @@ parent_url: /resources/interactive-maps/
   <span>{{ page.title }}</span>
 </nav>
 
-**Congratulations!** You've reached the end of GeoNavigator.
+**Congratulations!** You've made a map with GeoNavigator!
 
 [<img src="{{ '/assets/images/hampster_dance_windows_93_gif_by_jefftheironic_dcltma0.gif' | relative_url }}"
     style="max-height:200px; height:100%; width:auto;"
