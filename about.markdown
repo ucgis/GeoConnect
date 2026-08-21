@@ -22,4 +22,7 @@ The [UC GIS Hub](https://community-ucgis.hub.arcgis.com/) is an initiative of th
 
 The project was made possible by a research grant from the [Librarians Association of the University of California](https://lauc.ucop.edu/) (LAUC).
 
+## Connect with us
+GeoNavigator is a living document. Additional sections, features, and content will be added over time based on user feedback and evolving needs. We welcome your [feedback and suggestions](https://forms.gle/Kt7dicLdwbsta6aX6)!
+
 *Last Updated: August 2026*  
