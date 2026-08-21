@@ -19,6 +19,7 @@ parent_url: /resources/interactive-maps/
 **Congratulations!** You've reached the end of GeoNavigator.
 
 [<img src="{{ '/assets/images/hampster_dance_windows_93_gif_by_jefftheironic_dcltma0.gif' | relative_url }}"
+    style="max-width:450px; width:100%; height:auto;">
     alt="Original hamster dance gif with rows of dancing hamsters">](https://www.deviantart.com/jefftheironic/art/Hampster-Dance-windows-93-gif-762247944)
 
 ## Welcome to the UC Geospatial Community
