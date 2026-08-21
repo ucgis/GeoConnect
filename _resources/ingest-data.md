@@ -12,7 +12,7 @@ next-steps:
     type: question
     ref: data-coverage
 ---
-
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -24,7 +24,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
-
+-->
 ## Basemaps
 
 Regardless of what GIS platform you choose to use, a basemap will orient your data to the real world and provide context for maps at global or local scales. A basemap layer is typically the first layer added to a map. It allows you to easily see where geographic features are located. It typically includes features and labels for land, water, roads, buildings, cities, places, and administrative boundaries, but can also include satellite and aerial image data.
