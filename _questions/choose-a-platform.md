@@ -10,7 +10,7 @@ next-steps:
     type: resource
     ref: ingest-data 
 ---
-
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -22,6 +22,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 
 Choosing an appropriate GIS platform for your needs comes down to your goals, timeframe, and GIS expertise. Do you need to make simple web maps, do complex spatial analysis, or manage large sets of data?  
 
