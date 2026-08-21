@@ -8,6 +8,7 @@ next-steps:
     type: question
     ref: do-you-have-data
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
   {% if page.parent %}
@@ -17,6 +18,7 @@ next-steps:
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 
 Maps are powerful and there are many types of maps you can create. When getting started with a mapping project using GIS, it’s helpful to think at the beginning about what you want your map to look like. Read through the descriptions below to help answer this question. 
 
