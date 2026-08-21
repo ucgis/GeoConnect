@@ -4,6 +4,7 @@ sub-title: "You made a map!"
 parent: "interactive-maps"
 parent_url: /resources/interactive-maps/
 ---
+<!--
 <nav class="breadcrumbs">
   <a href="{{ '/' | relative_url }}">Home</a>
 
@@ -15,6 +16,7 @@ parent_url: /resources/interactive-maps/
   /
   <span>{{ page.title }}</span>
 </nav>
+-->
 
 **Congratulations!** You've made a map with GeoNavigator!
 
